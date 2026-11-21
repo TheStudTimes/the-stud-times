@@ -628,7 +628,13 @@
   "flex": {
     "title": "Built Different",
     "dek": "The craziest things people made in Roblox Studio today.",
-    "posts": [],
+    "posts": [
+      {
+        "url": "https://x.com/ooStarwarsbccoo/status/2121981562866512338",
+        "caption": "Today's Studio Flex, straight from the timeline.",
+        "creator": "@ooStarwarsbccoo"
+      }
+    ],
     "larp": null,
     "stories": [
       {
