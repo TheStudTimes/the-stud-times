@@ -12,22 +12,70 @@
       "link": "rising#throw-food"
     },
     "quick": [
-      { "big": "$40M+", "head": "Steal An Egg cashes in", "sub": "Ads and purchases, in just 3 months", "link": "markets#egg-money" },
-      { "big": "$46.48", "head": "Roblox stock is doing an obby", "sub": "Up 8% this month, down 7% this week", "link": "markets#stock" },
-      { "big": "+3,237%", "head": "Kids volunteer to clean ballpit", "sub": "Clean The Ballpit!, in one week", "link": "rising#ballpit" },
-      { "big": "-26%", "head": "Egg heist crime wave cools", "sub": "Steal An Egg, October vs September", "link": "rising#egg-down" },
-      { "big": "R.I.P.", "head": "Steal a Brainrot, 2026 – 2026", "sub": "Survived by 400 clones", "link": "rest-in-peace" },
-      { "big": "AI", "head": "Studio now animates from a prompt", "sub": "Animators: \"fine, totally fine\"", "link": "studio-flex#ai-anim" }
+      {
+        "big": "$40M+",
+        "head": "Steal An Egg cashes in",
+        "sub": "Ads and purchases, in just 3 months",
+        "link": "markets#egg-money"
+      },
+      {
+        "big": "$46.48",
+        "head": "Roblox stock is doing an obby",
+        "sub": "Up 8% this month, down 7% this week",
+        "link": "markets#stock"
+      },
+      {
+        "big": "+3,237%",
+        "head": "Kids volunteer to clean ballpit",
+        "sub": "Clean The Ballpit!, in one week",
+        "link": "rising#ballpit"
+      },
+      {
+        "big": "-26%",
+        "head": "Egg heist crime wave cools",
+        "sub": "Steal An Egg, October vs September",
+        "link": "rising#egg-down"
+      },
+      {
+        "big": "R.I.P.",
+        "head": "Steal a Brainrot, 2026 – 2026",
+        "sub": "Survived by 400 clones",
+        "link": "rest-in-peace"
+      },
+      {
+        "big": "AI",
+        "head": "Studio now animates from a prompt",
+        "sub": "Animators: \"fine, totally fine\"",
+        "link": "studio-flex#ai-anim"
+      }
     ],
     "comingUp": [
-      { "when": "NOV 23", "what": "Jujutsu Shenanigans' Halloween update ends" },
-      { "when": "DEC", "what": "Roblox Wallet: devs paid every business day" },
-      { "when": "LATE '26", "what": "Roblox games playable right in the browser" }
+      {
+        "when": "NOV 23",
+        "what": "Jujutsu Shenanigans' Halloween update ends"
+      },
+      {
+        "when": "DEC",
+        "what": "Roblox Wallet: devs paid every business day"
+      },
+      {
+        "when": "LATE '26",
+        "what": "Roblox games playable right in the browser"
+      }
     ],
     "comingUpSources": [
-      { "title": "Axee Tech, Halloween 2026 events", "url": "https://axeetech.com/roblox-halloween-2026-events-dates-codes/" },
-      { "title": "GameDev.net, RDC 2026", "url": "https://gamedev.net/news/5689-roblox-creators-will-soon-be-able-to-publish-games-on-multiple-platforms-as/" },
-      { "title": "Roblox DevForum, RDC26", "url": "https://devforum.roblox.com/t/rdc26-what-we-announced/4865880" }
+      {
+        "title": "Axee Tech, Halloween 2026 events",
+        "url": "https://axeetech.com/roblox-halloween-2026-events-dates-codes/"
+      },
+      {
+        "title": "GameDev.net, RDC 2026",
+        "url": "https://gamedev.net/news/5689-roblox-creators-will-soon-be-able-to-publish-games-on-multiple-platforms-as/"
+      },
+      {
+        "title": "Roblox DevForum, RDC26",
+        "url": "https://devforum.roblox.com/t/rdc26-what-we-announced/4865880"
+      }
     ]
   },
   "markets": {
@@ -36,81 +84,291 @@
     "stock": {
       "ticker": "NYSE: RBLX",
       "price": "$46.48",
-      "moves": ["▼ 6.9% this week", "▲ 8.4% this month"],
+      "moves": [
+        "▼ 6.9% this week",
+        "▲ 8.4% this month"
+      ],
       "caption": "Who unplugged the server?",
       "note": "Daily closing price, Nov 2 – Nov 20, 2026. Nov 20 is the late-afternoon price.",
-      "closes": [["Nov 2",42.88],["Nov 3",45.45],["Nov 4",49.31],["Nov 5",47.65],["Nov 6",49.30],["Nov 9",51.60],["Nov 10",51.19],["Nov 11",52.61],["Nov 12",51.42],["Nov 13",49.91],["Nov 16",46.12],["Nov 17",44.00],["Nov 18",47.33],["Nov 19",46.35],["Nov 20",46.48]],
+      "closes": [
+        [
+          "Nov 2",
+          42.88
+        ],
+        [
+          "Nov 3",
+          45.45
+        ],
+        [
+          "Nov 4",
+          49.31
+        ],
+        [
+          "Nov 5",
+          47.65
+        ],
+        [
+          "Nov 6",
+          49.3
+        ],
+        [
+          "Nov 9",
+          51.6
+        ],
+        [
+          "Nov 10",
+          51.19
+        ],
+        [
+          "Nov 11",
+          52.61
+        ],
+        [
+          "Nov 12",
+          51.42
+        ],
+        [
+          "Nov 13",
+          49.91
+        ],
+        [
+          "Nov 16",
+          46.12
+        ],
+        [
+          "Nov 17",
+          44.0
+        ],
+        [
+          "Nov 18",
+          47.33
+        ],
+        [
+          "Nov 19",
+          46.35
+        ],
+        [
+          "Nov 20",
+          46.48
+        ]
+      ],
       "sources": [
-        { "title": "Yahoo Finance history", "url": "https://finance.yahoo.com/quote/RBLX/history/" },
-        { "title": "StockAnalysis history", "url": "https://stockanalysis.com/stocks/rblx/history/" },
-        { "title": "Quiver Quant (Nov 2–9)", "url": "https://www.quiverquant.com/stock/RBLX/historical-prices/" },
-        { "title": "Yahoo Finance quote", "url": "https://finance.yahoo.com/quote/RBLX/" }
+        {
+          "title": "Yahoo Finance history",
+          "url": "https://finance.yahoo.com/quote/RBLX/history/"
+        },
+        {
+          "title": "StockAnalysis history",
+          "url": "https://stockanalysis.com/stocks/rblx/history/"
+        },
+        {
+          "title": "Quiver Quant (Nov 2–9)",
+          "url": "https://www.quiverquant.com/stock/RBLX/historical-prices/"
+        },
+        {
+          "title": "Yahoo Finance quote",
+          "url": "https://finance.yahoo.com/quote/RBLX/"
+        }
       ]
     },
     "stories": [
       {
-        "id": "egg-money", "kicker": "GAMES · NOV 18",
+        "id": "egg-money",
+        "kicker": "GAMES · NOV 18",
         "headline": "Steal An Egg Makes $40M+ In Three Months",
         "dek": "Turns out watching ads to hatch eggs faster is a business model.",
-        "facts": [["3-month revenue","$40M+"],["Players at once","709K"],["October avg","1.34M"]],
+        "facts": [
+          [
+            "3-month revenue",
+            "$40M+"
+          ],
+          [
+            "Players at once",
+            "709K"
+          ],
+          [
+            "October avg",
+            "1.34M"
+          ]
+        ],
         "paras": [
           "Roblox's biggest game of the year has brought in more than $40 million from in-game purchases and advertising over the past three months, Bloomberg reports. Players can watch ads to hatch their eggs faster, and that's exactly the kind of game Roblox wants for its growing ads business.",
           "It's doing this while shrinking: the game averaged 1,341,295 players in October, down 26% on September. Still #1. Still printing money."
         ],
         "sources": [
-          { "title": "Bloomberg, Nov 18", "url": "https://www.bloomberg.com/news/articles/2026-11-18/roblox-hit-steal-an-egg-tests-company-s-advertising-strategy" },
-          { "title": "MediaPost, Nov 19", "url": "https://www.mediapost.com/publications/article/419549/roblox-game-steal-an-egg-draws-advertising-purc.html" },
-          { "title": "RoStats, Oct 2026", "url": "https://rostats.io/charts/2026-10" }
+          {
+            "title": "Bloomberg, Nov 18",
+            "url": "https://www.bloomberg.com/news/articles/2026-11-18/roblox-hit-steal-an-egg-tests-company-s-advertising-strategy"
+          },
+          {
+            "title": "MediaPost, Nov 19",
+            "url": "https://www.mediapost.com/publications/article/419549/roblox-game-steal-an-egg-draws-advertising-purc.html"
+          },
+          {
+            "title": "RoStats, Oct 2026",
+            "url": "https://rostats.io/charts/2026-10"
+          }
         ]
       },
       {
-        "id": "earnings", "kicker": "EARNINGS · OCT 29",
+        "id": "earnings",
+        "kicker": "EARNINGS · OCT 29",
         "headline": "Roblox Beats On Money, Misses On Players",
         "dek": "Wall Street wanted 145.8 million daily players. It got 138 million.",
-        "facts": [["Revenue","$1.572B"],["Daily players","138M"],["Expected","145.8M"]],
+        "facts": [
+          [
+            "Revenue",
+            "$1.572B"
+          ],
+          [
+            "Daily players",
+            "138M"
+          ],
+          [
+            "Expected",
+            "145.8M"
+          ]
+        ],
         "paras": [
           "In its third-quarter report, Roblox said revenue rose 16% to $1.572 billion and bookings came in at $1.7 billion, above what analysts expected. But daily active users fell 9% year over year to 138 million, short of the 145.8 million Wall Street was hoping for.",
           "Investors cared more about the players than the money, and the stock dropped hard. That's why the chart above starts so low."
         ],
-        "sources": [ { "title": "Yahoo Finance, Oct 29", "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-plunges-19-daily-users-145304635.html" } ]
+        "sources": [
+          {
+            "title": "Yahoo Finance, Oct 29",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-plunges-19-daily-users-145304635.html"
+          }
+        ]
       },
       {
-        "id": "analysts", "kicker": "WALL STREET · NOVEMBER",
+        "id": "analysts",
+        "kicker": "WALL STREET · NOVEMBER",
         "headline": "Analysts Lower Their Hopes",
         "dek": "Three big banks trimmed their price targets. One raised it a little.",
-        "facts": [["Jefferies","$35"],["JPMorgan","$46"],["BofA","$48"],["Citi","$55"]],
+        "facts": [
+          [
+            "Jefferies",
+            "$35"
+          ],
+          [
+            "JPMorgan",
+            "$46"
+          ],
+          [
+            "BofA",
+            "$48"
+          ],
+          [
+            "Citi",
+            "$55"
+          ]
+        ],
         "paras": [
           "After earnings, several banks changed their targets for the stock. Jefferies cut its target to $35 (from $38), JPMorgan to $46 (from $53) and Citi to $55 (from $60). Bank of America went the other way, nudging its target up to $48 from $45.",
           "Investment firm ValueAct also sold out of Roblox in its third-quarter moves. In plain words: the grown-ups are nervous, the kids are still playing."
         ],
         "sources": [
-          { "title": "TipRanks", "url": "https://www.tipranks.com/stocks/rblx" },
-          { "title": "TradingView", "url": "https://www.tradingview.com/symbols/NYSE-RBLX/" }
+          {
+            "title": "TipRanks",
+            "url": "https://www.tipranks.com/stocks/rblx"
+          },
+          {
+            "title": "TradingView",
+            "url": "https://www.tradingview.com/symbols/NYSE-RBLX/"
+          }
         ]
       }
     ],
     "dealStories": [
       {
-        "id": "tds", "kicker": "DEALS · OCT 14–15",
+        "id": "tds",
+        "kicker": "DEALS · OCT 14–15",
         "headline": "Tower Defense Simulator Teams Up With doBIG",
         "dek": "A partnership, not a sale. The community still had feelings.",
-        "facts": [["Deal type","Partnership"],["Price","Not shared"],["Est. game value","~$60M"]],
+        "facts": [
+          [
+            "Deal type",
+            "Partnership"
+          ],
+          [
+            "Price",
+            "Not shared"
+          ],
+          [
+            "Est. game value",
+            "~$60M"
+          ]
+        ],
         "paras": [
           "Do Big Studios (doBIG), the company behind Blade Ball and many other hits, announced a partnership with Paradoxum Games, the studio that makes Tower Defense Simulator. TDS creator BelowNatural confirmed it is a partnership, not a full sale of the game. The price wasn't shared.",
           "How much is TDS worth? **Our estimate: around $60 million.** Here's the math: in a 2026 lawsuit, a former co-developer asked for $25 million for what he says is a 40% share of the game. If 40% is worth $25M, the whole game would be about $60M. That's one side's claim in a lawsuit, so treat it as a rough guess."
         ],
         "sources": [
-          { "title": "doBIG on X, Oct 15", "url": "https://x.com/do_bigR/status/2110795983093137906" },
-          { "title": "YouTube recap", "url": "https://www.youtube.com/watch?v=dN534za7JYU" },
-          { "title": "Aftermath (lawsuit)", "url": "https://aftermath.site/tower-defense-simulator-roblox-lawsuit/" },
-          { "title": "Digg (lawsuit)", "url": "https://digg.com/gaming/9h29ghq6" }
+          {
+            "title": "doBIG on X, Oct 15",
+            "url": "https://x.com/do_bigR/status/2110795983093137906"
+          },
+          {
+            "title": "YouTube recap",
+            "url": "https://www.youtube.com/watch?v=dN534za7JYU"
+          },
+          {
+            "title": "Aftermath (lawsuit)",
+            "url": "https://aftermath.site/tower-defense-simulator-roblox-lawsuit/"
+          },
+          {
+            "title": "Digg (lawsuit)",
+            "url": "https://digg.com/gaming/9h29ghq6"
+          }
         ]
       }
     ],
     "bigDeals": [
-      { "game": "Brookhaven RP", "who": "bought by Voldex", "when": "Feb 2025", "price": "$100M+", "tag": "ESTIMATE", "bar": 100, "note": "Price never shared. Voldex's CEO called it bigger than the Bloxburg deal, so we put it above $100M.", "sources": [ { "title": "GuruFocus", "url": "https://www.gurufocus.com/news/2972560/this-teen-built-a-game-on-roblox-then-sold-it-for-millions" } ] },
-      { "game": "Welcome to Bloxburg", "who": "bought by Embracer", "when": "earlier", "price": "~$100M", "tag": "REPORTED", "bar": 92, "note": "Reported at about $100M; the buyer said it paid less.", "sources": [ { "title": "Dallas News / Bloomberg", "url": "https://www.dallasnews.com/business/technology/2025/07/12/roblox-game-buying-frenzy-is-turning-teens-into-millionaires/" } ] },
-      { "game": "Blue Lock: Rivals", "who": "bought by Do Big Studios", "when": "Mar 2025", "price": "$3M+", "tag": "REPORTED", "bar": 4, "note": "Built by a 19-year-old, sold a few months after launch.", "sources": [ { "title": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2025-07-11/roblox-game-buying-frenzy-is-turning-teens-into-millionaires" } ] }
+      {
+        "game": "Brookhaven RP",
+        "who": "bought by Voldex",
+        "when": "Feb 2025",
+        "price": "$100M+",
+        "tag": "ESTIMATE",
+        "bar": 100,
+        "note": "Price never shared. Voldex's CEO called it bigger than the Bloxburg deal, so we put it above $100M.",
+        "sources": [
+          {
+            "title": "GuruFocus",
+            "url": "https://www.gurufocus.com/news/2972560/this-teen-built-a-game-on-roblox-then-sold-it-for-millions"
+          }
+        ]
+      },
+      {
+        "game": "Welcome to Bloxburg",
+        "who": "bought by Embracer",
+        "when": "earlier",
+        "price": "~$100M",
+        "tag": "REPORTED",
+        "bar": 92,
+        "note": "Reported at about $100M; the buyer said it paid less.",
+        "sources": [
+          {
+            "title": "Dallas News / Bloomberg",
+            "url": "https://www.dallasnews.com/business/technology/2025/07/12/roblox-game-buying-frenzy-is-turning-teens-into-millionaires/"
+          }
+        ]
+      },
+      {
+        "game": "Blue Lock: Rivals",
+        "who": "bought by Do Big Studios",
+        "when": "Mar 2025",
+        "price": "$3M+",
+        "tag": "REPORTED",
+        "bar": 4,
+        "note": "Built by a 19-year-old, sold a few months after launch.",
+        "sources": [
+          {
+            "title": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2025-07-11/roblox-game-buying-frenzy-is-turning-teens-into-millionaires"
+          }
+        ]
+      }
     ]
   },
   "rising": {
@@ -118,73 +376,183 @@
     "dek": "The rockets and the faceplants, explained.",
     "up": [
       {
-        "id": "throw-food", "kicker": "RECORD · THIS WEEK",
+        "id": "throw-food",
+        "kicker": "RECORD · THIS WEEK",
         "headline": "Throw Food For Animals Hits 2.47 Million",
         "dek": "From outside the top 50 to Roblox's #2 game in about a month.",
-        "facts": [["Record at once","2,474,602"],["7-day avg","301,118"],["Week change","+33%"],["Visits","333.6M"]],
+        "facts": [
+          [
+            "Record at once",
+            "2,474,602"
+          ],
+          [
+            "7-day avg",
+            "301,118"
+          ],
+          [
+            "Week change",
+            "+33%"
+          ],
+          [
+            "Visits",
+            "333.6M"
+          ]
+        ],
         "paras": [
           "Throw Food For Animals by Goofy Chupacabra set a new all-time record of 2,474,602 players at the same time this week. Over the last 7 days it averaged 301,118 players, up 33% on the week before, and it has 333.6 million visits with 94% likes.",
           "It wasn't in October's top 50 at all. The loop is simple: throw food, feed animals, collect, upgrade. The animals have not complained."
         ],
         "sources": [
-          { "title": "RBLXSTAT, Nov 19", "url": "https://rblxstat.com/blog/roblox-updates-and-records-2026-11-19" },
-          { "title": "RoStats, Oct 2026", "url": "https://rostats.io/charts/2026-10" }
+          {
+            "title": "RBLXSTAT, Nov 19",
+            "url": "https://rblxstat.com/blog/roblox-updates-and-records-2026-11-19"
+          },
+          {
+            "title": "RoStats, Oct 2026",
+            "url": "https://rostats.io/charts/2026-10"
+          }
         ]
       },
       {
-        "id": "ballpit", "kicker": "BREAKOUT · 18 DAYS OLD",
+        "id": "ballpit",
+        "kicker": "BREAKOUT · 18 DAYS OLD",
         "headline": "Clean The Ballpit! Grows 33x In A Week",
         "dek": "A game about picking up plastic balls. A lot of them.",
-        "facts": [["7-day avg","13,913"],["Week before","~400"],["All-time high","26,880"],["Likes","92%"]],
+        "facts": [
+          [
+            "7-day avg",
+            "13,913"
+          ],
+          [
+            "Week before",
+            "~400"
+          ],
+          [
+            "All-time high",
+            "26,880"
+          ],
+          [
+            "Likes",
+            "92%"
+          ]
+        ],
         "paras": [
           "Clean The Ballpit!, made by TrixFarm, averaged 13,913 players over the last 7 days, up 3,237% on the week before. That means the week before it averaged only about 400 players. It hit an all-time high of 26,880 at once, and it only came out 18 days ago.",
           "You collect balls, dump them for cash, and upgrade your tools, pets and storage to clean faster, solo or with friends. There's already a horror copy, Clean the ballpit [ANOMALY], where something called Bubbles hears you cleaning. Of course there is."
         ],
         "sources": [
-          { "title": "RBLXSTAT, Nov 19", "url": "https://rblxstat.com/blog/roblox-updates-and-records-2026-11-19" },
-          { "title": "Roblox game page", "url": "https://www.roblox.com/games/126221718321318/Clean-The-Ballpit" },
-          { "title": "The horror copy", "url": "https://www.roblox.com/games/99805976705940/Clean-the-ballpit" }
+          {
+            "title": "RBLXSTAT, Nov 19",
+            "url": "https://rblxstat.com/blog/roblox-updates-and-records-2026-11-19"
+          },
+          {
+            "title": "Roblox game page",
+            "url": "https://www.roblox.com/games/126221718321318/Clean-The-Ballpit"
+          },
+          {
+            "title": "The horror copy",
+            "url": "https://www.roblox.com/games/99805976705940/Clean-the-ballpit"
+          }
         ]
       },
       {
-        "id": "plane", "kicker": "BREAKOUT · THIS WEEK",
+        "id": "plane",
+        "kicker": "BREAKOUT · THIS WEEK",
         "headline": "Can You Land A Plane? Apparently Yes",
         "dek": "Up 3,142% in a week. Air traffic control is concerned.",
-        "facts": [["7-day avg","6,143"],["Week change","+3,142%"],["High","14,083"]],
+        "facts": [
+          [
+            "7-day avg",
+            "6,143"
+          ],
+          [
+            "Week change",
+            "+3,142%"
+          ],
+          [
+            "High",
+            "14,083"
+          ]
+        ],
         "paras": [
           "Can You Land A Plane? by Zzz Inc. averaged 6,143 players over the last 7 days, up 3,142%, with a high of 14,083 at once and 3.2 million visits.",
           "Also climbing: ESCAPE CLUB (escape rooms) up 256%, and Drag Drive Simulator up 140% with a new record of 188,113 players at once after a limited update."
         ],
-        "sources": [ { "title": "RBLXSTAT, Nov 19", "url": "https://rblxstat.com/blog/roblox-updates-and-records-2026-11-19" } ]
+        "sources": [
+          {
+            "title": "RBLXSTAT, Nov 19",
+            "url": "https://rblxstat.com/blog/roblox-updates-and-records-2026-11-19"
+          }
+        ]
       }
     ],
     "down": [
       {
-        "id": "egg-down", "kicker": "SLIDING · OCTOBER",
+        "id": "egg-down",
+        "kicker": "SLIDING · OCTOBER",
         "headline": "Steal An Egg Is Still #1. Just With Fewer Eggs.",
         "dek": "Down 26% in a month, and still the biggest game on Roblox.",
-        "facts": [["Oct avg","1,341,295"],["Sep avg","1,815,540"],["Change","-26%"]],
+        "facts": [
+          [
+            "Oct avg",
+            "1,341,295"
+          ],
+          [
+            "Sep avg",
+            "1,815,540"
+          ],
+          [
+            "Change",
+            "-26%"
+          ]
+        ],
         "paras": [
           "Steal An Egg averaged 1,341,295 players in October, down 26% from September's 1,815,540. On Nov 20 it had 688,643 playing. Copycat Break and Steal an Egg grew 2,627% in October to 104,490, eating part of its lunch.",
           "Don't cry for it though: it made $40M+ in three months (see Business & Markets)."
         ],
         "sources": [
-          { "title": "RoStats, Oct 2026", "url": "https://rostats.io/charts/2026-10" },
-          { "title": "Endgametools charts", "url": "https://endgametools.com/en/roblox/charts" }
+          {
+            "title": "RoStats, Oct 2026",
+            "url": "https://rostats.io/charts/2026-10"
+          },
+          {
+            "title": "Endgametools charts",
+            "url": "https://endgametools.com/en/roblox/charts"
+          }
         ]
       },
       {
-        "id": "venom", "kicker": "SLIDING · THIS WEEK",
+        "id": "venom",
+        "kicker": "SLIDING · THIS WEEK",
         "headline": "+1 Venom Evolution Loses Its Bite",
         "dek": "The +1 games keep replacing each other every few weeks.",
-        "facts": [["7-day avg","22,119"],["Week change","-26%"],["Peak","102,184"]],
+        "facts": [
+          [
+            "7-day avg",
+            "22,119"
+          ],
+          [
+            "Week change",
+            "-26%"
+          ],
+          [
+            "Peak",
+            "102,184"
+          ]
+        ],
         "paras": [
           "+1 Venom Evolution by Bottled Potential averaged 22,119 players this week, down 26%. It peaked at 102,184 at once and is 45 days old. Players still love it (97% likes), they just have a newer +1 game to play.",
           "Also down in October: Animal Hospital (-50%), Blox Fruits (-45%) and +1 Speed Keyboard Escape (-45%)."
         ],
         "sources": [
-          { "title": "RBLXSTAT, Nov 19", "url": "https://rblxstat.com/blog/roblox-updates-and-records-2026-11-19" },
-          { "title": "RoStats, Oct 2026", "url": "https://rostats.io/charts/2026-10" }
+          {
+            "title": "RBLXSTAT, Nov 19",
+            "url": "https://rblxstat.com/blog/roblox-updates-and-records-2026-11-19"
+          },
+          {
+            "title": "RoStats, Oct 2026",
+            "url": "https://rostats.io/charts/2026-10"
+          }
         ]
       }
     ]
@@ -196,17 +564,37 @@
     "larp": null,
     "stories": [
       {
-        "id": "ai-anim", "kicker": "STUDIO BETA · NOV 11",
+        "id": "ai-anim",
+        "kicker": "STUDIO BETA · NOV 11",
         "headline": "Studio Now Animates From A Prompt",
         "dek": "Type what you want, get an R15 animation. Animators: \"fine, totally fine.\"",
-        "facts": [["AI animations","Beta"],["Asset Manager","Live"],["Draw distance","500 studs"]],
+        "facts": [
+          [
+            "AI animations",
+            "Beta"
+          ],
+          [
+            "Asset Manager",
+            "Live"
+          ],
+          [
+            "Draw distance",
+            "500 studs"
+          ]
+        ],
         "paras": [
           "A new Studio beta lets you generate R15 animations from a text prompt, plus an optional R6 motion rebuilder. It's part of a big wave of AI tools Roblox keeps adding to Studio.",
           "The same week, the Asset Manager got a full release with folders and search, and the minimum draw distance went up to 500 studs, so even low-end phones see more of your map."
         ],
         "sources": [
-          { "title": "Roblox DevForum", "url": "https://devforum.roblox.com/tag/featured/674" },
-          { "title": "Weekly recap Nov 2–6", "url": "https://devforum.roblox.com/t/weekly-recap-november-2-6-2026/4979364" }
+          {
+            "title": "Roblox DevForum",
+            "url": "https://devforum.roblox.com/tag/featured/674"
+          },
+          {
+            "title": "Weekly recap Nov 2–6",
+            "url": "https://devforum.roblox.com/t/weekly-recap-november-2-6-2026/4979364"
+          }
         ]
       }
     ]
@@ -216,16 +604,76 @@
     "dek": "Games that blew up, then blew away.",
     "note": "Some of these games are still online with a few players. We're being dramatic. It's a newspaper.",
     "stones": [
-      { "name": "Steal a Brainrot", "dates": "2026 – 2026", "fact": "About 151,000 players in June, 155,204 average in October, then out of the top 20 by November 20.", "joke": "Survived by 400 clones.", "sources": [ { "title": "RoWatcher, June", "url": "https://rowatcher.com/news/the-most-popular-roblox-games-right-now-ranked-by-live-players" }, { "title": "RoStats, Oct", "url": "https://rostats.io/charts/2026-10" }, { "title": "Endgametools", "url": "https://endgametools.com/en/roblox/charts" } ] },
-      { "name": "Sell Lemons", "dates": "June – fall 2026", "fact": "About 135,000 players in June. Off the charts by November.", "joke": "Ran out of lemons. Succeeded by Sell Fries!", "sources": [ { "title": "RoWatcher, June", "url": "https://rowatcher.com/news/the-most-popular-roblox-games-right-now-ranked-by-live-players" }, { "title": "RoStats, Oct", "url": "https://rostats.io/charts/2026-10" } ] },
-      { "name": "Fart Together", "dates": "Oct – Nov 2026", "fact": "Peaked at 14,000+ players around Nov 7, then removed as Roblox cracked down on fart games.", "joke": "Gone, but the smell lingers.", "sources": [ { "title": "Dexerto, Nov 9", "url": "https://www.dexerto.com/roblox/roblox-cracking-down-on-fart-games-as-viral-hit-disappears-3426071/" } ] },
-      { "name": "+1 Speed Keyboard Escape", "dates": "Critical condition", "fact": "About 307,000 players in June. 93,249 average in October, down 45% in a month.", "joke": "Speed was not enough.", "sources": [ { "title": "RoWatcher, June", "url": "https://rowatcher.com/news/the-most-popular-roblox-games-right-now-ranked-by-live-players" }, { "title": "RoStats, Oct", "url": "https://rostats.io/charts/2026-10" } ] }
+      {
+        "name": "Steal a Brainrot",
+        "dates": "2026 – 2026",
+        "fact": "About 151,000 players in June, 155,204 average in October, then out of the top 20 by November 20.",
+        "joke": "Survived by 400 clones.",
+        "sources": [
+          {
+            "title": "RoWatcher, June",
+            "url": "https://rowatcher.com/news/the-most-popular-roblox-games-right-now-ranked-by-live-players"
+          },
+          {
+            "title": "RoStats, Oct",
+            "url": "https://rostats.io/charts/2026-10"
+          },
+          {
+            "title": "Endgametools",
+            "url": "https://endgametools.com/en/roblox/charts"
+          }
+        ]
+      },
+      {
+        "name": "Sell Lemons",
+        "dates": "June – fall 2026",
+        "fact": "About 135,000 players in June. Off the charts by November.",
+        "joke": "Ran out of lemons. Succeeded by Sell Fries!",
+        "sources": [
+          {
+            "title": "RoWatcher, June",
+            "url": "https://rowatcher.com/news/the-most-popular-roblox-games-right-now-ranked-by-live-players"
+          },
+          {
+            "title": "RoStats, Oct",
+            "url": "https://rostats.io/charts/2026-10"
+          }
+        ]
+      },
+      {
+        "name": "Fart Together",
+        "dates": "Oct – Nov 2026",
+        "fact": "Peaked at 14,000+ players around Nov 7, then removed as Roblox cracked down on fart games.",
+        "joke": "Gone, but the smell lingers.",
+        "sources": [
+          {
+            "title": "Dexerto, Nov 9",
+            "url": "https://www.dexerto.com/roblox/roblox-cracking-down-on-fart-games-as-viral-hit-disappears-3426071/"
+          }
+        ]
+      },
+      {
+        "name": "+1 Speed Keyboard Escape",
+        "dates": "Critical condition",
+        "fact": "About 307,000 players in June. 93,249 average in October, down 45% in a month.",
+        "joke": "Speed was not enough.",
+        "sources": [
+          {
+            "title": "RoWatcher, June",
+            "url": "https://rowatcher.com/news/the-most-popular-roblox-games-right-now-ranked-by-live-players"
+          },
+          {
+            "title": "RoStats, Oct",
+            "url": "https://rostats.io/charts/2026-10"
+          }
+        ]
+      }
     ]
   },
   "help": {
     "title": "Devs For Hire",
     "dek": "Looking for work? Need a builder? Post it here, free while we launch.",
     "listings": [],
-    "how": "Listings open soon. Follow us on X to be first."
+    "how": "DM @TheStudTimes on X with what you do (or need) and a link to your work. Free while we launch."
   }
 }

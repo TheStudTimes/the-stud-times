@@ -7,6 +7,8 @@ const ROOT = new URL('.', import.meta.url).pathname;
 const OUT = join(ROOT, 'dist');
 const SITE = 'The Stud Times';
 const TAGLINE = 'Made of studs, just like every game on the front page.';
+const X_URL = 'https://x.com/TheStudTimes';
+const SITE_URL = 'https://www.thestudtimes.com';
 
 // ---------- helpers ----------
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -82,6 +84,8 @@ function shell(ed, current, body, { big = false, depth = 0, archiveLink = true }
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(TAGLINE)} Daily Roblox news, player records, the Roblox stock and games that died.">
+<meta property="og:site_name" content="The Stud Times">
+<meta name="twitter:site" content="@TheStudTimes">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(ed.front.lead.big + ' ' + ed.front.lead.headline)}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -99,6 +103,7 @@ function shell(ed, current, body, { big = false, depth = 0, archiveLink = true }
   <main>${body}</main>
   <footer class="foot">
     <span class="corr">${esc(ed.correction || '')}</span>
+    <a class="follow" href="${X_URL}" target="_blank" rel="noopener">Follow @TheStudTimes on X</a>
     <span class="mono">${SITE} is an unofficial fan newspaper and is not affiliated with Roblox Corporation.</span>
   </footer>
 </div>
@@ -177,7 +182,7 @@ function flexPage(ed) {
     </figure>`;
   const posts = f.posts && f.posts.length
     ? `${label('#1 FLEX OF THE DAY')}${post(f.posts[0], 0)}${f.posts.length > 1 ? `<div class="grid2">${f.posts.slice(1).map((p, i) => post(p, i + 1)).join('')}</div>` : ''}`
-    : `<div class="empty">Studio Flex is warming up. Built something insane? Tag us on X and you could be tomorrow's #1.</div>`;
+    : `<div class="empty">Studio Flex is warming up. Built something insane? Tag <a href="${X_URL}" target="_blank" rel="noopener">@TheStudTimes</a> on X and you could be tomorrow's #1.</div>`;
   return `${pageTitle('STUDIO FLEX', f.title, f.dek)}
   <section id="flex">${posts}</section>
   ${f.larp ? `<section class="box" id="larp"><span class="box-h">Studio Larp of the Day</span>${post(f.larp, 1)}</section>` : ''}
