@@ -47,16 +47,20 @@
         "link": "rest-in-peace"
       },
       {
-        "big": "AI",
-        "head": "Studio now animates from a prompt",
-        "sub": "Animators: \"fine, totally fine\"",
-        "link": "studio-flex#ai-anim"
+        "big": "🎄",
+        "head": "Roblox teases a Christmas event",
+        "sub": "Official teaser on X. Date not confirmed.",
+        "link": "index#feature"
       }
     ],
     "comingUp": [
       {
         "when": "NOV 23",
         "what": "Jujutsu Shenanigans' Halloween update ends"
+      },
+      {
+        "when": "DEC 17?",
+        "what": "Roblox's Christmas event (rumored date, not confirmed)"
       },
       {
         "when": "DEC",
@@ -80,7 +84,51 @@
         "title": "Roblox DevForum, RDC26",
         "url": "https://devforum.roblox.com/t/rdc26-what-we-announced/4865880"
       }
-    ]
+    ],
+    "feature": {
+      "label": "TEASED TODAY",
+      "id": "xmas-tease",
+      "kicker": "ROBLOX HQ · CHRISTMAS",
+      "headline": "Roblox Teases A Christmas Event",
+      "dek": "Santa has entered the chat. Roblox has not said when. The internet has opinions.",
+      "embed": "https://x.com/Roblox/status/2123883578425586123",
+      "facts": [
+        [
+          "Teased by",
+          "@Roblox"
+        ],
+        [
+          "Official date",
+          "Not yet"
+        ],
+        [
+          "Rumored start",
+          "Dec 17 (unconfirmed)"
+        ]
+      ],
+      "paras": [
+        "Roblox posted a festive teaser on its official X account (watch it above), its strongest hint yet at a platform-wide Christmas event after The Hollow wrapped up Halloween. Roblox Japan's account had teased one earlier this month, and YouTubers spotted a test place on Roblox.",
+        "One leaker claims the event is called \"The Festive\" and starts December 17. Roblox hasn't confirmed any name or date, so treat that as a rumor until it's official. We'll update you the second it is."
+      ],
+      "sources": [
+        {
+          "title": "Roblox on X",
+          "url": "https://x.com/Roblox/status/2123883578425586123"
+        },
+        {
+          "title": "Roblox Japan tease (YouTube)",
+          "url": "https://www.youtube.com/shorts/eeErdkuM5VM"
+        },
+        {
+          "title": "Test place spotted (YouTube)",
+          "url": "https://www.youtube.com/watch?v=8soV_1hA7E0"
+        },
+        {
+          "title": "Leak claim on X (unconfirmed)",
+          "url": "https://x.com/WhyIron_/status/2117388221726552152"
+        }
+      ]
+    }
   },
   "markets": {
     "title": "The Stock Is Doing An Obby",

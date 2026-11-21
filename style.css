@@ -160,3 +160,5 @@ nav .on { background: var(--ink); color: var(--paper); }
 .yt { position: relative; aspect-ratio: 16 / 9; border: 2px solid var(--ink); }
 .yt iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 @media (prefers-reduced-motion: reduce) { .game-pic img { transition: none; } }
+.story-embed { display: flex; justify-content: center; }
+.story-embed .twitter-tweet { margin: 0 auto !important; }

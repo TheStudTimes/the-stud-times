@@ -42,7 +42,7 @@ function story(s) {
     <span class="kicker">${esc(s.kicker)}</span>
     <h3>${esc(s.headline)}</h3>
     <p class="dek">${esc(s.dek)}</p>
-    ${s._game ? gameBlock(s._game, 300) : image(s.image, 300)}
+    ${s.embed && embed(s.embed) ? `<div class="story-embed">${embed(s.embed).html}</div>` : (s._game ? gameBlock(s._game, 300) : image(s.image, 300))}
     ${facts(s.facts)}
     ${(s.paras || []).map((p) => `<p>${rich(p)}</p>`).join('')}
     ${sources(s.sources)}
@@ -165,6 +165,8 @@ function shell(ed, current, body, { big = false, depth = 0, archiveLink = true }
     <nav aria-label="Sections">${nav}${archiveLink ? `<a href="${up}archive.html">Past Editions</a>` : ''}</nav>
   </header>
   <main>${body}</main>
+  ${body.includes('twitter-tweet') && !body.includes('platform.twitter.com/widgets.js') ? '<script async src="https://platform.twitter.com/widgets.js"></script>' : ''}
+  ${body.includes('tiktok-embed') && !body.includes('tiktok.com/embed.js') ? '<script async src="https://www.tiktok.com/embed.js"></script>' : ''}
   <footer class="foot">
     <span class="corr">${esc(ed.correction || '')}</span>
     <a class="follow" href="${X_URL}" target="_blank" rel="noopener">Follow @TheStudTimes on X</a>
@@ -191,6 +193,7 @@ function frontPage(ed) {
     ${label('THE NEWS IN 10 SECONDS')}
     <div class="cards">${f.quick.map((q) => `<a class="card" href="${href(q.link)}"><span class="big">${esc(q.big)}</span><b>${esc(q.head)}</b><span class="sub">${esc(q.sub)}</span><span class="more">READ MORE →</span></a>`).join('')}</div>
   </section>
+  ${f.feature ? `<section id="feature">${label(f.feature.label || 'TEASED TODAY')}${story(f.feature)}</section>` : ''}
   ${f.comingUp && f.comingUp.length ? `<section id="coming-up">
     ${label('COMING UP')}
     <div class="events">${f.comingUp.map((e) => `<div><b>${esc(e.when)}</b><span>${esc(e.what)}</span></div>`).join('')}</div>

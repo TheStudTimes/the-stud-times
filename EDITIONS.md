@@ -15,6 +15,8 @@ One file per day: `editions/YYYY-MM-DD.json`. Copy the newest one and replace th
 ## Sections
 - `front.lead` — the day's biggest story (`big` is a giant number or word). `link` points to the full story, e.g. `"rising#throw-food"`.
 - `front.quick` — 6 cards, each linking to a story (`markets#id`, `rising#id`, `rest-in-peace`, `studio-flex#id`).
+- `front.feature` — optional big story of the day shown on the front page under a label (e.g. "TEASED TODAY"), same shape as a story. Good for official announcements and teasers.
+- Any story can have `"embed": "<post URL>"` (x.com status, YouTube, TikTok) to show the real post or video inside it, e.g. an official @Roblox teaser. Use it whenever a story is about a specific post.
 - `front.comingUp` — 2–4 upcoming events, with `comingUpSources`.
 - `markets.stock` — RBLX price, `moves`, a funny `caption` that matches the move, and `closes` (last ~15 trading days).
 - `markets.stories` — business news from the last 30 days.
