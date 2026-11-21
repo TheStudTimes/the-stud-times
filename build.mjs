@@ -199,7 +199,13 @@ function frontPage(ed) {
     ${label('COMING UP')}
     <div class="events">${f.comingUp.map((e) => `<div><b>${esc(e.when)}</b><span>${esc(e.what)}</span></div>`).join('')}</div>
     ${sources(f.comingUpSources)}
-  </section>` : ''}`;
+  </section>` : ''}
+  <section class="ad" id="ad">
+    <span class="mono small">ADVERTISEMENT</span>
+    <span class="ad-h">This Space For Rent</span>
+    <span>Put your game, studio or shop in front of Roblox players and devs, every single day.</span>
+    <a class="btn" href="${X_URL}" target="_blank" rel="noopener">DM @THESTUDTIMES FOR AD SPACE</a>
+  </section>`;
 }
 
 function marketsPage(ed) {
