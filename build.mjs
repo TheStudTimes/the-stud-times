@@ -124,7 +124,7 @@ function gameBlock(gm, h = 300) {
 function embed(url) {
   const u = String(url || '');
   let m;
-  if (/^https:\/\/(x|twitter)\.com\/[^/]+\/status\/\d+/.test(u)) return { kind: 'x', html: `<blockquote class="twitter-tweet" data-dnt="true" data-theme="light"><a href="${esc(u.replace('://x.com', '://twitter.com'))}"></a></blockquote>` };
+  if (/^https:\/\/(x|twitter)\.com\/[^/]+\/status\/\d+/.test(u)) return { kind: 'x', html: `<blockquote class="twitter-tweet" data-dnt="true" data-theme="light" data-chrome="transparent nofooter"><a href="${esc(u.replace('://x.com', '://twitter.com'))}"></a></blockquote>` };
   if ((m = u.match(/^https:\/\/(?:www\.)?(?:youtube\.com\/(?:watch\?v=|shorts\/)|youtu\.be\/)([\w-]{6,})/))) return { kind: 'yt', html: `<div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/${esc(m[1])}" title="YouTube video" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>` };
   if ((m = u.match(/^https:\/\/(?:www\.)?tiktok\.com\/@[\w.]+\/video\/(\d+)/))) return { kind: 'tt', html: `<blockquote class="tiktok-embed" cite="${esc(u)}" data-video-id="${esc(m[1])}"><section><a href="${esc(u)}">Watch on TikTok</a></section></blockquote>` };
   return null;
@@ -242,26 +242,23 @@ function risingPage(ed) {
 
 function flexPage(ed) {
   const f = ed.flex;
-  const kinds = new Set();
+  const SLOTS = 6;
   const post = (p, i) => {
-    const e = embed(p.url);
-    if (e) kinds.add(e.kind);
-    return `<figure class="flex-post${i === 0 ? ' top' : ''}">
-      ${e ? e.html : (p.image ? image(p.image, i === 0 ? 380 : 220) : '')}
+    const em = embed(p.url);
+    return `<figure class="clip">
+      <span class="clip-no">No. ${i + 1}</span>
+      ${em ? em.html : (p.image ? image(p.image, 220) : '')}
       <figcaption>${esc(p.caption || '')}${p.creator ? ` · <b>${esc(p.creator)}</b>` : ''}${p.url ? ` · <a href="${safeUrl(p.url)}" target="_blank" rel="noopener">Original post</a>` : ''}</figcaption>
     </figure>`;
   };
-  const list = (f.posts || []).filter((p) => p.url || p.image);
-  const posts = list.length
-    ? `${label('#1 FLEX OF THE DAY')}${post(list[0], 0)}${list.length > 1 ? `<div class="grid2">${list.slice(1).map((p, i) => post(p, i + 1)).join('')}</div>` : ''}`
-    : `<div class="empty">Studio Flex is warming up. Built something insane? Tag <a href="${X_URL}" target="_blank" rel="noopener">@TheStudTimes</a> on X and you could be tomorrow's #1.</div>`;
-  const larp = f.larp && (f.larp.url || f.larp.image) ? `<section class="box" id="larp"><span class="box-h">Studio Larp of the Day</span>${post(f.larp, 1)}</section>` : '';
-  const scripts = (kinds.has('x') ? '<script async src="https://platform.twitter.com/widgets.js"></script>' : '') + (kinds.has('tt') ? '<script async src="https://www.tiktok.com/embed.js"></script>' : '');
+  const list = (f.posts || []).filter((p) => p.url || p.image).slice(0, SLOTS);
+  const empty = (i) => `<div class="clip clip-empty"><span class="clip-no">No. ${i + 1}</span><span class="slot-h">This spot is open</span><span>Built something insane in Studio? Tag <a href="${X_URL}" target="_blank" rel="noopener">@TheStudTimes</a> and it could be here tomorrow.</span></div>`;
+  const cells = list.map(post).concat(Array.from({ length: Math.max(0, SLOTS - list.length) }, (_, k) => empty(list.length + k)));
+  const larp = f.larp && (f.larp.url || f.larp.image) ? `<section class="box" id="larp"><span class="box-h">Studio Larp of the Day</span>${post(f.larp, 0).replace('No. 1', 'LARP')}</section>` : '';
   return `${pageTitle('STUDIO FLEX', f.title, f.dek)}
-  <section id="flex">${posts}</section>
+  <section id="flex">${label('TODAY\'S TOP ' + SLOTS)}<div class="flex-grid">${cells.join('')}</div></section>
   ${larp}
-  ${f.stories && f.stories.length ? `<section id="new-in-studio">${label('NEW IN STUDIO')}${f.stories.map(story).join('')}</section>` : ''}
-  ${scripts}`;
+  ${f.stories && f.stories.length ? `<section id="new-in-studio">${label('NEW IN STUDIO')}${f.stories.map(story).join('')}</section>` : ''}`;
 }
 
 function ripPage(ed) {

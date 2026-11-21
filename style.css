@@ -162,3 +162,19 @@ nav .on { background: var(--ink); color: var(--paper); }
 @media (prefers-reduced-motion: reduce) { .game-pic img { transition: none; } }
 .story-embed { display: flex; justify-content: center; }
 .story-embed .twitter-tweet { margin: 0 auto !important; }
+
+/* Studio Flex: 3 per row, each post pasted in like a newspaper clipping */
+.flex-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; align-items: start; }
+@media (max-width: 900px) { .flex-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .flex-grid { grid-template-columns: minmax(0, 1fr); } }
+.clip { position: relative; margin: 0; background: #FBF6E9; border: 1px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); padding: 26px 10px 12px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.clip::before { content: ''; position: absolute; top: -10px; left: 50%; width: 76px; height: 20px; transform: translateX(-50%) rotate(-3deg); background: rgba(217, 207, 184, .85); border: 1px solid rgba(26, 23, 19, .15); }
+.clip-no { position: absolute; top: 6px; left: 10px; font-family: var(--mono); font-size: 11px; font-weight: 700; letter-spacing: 2px; }
+.clip figcaption { font-size: 13px; font-style: italic; text-align: center; overflow-wrap: anywhere; }
+/* tint the white X/TikTok cards so they sit on the paper */
+.clip iframe, .story-embed iframe, .clip .twitter-tweet-rendered, .story-embed .twitter-tweet-rendered { filter: sepia(.28) saturate(.9) contrast(.98); border-radius: 4px; }
+.clip .twitter-tweet, .clip .tiktok-embed { margin: 0 auto !important; max-width: 100% !important; min-width: 0 !important; }
+.clip-empty { min-height: 260px; justify-content: center; align-items: center; text-align: center; border-style: dashed; box-shadow: none; background: repeating-linear-gradient(135deg, transparent 0 10px, rgba(26, 23, 19, .035) 10px 11px); }
+.clip-empty .slot-h { font-family: var(--head); font-weight: 900; font-size: 22px; }
+.clip-empty span { font-size: 14px; }
+.story-embed { padding: 14px; background: #FBF6E9; border: 1px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); }
