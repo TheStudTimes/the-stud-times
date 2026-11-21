@@ -55,6 +55,7 @@ Read this first. It is the full story of The Stud Times so far, written at the e
 
 - Each edition has a `tweets` list (see `EDITIONS.md`). The build makes a copy-paste page at https://www.thestudtimes.com/desk (unlinked, noindex): text with a Copy button and a card image with Copy/Download buttons. Kale posts them himself, 2–3 a day. Still drafts only.
 - Every draft ends with `thestudtimes.com #Roblox #RobloxNews` (added by the build; Kale asked for the link and both hashtags on every tweet).
+- Tweet text is short and punchy: the fact in one line, then one short joke. Kale will ask if he wants longer ones.
 - Kale wants every card to show the story: the game icon, a chart from real numbers, a tombstone. Not text alone. Tone: family friendly with a bit of dark humor for the Roblox community.
 - Automatic posting was discussed on Nov 21 and parked: it needs a paid X developer account (about $0.015 per post, $0.20 with a link) and Kale's keys in GitHub secrets.
 - Brand extras made Nov 21 on the Design canvas "Stud Times tweet cards: Nov 21" (https://claude.ai/artifact/Hm4WQvGPjmKvE1qirEShwq): three brick icon options (A red on paper, B paper on red, C paper on ink) and an all-black X banner. Kale loves the brick icon and wants it as the paper's icon; he has not picked A, B or C yet.
