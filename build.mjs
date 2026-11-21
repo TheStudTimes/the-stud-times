@@ -42,7 +42,7 @@ function story(s) {
     <span class="kicker">${esc(s.kicker)}</span>
     <h3>${esc(s.headline)}</h3>
     <p class="dek">${esc(s.dek)}</p>
-    ${image(s.image, 300)}
+    ${s._game ? gameBlock(s._game, 300) : image(s.image, 300)}
     ${facts(s.facts)}
     ${(s.paras || []).map((p) => `<p>${rich(p)}</p>`).join('')}
     ${sources(s.sources)}
@@ -68,6 +68,66 @@ function stockChart(closes) {
   const area = `${L},${H - B} ${pts} ${x(closes.length - 1).toFixed(1)},${H - B}`;
   const first = closes[0], last = closes[closes.length - 1];
   return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Roblox stock closing price from ${esc(first[0])} ($${first[1]}) to ${esc(last[0])} ($${last[1]}), peaking at $${vals[maxI]}."><polygon points="${area}" class="area"/>${grid}<polyline points="${pts}" class="line"/>${dots}${ann}${xl}</svg>`;
+}
+
+
+// ---------- Roblox game info (official public API, fetched at build time) ----------
+const gameCache = new Map();
+async function getJSON(url) {
+  try {
+    const r = await fetch(url, { signal: AbortSignal.timeout(8000), headers: { accept: 'application/json' } });
+    return r.ok ? await r.json() : null;
+  } catch { return null; }
+}
+async function resolveGame(g) {
+  if (!g) return null;
+  const key = JSON.stringify(g);
+  if (gameCache.has(key)) return gameCache.get(key);
+  let universeId = g.universeId, placeId = g.placeId;
+  if (!universeId && placeId) {
+    const u = await getJSON(`https://apis.roblox.com/universes/v1/places/${encodeURIComponent(placeId)}/universe`);
+    universeId = u && u.universeId;
+  }
+  const out = { name: g.name, universeId, placeId, thumb: null, icon: null };
+  if (universeId) {
+    const [info, thumbs, icons] = await Promise.all([
+      getJSON(`https://games.roblox.com/v1/games?universeIds=${universeId}`),
+      getJSON(`https://thumbnails.roblox.com/v1/games/multiget/thumbnails?universeIds=${universeId}&countPerUniverse=1&size=768x432&format=Png&isCircular=false`),
+      getJSON(`https://thumbnails.roblox.com/v1/games/icons?universeIds=${universeId}&size=512x512&format=Png&isCircular=false`),
+    ]);
+    const d = info && info.data && info.data[0];
+    if (d) { out.placeId = out.placeId || d.rootPlaceId; out.name = out.name || d.name; out.creator = d.creator && d.creator.name; }
+    const t = thumbs && thumbs.data && thumbs.data[0] && thumbs.data[0].thumbnails && thumbs.data[0].thumbnails[0];
+    if (t && t.state === 'Completed' && /^https:\/\//.test(t.imageUrl)) out.thumb = t.imageUrl;
+    const ic = icons && icons.data && icons.data[0];
+    if (ic && ic.state === 'Completed' && /^https:\/\//.test(ic.imageUrl)) out.icon = ic.imageUrl;
+  }
+  gameCache.set(key, out);
+  return out;
+}
+async function enrich(ed) {
+  const all = [ed.front.lead, ...(ed.markets.stories || []), ...(ed.markets.dealStories || []), ...ed.rising.up, ...ed.rising.down, ...((ed.flex && ed.flex.stories) || [])];
+  for (const s of all) if (s && s.game) s._game = await resolveGame(s.game);
+}
+function gameBlock(gm, h = 300) {
+  if (!gm) return '';
+  const play = gm.placeId ? `https://www.roblox.com/games/${encodeURIComponent(gm.placeId)}` : null;
+  const pic = gm.thumb || gm.icon;
+  const credit = `Image: Roblox${gm.creator ? ' / ' + gm.creator : ''}`;
+  return `<div class="game">
+    ${pic ? `<figure class="photo game-pic" style="--h:${h}px"><img src="${esc(pic)}" alt="${esc((gm.name || 'Game') + ' on Roblox')}" loading="lazy"><figcaption>${esc(credit)}</figcaption></figure>` : ''}
+    ${play ? `<a class="play" href="${esc(play)}" target="_blank" rel="noopener">▶ Play ${esc(gm.name || 'it')} on Roblox</a>` : ''}
+  </div>`;
+}
+
+// ---------- embeds (official embed codes only) ----------
+function embed(url) {
+  const u = String(url || '');
+  let m;
+  if (/^https:\/\/(x|twitter)\.com\/[^/]+\/status\/\d+/.test(u)) return { kind: 'x', html: `<blockquote class="twitter-tweet" data-dnt="true" data-theme="light"><a href="${esc(u.replace('://x.com', '://twitter.com'))}"></a></blockquote>` };
+  if ((m = u.match(/^https:\/\/(?:www\.)?(?:youtube\.com\/(?:watch\?v=|shorts\/)|youtu\.be\/)([\w-]{6,})/))) return { kind: 'yt', html: `<div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/${esc(m[1])}" title="YouTube video" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>` };
+  if ((m = u.match(/^https:\/\/(?:www\.)?tiktok\.com\/@[\w.]+\/video\/(\d+)/))) return { kind: 'tt', html: `<blockquote class="tiktok-embed" cite="${esc(u)}" data-video-id="${esc(m[1])}"><section><a href="${esc(u)}">Watch on TikTok</a></section></blockquote>` };
+  return null;
 }
 
 // ---------- page shell ----------
@@ -120,7 +180,7 @@ function frontPage(ed) {
     <div class="huge">${esc(L.big)}</div>
     <h2>${esc(L.headline)}</h2>
     <p class="dek">${esc(L.dek)}</p>
-    ${image(L.image, 340)}
+    ${L._game ? gameBlock(L._game, 340) : image(L.image, 340)}
     <a class="more" href="${href(L.link)}">READ THE FULL STORY →</a>
   </article>
   <section id="quick">
@@ -175,19 +235,26 @@ function risingPage(ed) {
 
 function flexPage(ed) {
   const f = ed.flex;
-  const post = (p, i) => `<figure class="flex-post${i === 0 ? ' top' : ''}">
-      ${p.image ? image(p.image, i === 0 ? 380 : 220) : ''}
-      ${p.url ? `<blockquote class="twitter-tweet" data-dnt="true"><a href="${safeUrl(p.url)}">${esc(p.caption || 'View post')}</a></blockquote>` : ''}
-      <figcaption>${esc(p.caption || '')}${p.creator ? ` · <b>${esc(p.creator)}</b>` : ''}</figcaption>
+  const kinds = new Set();
+  const post = (p, i) => {
+    const e = embed(p.url);
+    if (e) kinds.add(e.kind);
+    return `<figure class="flex-post${i === 0 ? ' top' : ''}">
+      ${e ? e.html : (p.image ? image(p.image, i === 0 ? 380 : 220) : '')}
+      <figcaption>${esc(p.caption || '')}${p.creator ? ` · <b>${esc(p.creator)}</b>` : ''}${p.url ? ` · <a href="${safeUrl(p.url)}" target="_blank" rel="noopener">Original post</a>` : ''}</figcaption>
     </figure>`;
-  const posts = f.posts && f.posts.length
-    ? `${label('#1 FLEX OF THE DAY')}${post(f.posts[0], 0)}${f.posts.length > 1 ? `<div class="grid2">${f.posts.slice(1).map((p, i) => post(p, i + 1)).join('')}</div>` : ''}`
+  };
+  const list = (f.posts || []).filter((p) => p.url || p.image);
+  const posts = list.length
+    ? `${label('#1 FLEX OF THE DAY')}${post(list[0], 0)}${list.length > 1 ? `<div class="grid2">${list.slice(1).map((p, i) => post(p, i + 1)).join('')}</div>` : ''}`
     : `<div class="empty">Studio Flex is warming up. Built something insane? Tag <a href="${X_URL}" target="_blank" rel="noopener">@TheStudTimes</a> on X and you could be tomorrow's #1.</div>`;
+  const larp = f.larp && (f.larp.url || f.larp.image) ? `<section class="box" id="larp"><span class="box-h">Studio Larp of the Day</span>${post(f.larp, 1)}</section>` : '';
+  const scripts = (kinds.has('x') ? '<script async src="https://platform.twitter.com/widgets.js"></script>' : '') + (kinds.has('tt') ? '<script async src="https://www.tiktok.com/embed.js"></script>' : '');
   return `${pageTitle('STUDIO FLEX', f.title, f.dek)}
   <section id="flex">${posts}</section>
-  ${f.larp ? `<section class="box" id="larp"><span class="box-h">Studio Larp of the Day</span>${post(f.larp, 1)}</section>` : ''}
+  ${larp}
   ${f.stories && f.stories.length ? `<section id="new-in-studio">${label('NEW IN STUDIO')}${f.stories.map(story).join('')}</section>` : ''}
-  ${f.posts && f.posts.some((p) => p.url) ? '<script async src="https://platform.twitter.com/widgets.js"></script>' : ''}`;
+  ${scripts}`;
 }
 
 function ripPage(ed) {
@@ -213,6 +280,7 @@ const files = readdirSync(join(ROOT, 'editions')).filter((f) => /^\d{4}-\d{2}-\d
 if (!files.length) throw new Error('No editions found');
 const editions = files.map((f) => JSON.parse(readFileSync(join(ROOT, 'editions', f), 'utf8')));
 const latest = editions[editions.length - 1];
+for (const ed of editions) await enrich(ed);
 
 if (existsSync(OUT)) rmSync(OUT, { recursive: true });
 mkdirSync(OUT, { recursive: true });

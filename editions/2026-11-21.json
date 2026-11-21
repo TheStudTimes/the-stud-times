@@ -9,7 +9,11 @@
       "headline": "Players at once in Throw Food For Animals",
       "dek": "Not even top 50 in October. Now Roblox's #2 game. The animals are extremely full.",
       "image": null,
-      "link": "rising#throw-food"
+      "link": "rising#throw-food",
+      "game": {
+        "universeId": 10766972131,
+        "name": "Throw Food For Animals"
+      }
     },
     "quick": [
       {
@@ -411,7 +415,11 @@
             "title": "RoStats, Oct 2026",
             "url": "https://rostats.io/charts/2026-10"
           }
-        ]
+        ],
+        "game": {
+          "universeId": 10766972131,
+          "name": "Throw Food For Animals"
+        }
       },
       {
         "id": "ballpit",
@@ -453,7 +461,11 @@
             "title": "The horror copy",
             "url": "https://www.roblox.com/games/99805976705940/Clean-the-ballpit"
           }
-        ]
+        ],
+        "game": {
+          "placeId": 126221718321318,
+          "name": "Clean The Ballpit!"
+        }
       },
       {
         "id": "plane",
@@ -483,7 +495,11 @@
             "title": "RBLXSTAT, Nov 19",
             "url": "https://rblxstat.com/blog/roblox-updates-and-records-2026-11-19"
           }
-        ]
+        ],
+        "game": {
+          "universeId": 10775036022,
+          "name": "Can You Land A Plane?"
+        }
       }
     ],
     "down": [
@@ -553,7 +569,11 @@
             "title": "RoStats, Oct 2026",
             "url": "https://rostats.io/charts/2026-10"
           }
-        ]
+        ],
+        "game": {
+          "universeId": 10769464063,
+          "name": "+1 Venom Evolution"
+        }
       }
     ]
   },
@@ -563,6 +583,36 @@
     "posts": [],
     "larp": null,
     "stories": [
+      {
+        "id": "ai-80",
+        "kicker": "ROBLOX HQ · NOV 13",
+        "headline": "80% Of Top Games Now Built With AI Help",
+        "dek": "Roblox says the robots are helping. The robots say nothing. Suspicious.",
+        "facts": [
+          [
+            "Top games using AI tools",
+            "80%+"
+          ],
+          [
+            "Build app",
+            "Testing"
+          ],
+          [
+            "Studio agents",
+            "Live"
+          ]
+        ],
+        "paras": [
+          "Roblox says creators of over 80% of its top games now use its AI creation tools. In Studio you can now connect an AI agent, make changes, playtest, read the logs and repeat until the game works.",
+          "Roblox also plans to merge its Assistant and its new Build app, so you could start a game on your phone and finish it on desktop. Handmade studs remain available. For now."
+        ],
+        "sources": [
+          {
+            "title": "Roblox, Nov 13",
+            "url": "https://about.roblox.com/newsroom/2026/11/building-the-next-era-of-creation-on-roblox"
+          }
+        ]
+      },
       {
         "id": "ai-anim",
         "kicker": "STUDIO BETA · NOV 11",
