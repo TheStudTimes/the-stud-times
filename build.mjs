@@ -194,18 +194,12 @@ function frontPage(ed) {
     <div class="cards">${f.quick.map((q) => `<a class="card" href="${href(q.link)}"><span class="big">${esc(q.big)}</span><b>${esc(q.head)}</b><span class="sub">${esc(q.sub)}</span><span class="more">READ MORE →</span></a>`).join('')}</div>
   </section>
   ${f.feature ? `<section id="feature">${label(f.feature.label || 'TEASED TODAY')}${story(f.feature)}</section>` : ''}
+  ${ed.flex && ed.flex.stories && ed.flex.stories.length ? `<section id="new-in-studio">${label('NEW IN STUDIO')}${ed.flex.stories.map(story).join('')}</section>` : ''}
   ${f.comingUp && f.comingUp.length ? `<section id="coming-up">
     ${label('COMING UP')}
     <div class="events">${f.comingUp.map((e) => `<div><b>${esc(e.when)}</b><span>${esc(e.what)}</span></div>`).join('')}</div>
     ${sources(f.comingUpSources)}
-  </section>` : ''}
-  <section class="ad" id="ad">
-    <span class="mono small">ADVERTISEMENT</span>
-    <span class="ad-h">WANTED: Handmade assets?</span>
-    <span class="ad-name">The Workshop</span>
-    <span>No AI. No prompting. Just drop them in.</span>
-    <a class="btn" href="https://ourworksshop.com" target="_blank" rel="noopener">OURWORKSSHOP.COM</a>
-  </section>`;
+  </section>` : ''}`;
 }
 
 function marketsPage(ed) {
@@ -258,7 +252,7 @@ function flexPage(ed) {
   return `${pageTitle('STUDIO FLEX', f.title, f.dek)}
   <section id="flex">${label('THE FLEX REEL')}<div class="flex-grid">${cells.join('')}</div></section>
   ${larp}
-  ${f.stories && f.stories.length ? `<section id="new-in-studio">${label('NEW IN STUDIO')}${f.stories.map(story).join('')}</section>` : ''}`;
+`;
 }
 
 function ripPage(ed) {
