@@ -35,10 +35,10 @@
         "link": "rising#ballpit"
       },
       {
-        "big": "-26%",
-        "head": "Egg heist crime wave cools",
-        "sub": "Steal An Egg, October vs September",
-        "link": "rising#egg-down"
+        "big": "CASH APP",
+        "head": "Cash App shows up on Roblox",
+        "sub": "Spotted today. Wallet link is a guess.",
+        "link": "markets#cashapp"
       },
       {
         "big": "R.I.P.",
@@ -224,6 +224,45 @@
       ]
     },
     "stories": [
+      {
+        "id": "cashapp",
+        "kicker": "PAYMENTS · SPOTTED NOV 21",
+        "headline": "Cash App Shows Up On Roblox",
+        "dek": "Your Robux habit may be getting a new way to hurt your wallet. Roblox has not said a word yet.",
+        "embed": "https://x.com/Zenuuux/status/2123841347509731405",
+        "facts": [
+          [
+            "Spotted by",
+            "@Zenuuux"
+          ],
+          [
+            "Confirmed by Roblox",
+            "Not yet"
+          ],
+          [
+            "Wallet link",
+            "A guess (unconfirmed)"
+          ]
+        ],
+        "paras": [
+          "Roblox news account Zenuux reports that Cash App is now officially on Roblox (see the post above). Roblox and Cash App have not announced anything themselves yet, so we are reporting this as spotted, not as confirmed.",
+          "Zenuux also thinks Cash App is very likely to be supported in the upcoming Roblox Wallet update. That part is a guess. What we do know: Roblox Wallet starts rolling out in December 2026 to eligible creators in the U.S., and Roblox has named Airwallex as its payments partner. We will update this story when anyone official says something."
+        ],
+        "sources": [
+          {
+            "title": "Zenuux on X",
+            "url": "https://x.com/Zenuuux/status/2123841347509731405"
+          },
+          {
+            "title": "GamesBeat, Roblox Wallet",
+            "url": "https://gamesbeat.com/roblox-dives-into-the-details-on-its-rdc-engine-updates-roblox-wallet-and-offline-play-press-briefing/"
+          },
+          {
+            "title": "Walkthroughs.net, RDC 2026",
+            "url": "https://walkthroughs.net/roblox-rdc-2026-browser-play-standalone-apps-and-wallet-explained"
+          }
+        ]
+      },
       {
         "id": "egg-money",
         "kicker": "GAMES · NOV 18",
