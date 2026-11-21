@@ -1,0 +1,7 @@
+{
+  "name": "the-stud-times",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Stud Times: Roblox news, made of studs.",
+  "scripts": { "build": "node build.mjs" }
+}
