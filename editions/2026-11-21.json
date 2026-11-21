@@ -880,5 +880,115 @@
     "dek": "Looking for work? Need a builder? Post it here, free while we launch.",
     "listings": [],
     "how": "DM @TheStudTimes on X with what you do (or need) and a link to your work. Free while we launch."
-  }
+  },
+  "tweets": [
+    {
+      "text": "Throw Food For Animals just hit 2,474,602 players at once.\n\nLast month it was not in the top 50. Today it is the #2 game on Roblox.\n\nThe animals have been fed nonstop for weeks. Nobody has asked if they are okay.",
+      "card": {
+        "theme": "paper",
+        "kicker": "BREAKING · NEW RECORD",
+        "big": "2,474,602",
+        "headline": "players at once in Throw Food For Animals",
+        "dek": "Not in the top 50 last month. Now the #2 game on Roblox. The animals are extremely full.",
+        "source": "SOURCE: RBLXSTAT",
+        "game": {
+          "universeId": 10766972131,
+          "name": "Throw Food For Animals"
+        },
+        "chart": {
+          "title": "AVERAGE PLAYERS, 7 DAYS (+33%)",
+          "bars": [
+            [
+              "WEEK BEFORE",
+              226404,
+              "~226K"
+            ],
+            [
+              "THIS WEEK",
+              301118,
+              "301K"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "text": "REST IN PEACE\nSteal a Brainrot (2026 – 2026)\n\n155,204 average players in October. Out of the top 20 by November 20.\n\nSurvived by 400 clones. None of them came to the funeral.",
+      "card": {
+        "theme": "ink",
+        "label": "REST IN PEACE · NOV 21, 2026",
+        "kicker": "OBITUARIES",
+        "big": "Survived by 400 clones.",
+        "dek": "155,204 average players in October. Out of the top 20 by November 20.",
+        "source": "SOURCE: ROSTATS, ENDGAMETOOLS",
+        "tomb": {
+          "name": "Steal a Brainrot",
+          "dates": "2026 – 2026",
+          "line": "Gone from the top 20. Never from our hearts."
+        }
+      }
+    },
+    {
+      "text": "Roblox stock (RBLX): $46.48\n\nDown 6.9% this week. Up 8.4% this month.\n\nIt keeps falling off the same jump in the obby, and there is no checkpoint.",
+      "card": {
+        "theme": "paper",
+        "label": "BUSINESS & MARKETS · NOV 21, 2026",
+        "kicker": "NYSE: RBLX",
+        "big": "$46.48",
+        "headline": "Roblox stock is doing an obby",
+        "dek": "It keeps falling off the same jump. There is no checkpoint.",
+        "source": "DAILY CLOSES, YAHOO FINANCE · NOT FINANCIAL ADVICE",
+        "chart": {
+          "line": "stock",
+          "chips": [
+            "▼ 6.9% THIS WEEK",
+            "▲ 8.4% THIS MONTH"
+          ]
+        }
+      }
+    },
+    {
+      "text": "Steal An Egg made $40M+ in three months.\n\nIt also lost 26% of its players from September to October.\n\nStill #1 on Roblox. The eggs were never the product.",
+      "card": {
+        "theme": "red",
+        "label": "BUSINESS & MARKETS · NOV 21, 2026",
+        "kicker": "STEAL AN EGG · LAST 3 MONTHS",
+        "big": "$40M+",
+        "headline": "made while losing 26% of its players",
+        "dek": "Still the #1 game on Roblox. Still printing money.",
+        "source": "SOURCE: BLOOMBERG, ROSTATS",
+        "game": {
+          "universeId": 10563114921,
+          "name": "Steal An Egg"
+        },
+        "chart": {
+          "title": "AVERAGE PLAYERS (-26%)",
+          "bars": [
+            [
+              "SEPTEMBER",
+              1815540,
+              "1.82M"
+            ],
+            [
+              "OCTOBER",
+              1341295,
+              "1.34M"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "text": "SPOTTED: Cash App is now officially on Roblox, per @Zenuuux.\n\nRoblox has not confirmed anything, and Wallet support is only a guess for now.\n\nYour allowance is nervous either way.",
+      "card": {
+        "theme": "paper",
+        "label": "BUSINESS & MARKETS · NOV 21, 2026",
+        "kicker": "SPOTTED TODAY · NOT CONFIRMED BY ROBLOX",
+        "big": "Cash App",
+        "headline": "is now officially on Roblox",
+        "dek": "Spotted by @Zenuuux. Whether it works with the new Roblox Wallet is a guess. Your allowance is nervous either way.",
+        "source": "SOURCE: @ZENUUUX ON X"
+      }
+    }
+  ]
 }

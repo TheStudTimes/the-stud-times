@@ -304,4 +304,81 @@ const archive = `${pageTitle('PAST EDITIONS', 'The Archive', 'Every edition of T
   <section class="archive">${editions.slice().reverse().map((ed) => `<a class="arch" href="archive/${esc(ed.date)}/index.html"><span class="mono">No. ${esc(ed.number)} · ${esc(fmtDate(ed.date))}</span><b>${esc(ed.front.lead.big)} ${esc(ed.front.lead.headline)}</b></a>`).join('')}</section>`;
 writeFileSync(join(OUT, 'archive.html'), shell(latest, 'index', archive, { archiveLink: false }).replace('<span class="on">Front Page</span>', '<a href="index.html">Front Page</a>'));
 
+// ---------- tweet drafts desk (/desk, unlinked and noindex): copy-paste drafts with card images ----------
+async function saveIcon(url, id) {
+  try {
+    const r = await fetch(url, { signal: AbortSignal.timeout(10000) });
+    if (!r.ok) return null;
+    mkdirSync(join(OUT, 'desk', 'img'), { recursive: true });
+    writeFileSync(join(OUT, 'desk', 'img', `${id}.png`), Buffer.from(await r.arrayBuffer()));
+    return `/desk/img/${id}.png`;
+  } catch { return null; }
+}
+async function deskPage(ed) {
+  const tweets = [];
+  for (const tw of ed.tweets || []) {
+    const card = tw.card ? { ...tw.card } : null;
+    if (card) {
+      if (!card.label) card.label = `NO. ${ed.number} · ${fmtDate(ed.date).toUpperCase()}`;
+      if (card.chart && card.chart.line === 'stock') card.chart = { prefix: '$', ...card.chart, line: ed.markets.stock.closes };
+      if (card.game) {
+        const gm = await resolveGame(card.game);
+        if (gm && gm.icon && gm.universeId) card.icon = await saveIcon(gm.icon, gm.universeId);
+        card.credit = `Image: Roblox${gm && gm.creator ? ' / ' + gm.creator : ''}`;
+        delete card.game;
+      }
+    }
+    tweets.push({ text: tw.text || '', card });
+  }
+  const data = JSON.stringify(tweets).replace(/</g, '\\u003c');
+  return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Tweet drafts · ${esc(fmtDate(ed.date))} · ${SITE}</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@500;700&display=swap">
+<style>
+body{margin:0;background:#F3ECDA;color:#1A1713;font-family:'Libre Baskerville',Georgia,serif}
+main{max-width:900px;margin:0 auto;padding:28px 18px 80px}
+h1{font-family:'UnifrakturMaguntia',serif;font-weight:400;font-size:46px;margin:0}
+.mono{font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:1px;text-transform:uppercase}
+.draft{border-top:3px double #1A1713;margin-top:28px;padding-top:18px}
+canvas{display:block;width:100%;height:auto;border:1px solid #1A1713}
+textarea{display:block;box-sizing:border-box;width:100%;min-height:150px;margin-top:12px;padding:12px;border:1px solid #1A1713;background:#FBF7EA;color:#1A1713;font:16px/1.5 'Libre Baskerville',Georgia,serif;resize:vertical}
+.row{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:10px}
+button{font-family:'IBM Plex Mono',monospace;font-weight:700;font-size:13px;letter-spacing:1px;text-transform:uppercase;min-height:44px;padding:0 16px;border:2px solid #1A1713;background:#1A1713;color:#F3ECDA;cursor:pointer}
+button.alt{background:transparent;color:#1A1713}
+.count{margin-left:auto}.count.over{color:#7A1F12;font-weight:700}
+</style>
+</head>
+<body>
+<main>
+<h1>${SITE}</h1>
+<p class="mono">Tweet drafts · No. ${esc(ed.number)} · ${esc(fmtDate(ed.date))} · drafts only, nothing here is posted for you</p>
+${tweets.map((tw, i) => `<section class="draft" id="draft-${i}">
+<p class="mono">Draft ${i + 1} of ${tweets.length}</p>
+${tw.card ? '<canvas width="1600" height="900" role="img" aria-label="Card image for draft ' + (i + 1) + '"></canvas>' : '<canvas width="1600" height="900" hidden></canvas>'}
+<textarea aria-label="Tweet text for draft ${i + 1}">${esc(tw.text)}</textarea>
+<div class="row"><button class="copy-text" type="button">Copy text</button>${tw.card ? '<button class="copy-img alt" type="button">Copy image</button><button class="dl-img alt" type="button">Download image</button>' : ''}<span class="mono count"></span></div>
+</section>`).join('\n')}
+</main>
+<script>window.STUD_DATE=${JSON.stringify(ed.date)};window.STUD_TWEETS=${data};</script>
+<script src="/desk/cards.js"></script>
+</body>
+</html>`;
+}
+const withTweets = editions.filter((ed) => Array.isArray(ed.tweets) && ed.tweets.length);
+if (withTweets.length) {
+  mkdirSync(join(OUT, 'desk'), { recursive: true });
+  for (const ed of withTweets) {
+    const html = await deskPage(ed);
+    writeFileSync(join(OUT, 'desk', `${ed.date}.html`), html);
+    if (ed === withTweets[withTweets.length - 1]) writeFileSync(join(OUT, 'desk', 'index.html'), html);
+  }
+}
+
 console.log(`Built ${editions.length} edition(s). Latest: ${latest.date}`);

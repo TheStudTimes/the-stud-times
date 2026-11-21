@@ -28,4 +28,18 @@ One file per day: `editions/YYYY-MM-DD.json`. Copy the newest one and replace th
 - `help.listings` — `[{ "kind": "HIRING" | "LOOKING FOR WORK", "text": "...", "contact": "https://..." }]`.
 - `correction` — the funny line at the bottom.
 
+## Tweet drafts (`tweets`)
+Every edition also carries 3–5 tweet drafts for @TheStudTimes. They are **drafts only**: nothing is ever posted for Kale. The build turns them into a copy-paste page at `/desk` (latest) and `/desk/<date>` (unlinked, noindex) with a 1600x900 card image per draft, drawn by `public/desk/cards.js`.
+
+`"tweets": [{ "text": "...", "card": { ... } }]`
+- `text`: under 280 characters, no emojis, no links unless Kale asks. Family friendly with a bit of dark humor aimed at games, clones, trends and the stock; never at real people, kids or tragedies. Every number must already be in this edition.
+- `card.theme`: `"paper"`, `"ink"` or `"red"`. Vary them across the day.
+- `card.kicker`, `card.big` (giant number or 1–2 words), `card.headline`, `card.dek`, `card.source` (e.g. `"SOURCE: RBLXSTAT"`), optional `card.label` (top right; defaults to edition number and date).
+- Every card should show the story, not just text. Pick what fits:
+  - `card.game`: `{"universeId": 123, "name": "..."}`. The build fetches the official game icon and credits it. Never guess an id.
+  - `card.chart` bars: `{"title": "AVERAGE PLAYERS", "bars": [["SEPTEMBER", 1815540, "1.82M"], ["OCTOBER", 1341295, "1.34M"]]}`. Real numbers from the edition only; if a value is worked out from a percentage, show it with `~`. The last bar is highlighted.
+  - `card.chart` line: `{"line": [["Nov 2", 42.88], ...], "prefix": "$", "chips": ["▼ 6.9% THIS WEEK"]}`, or `"line": "stock"` to reuse `markets.stock.closes`. Use a line only when you have the real daily points; never draw an invented curve.
+  - `card.tomb`: `{"name": "...", "dates": "2026 – 2026", "line": "..."}` for Rest In Peace stories.
+- No Roblox logo, no other logos, no photos of people.
+
 Check it builds: `node build.mjs`.

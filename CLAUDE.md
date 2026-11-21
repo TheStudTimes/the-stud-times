@@ -51,6 +51,13 @@ Read this first. It is the full story of The Stud Times so far, written at the e
 - **Studio Flex fill order:** (1) Kale's tips, (2) impressive Roblox Studio builds/dev clips, (3) cool recent Roblox videos (update showcases, official teasers, news). YouTube is the best-indexed source; X search is weak, so Kale's tips matter.
 - **Research sources:** rblxstat.com "This Week on Roblox", bloxbunny.com/trending-roblox-games, endgametools.com/en/roblox/charts, rostats.io/charts/<YYYY-MM>, GGRecon, DevForum/create.roblox.com updates, about.roblox.com, official @Roblox / @RobloxCreators / @RobloxDevRel posts, Yahoo Finance or StockAnalysis for RBLX.
 
+## Tweet drafts
+
+- Each edition has a `tweets` list (see `EDITIONS.md`). The build makes a copy-paste page at https://www.thestudtimes.com/desk (unlinked, noindex): text with a Copy button and a card image with Copy/Download buttons. Kale posts them himself, 2–3 a day. Still drafts only.
+- Kale wants every card to show the story: the game icon, a chart from real numbers, a tombstone. Not text alone. Tone: family friendly with a bit of dark humor for the Roblox community.
+- Automatic posting was discussed on Nov 21 and parked: it needs a paid X developer account (about $0.015 per post, $0.20 with a link) and Kale's keys in GitHub secrets.
+- Brand extras made Nov 21 on the Design canvas "Stud Times tweet cards: Nov 21" (https://claude.ai/artifact/Hm4WQvGPjmKvE1qirEShwq): three brick icon options (A red on paper, B paper on red, C paper on ink) and an all-black X banner. Kale loves the brick icon and wants it as the paper's icon; he has not picked A, B or C yet.
+
 ## Hard rules
 
 - Every story links the sources it was written from. Never invent posts, numbers, quotes or game ids. Label estimates and rumors ("unconfirmed").
@@ -70,5 +77,4 @@ Read this first. It is the full story of The Stud Times so far, written at the e
 
 ## Ideas not started yet
 
-- Daily @TheStudTimes tweet drafts (could live on the Desk board, drafts only).
 - Interviews with devs; a bigger ads offer once traffic grows.
