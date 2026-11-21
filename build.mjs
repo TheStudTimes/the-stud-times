@@ -148,6 +148,10 @@ function shell(ed, current, body, { big = false, depth = 0, archiveLink = true }
 <meta name="twitter:site" content="@TheStudTimes">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(ed.front.lead.big + ' ' + ed.front.lead.headline)}">
+<link rel="icon" href="${up}favicon.svg" type="image/svg+xml">
+<link rel="icon" href="${up}favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="${up}apple-touch-icon.png">
+<meta name="theme-color" content="#1A1713">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@500;700&display=swap">
 <link rel="stylesheet" href="${up}style.css">
