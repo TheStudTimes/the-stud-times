@@ -630,6 +630,21 @@
     "dek": "The best Roblox builds, showcases and clips worth watching right now.",
     "posts": [
       {
+        "url": "https://x.com/RobloxCreators/status/2123511334101012932",
+        "caption": "New in Studio Beta: 2D particles for UI. Sparkle, hit feedback and celebration bursts.",
+        "creator": "@RobloxCreators"
+      },
+      {
+        "url": "https://x.com/RootieDaHoodie/status/2123805718595723697",
+        "caption": "\"I am going to cry. Thank you Roblox.\" A very happy player.",
+        "creator": "@RootieDaHoodie"
+      },
+      {
+        "url": "https://x.com/realsp00kface/status/2123888070785392791",
+        "caption": "Trading floor drama: an NFL Wilson item goes for a lowball, and the regret is real.",
+        "creator": "@realsp00kface"
+      },
+      {
         "url": "https://x.com/ooStarwarsbccoo/status/2121981562866512338",
         "caption": "Picked by the editor.",
         "creator": "@ooStarwarsbccoo"
@@ -639,24 +654,43 @@
         "caption": "Do Not Stop update: all the new monsters and every map, in one showcase."
       },
       {
-        "url": "https://www.youtube.com/watch?v=8soV_1hA7E0",
-        "caption": "A Christmas test place was spotted on Roblox. Is the event confirmed?"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=QmsIXJvo2GQ",
-        "caption": "Studio showcase: a next-gen motion-matching movement system for Roblox."
-      },
-      {
         "url": "https://www.youtube.com/watch?v=vw2VJnY1ZZY",
         "caption": "Studio showcase: a full VFX pack in action."
-      },
-      {
-        "url": "https://www.youtube.com/shorts/eeErdkuM5VM",
-        "caption": "Roblox Japan's account teased a Christmas event first."
       }
     ],
     "larp": null,
     "stories": [
+      {
+        "id": "ui-particles",
+        "kicker": "STUDIO BETA · THIS WEEK",
+        "headline": "Your UI Can Sparkle Now",
+        "dek": "2D particles land in Studio Beta. Buttons everywhere are about to get very excited.",
+        "embed": "https://x.com/RobloxCreators/status/2123511334101012932",
+        "facts": [
+          [
+            "Feature",
+            "2D UI particles"
+          ],
+          [
+            "Status",
+            "Studio Beta"
+          ],
+          [
+            "Controls",
+            "Speed, drag, spread"
+          ]
+        ],
+        "paras": [
+          "Roblox Creators announced 2D particles for UI, now in Studio Beta. You can control their speed, drag and spread, then animate color, size and transparency over time.",
+          "Roblox pitches it for hit feedback, celebration bursts and ambient sparkle. In other words: every simulator's \"+1\" pop-up is about to get a lot shinier."
+        ],
+        "sources": [
+          {
+            "title": "Roblox Creators on X",
+            "url": "https://x.com/RobloxCreators/status/2123511334101012932"
+          }
+        ]
+      },
       {
         "id": "ai-80",
         "kicker": "ROBLOX HQ · NOV 13",
