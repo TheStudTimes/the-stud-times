@@ -35,10 +35,11 @@ Every edition also carries 3–5 tweet drafts for @TheStudTimes. They are **draf
 - `text`: under 280 characters, no emojis, no links unless Kale asks. Family friendly with a bit of dark humor aimed at games, clones, trends and the stock; never at real people, kids or tragedies. Every number must already be in this edition.
 - `card.theme`: `"paper"`, `"ink"` or `"red"`. Vary them across the day.
 - `card.kicker`, `card.big` (giant number or 1–2 words), `card.headline`, `card.dek`, `card.source` (e.g. `"SOURCE: RBLXSTAT"`), optional `card.label` (top right; defaults to edition number and date).
-- Every card should show the story, not just text. Pick what fits:
+- Every card should show the story, not just text. The visual fills the right half of the card (Kale wants pictures really big, at least half the image). With a game and a chart, the wide game thumbnail sits on top and the chart under it; with a game alone, the square icon fills the half. Pick what fits:
   - `card.game`: `{"universeId": 123, "name": "..."}`. The build fetches the official game icon and credits it. Never guess an id.
   - `card.chart` bars: `{"title": "AVERAGE PLAYERS", "bars": [["SEPTEMBER", 1815540, "1.82M"], ["OCTOBER", 1341295, "1.34M"]]}`. Real numbers from the edition only; if a value is worked out from a percentage, show it with `~`. The last bar is highlighted.
   - `card.chart` line: `{"line": [["Nov 2", 42.88], ...], "prefix": "$", "chips": ["▼ 6.9% THIS WEEK"]}`, or `"line": "stock"` to reuse `markets.stock.closes`. Use a line only when you have the real daily points; never draw an invented curve.
+  - `card.art`: `"wallet"` draws a generic wallet for money stories that have no game picture.
   - `card.tomb`: `{"name": "...", "dates": "2026 – 2026", "line": "..."}` for Rest In Peace stories.
 - No Roblox logo, no other logos, no photos of people.
 

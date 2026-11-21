@@ -38,34 +38,49 @@
     for (const sx of [7, 23, 39]) ctx.fillRect(x + sx, y + 2, 12, 8);
   }
 
+  function cover(ctx, img, x, y, w, h) {
+    const r = Math.max(w / img.width, h / img.height), sw = w / r, sh = h / r;
+    ctx.drawImage(img, (img.width - sw) / 2, (img.height - sh) / 2, sw, sh, x, y, w, h);
+  }
+
+  // horizontal bars: label, bar, value. The last row is highlighted.
   function drawBars(ctx, t, c, x, y, w, h) {
     const rows = c.bars || [];
     if (!rows.length) return;
-    ctx.textBaseline = 'alphabetic';
-    ctx.textAlign = 'left';
+    ctx.textBaseline = 'alphabetic'; ctx.textAlign = 'left';
     ctx.fillStyle = t.accent; spacing(ctx, 2); ctx.font = F.mono(20, 700);
-    if (c.title) ctx.fillText(c.title, x, y + 20);
-    const top = y + 40 + 52, base = y + h - 36;
+    if (c.title) ctx.fillText(c.title, x, y + 22);
+    const top = y + (c.title ? 40 : 0), rh = Math.min(96, (y + h - top) / rows.length);
     const max = Math.max(...rows.map((r) => r[1]));
-    const gap = 36, bw = Math.min(190, (w - gap * (rows.length - 1)) / rows.length);
-    const total = bw * rows.length + gap * (rows.length - 1);
-    let bx = x + (w - total) / 2;
+    spacing(ctx, 1); ctx.font = F.mono(17, 500);
+    const lw = Math.max(...rows.map((r) => ctx.measureText(r[0]).width)) + 18;
+    spacing(ctx, 0); ctx.font = F.head(40, 900);
+    const vw = Math.max(...rows.map((r) => ctx.measureText(r[2] || String(r[1])).width)) + 16;
+    const bw = w - lw - vw, bh = Math.min(54, rh - 16);
     rows.forEach((r, i) => {
-      const bh = Math.max(6, ((base - top) * r[1]) / max);
-      const last = i === rows.length - 1;
-      ctx.globalAlpha = last ? 1 : 0.45;
-      ctx.fillStyle = last ? t.accent : t.fg;
-      ctx.fillRect(bx, base - bh, bw, bh);
-      ctx.globalAlpha = 1;
-      ctx.fillStyle = t.fg; ctx.textAlign = 'center'; spacing(ctx, 0);
-      ctx.font = F.head(40, 900);
-      ctx.fillText(r[2] || String(r[1]), bx + bw / 2, base - bh - 14);
-      spacing(ctx, 1); ctx.font = F.mono(18, 500);
-      ctx.fillText(r[0], bx + bw / 2, base + 28);
-      bx += bw + gap;
+      const cy = top + i * rh + rh / 2, len = Math.max(6, (bw * r[1]) / max), last = i === rows.length - 1;
+      ctx.fillStyle = t.fg; spacing(ctx, 1); ctx.font = F.mono(17, 500);
+      ctx.fillText(r[0], x, cy + 6);
+      ctx.globalAlpha = last ? 1 : 0.45; ctx.fillStyle = last ? t.accent : t.fg;
+      ctx.fillRect(x + lw, cy - bh / 2, len, bh);
+      ctx.globalAlpha = 1; ctx.fillStyle = t.fg; spacing(ctx, 0); ctx.font = F.head(40, 900);
+      ctx.fillText(r[2] || String(r[1]), x + lw + len + 12, cy + 14);
     });
-    ctx.fillStyle = t.fg; ctx.fillRect(x, base, w, 2);
-    ctx.textAlign = 'left';
+  }
+
+  // a generic wallet drawing for money stories with no game picture (no logos)
+  function drawWallet(ctx, t, x, y, w, h) {
+    ctx.fillStyle = t.accent; ctx.fillRect(x, y, w, h);
+    const fg = t.bg, cx = x + w / 2, cy = y + h / 2, bw = Math.min(460, w - 120), bh = bw * 0.66;
+    const bx = cx - bw / 2, by = cy - bh / 2 + 40;
+    ctx.fillStyle = fg; ctx.globalAlpha = 0.55; ctx.fillRect(bx + 50, by - 96, bw - 130, 130);
+    ctx.globalAlpha = 0.8; ctx.fillRect(bx + 90, by - 58, bw - 150, 100);
+    ctx.globalAlpha = 1;
+    ctx.beginPath(); ctx.roundRect(bx, by, bw, bh, 26); ctx.fill();
+    ctx.fillStyle = t.accent; ctx.fillRect(bx, by + 56, bw, 5);
+    ctx.fillStyle = fg; ctx.strokeStyle = t.accent; ctx.lineWidth = 6;
+    ctx.beginPath(); ctx.roundRect(bx + bw - 150, by + bh / 2 - 44, 180, 88, 20); ctx.fill(); ctx.stroke();
+    ctx.fillStyle = t.accent; ctx.beginPath(); ctx.arc(bx + bw - 100, by + bh / 2, 17, 0, 7); ctx.fill();
   }
 
   function drawLine(ctx, t, c, x, y, w, h) {
@@ -108,7 +123,7 @@
   }
 
   function drawTomb(ctx, t, tomb, x, y, w, h) {
-    const tw = Math.min(480, w), th = Math.min(580, h), tx = x + (w - tw) / 2, ty = y + (h - th) / 2;
+    const tw = Math.min(540, w), th = Math.min(612, h), tx = x + (w - tw) / 2, ty = y + (h - th) / 2;
     ctx.fillStyle = t.bg === PAPER ? INK : PAPER;
     const ink = t.bg === PAPER ? PAPER : INK;
     ctx.beginPath();
@@ -130,7 +145,7 @@
     ctx.textAlign = 'left';
   }
 
-  function draw(canvas, card, icon) {
+  function draw(canvas, card, icon, wide) {
     const ctx = canvas.getContext('2d');
     const t = THEMES[card.theme] || THEMES.paper;
     ctx.fillStyle = t.bg; ctx.fillRect(0, 0, W, H);
@@ -160,22 +175,22 @@
 
     // body
     const top = 166, bot = 796;
-    const hasVisual = !!(card.tomb || icon || card.chart);
-    const textW = hasVisual ? 800 : R - L;
-    const vx = L + textW + 54, vw = R - vx, vh = bot - top - 20, vy = top + 10;
+    const hasVisual = !!(card.tomb || card.art || icon || wide || card.chart);
+    const textW = hasVisual ? 644 : R - L;
+    const vx = 800, vw = R - vx, vy = top + 6, vh = bot - vy;
 
     ctx.textAlign = 'left';
     const blocks = [];
     if (card.kicker) blocks.push({ kind: 'kicker', h: 40 });
     if (card.big) {
       const big = String(card.big);
-      let size = fit(ctx, big, (s) => F.head(s, 900), hasVisual ? 220 : 260, 112, textW), lines = [big];
-      if (ctx.measureText(big).width > textW) { size = 112; ctx.font = F.head(size, 900); lines = wrap(ctx, big, textW); }
+      let size = fit(ctx, big, (s) => F.head(s, 900), hasVisual ? 220 : 260, 100, textW), lines = [big];
+      if (ctx.measureText(big).width > textW) { size = 104; ctx.font = F.head(size, 900); lines = wrap(ctx, big, textW); }
       blocks.push({ kind: 'big', size, lines, h: lines.length * size * 1.0 });
     }
     if (card.headline) {
       let size = 64; ctx.font = F.head(size, 700); let lines = wrap(ctx, card.headline, textW);
-      if (lines.length > 2) { size = 52; ctx.font = F.head(size, 700); lines = wrap(ctx, card.headline, textW); }
+      if (lines.length > 2) { size = 50; ctx.font = F.head(size, 700); lines = wrap(ctx, card.headline, textW); }
       blocks.push({ kind: 'headline', size, lines, h: lines.length * size * 1.14 });
     }
     if (card.dek) {
@@ -201,19 +216,27 @@
       y += b.h + gap;
     }
 
-    // visual column
+    // visual column: the right half of the card
     if (card.tomb) { drawTomb(ctx, t, card.tomb, vx, vy, vw, vh); return; }
+    const credit = (x, y, w) => {
+      const txt = (card.credit || 'Image: Roblox').toUpperCase();
+      spacing(ctx, 1); fit(ctx, txt, (s) => F.mono(s, 500), 15, 10, w - 24);
+      const tw = ctx.measureText(txt).width;
+      ctx.fillStyle = t.bg; ctx.fillRect(x, y - 30, tw + 22, 30);
+      ctx.fillStyle = t.fg; ctx.textAlign = 'left'; ctx.fillText(txt, x + 11, y - 9);
+    };
+    const pic = card.chart ? wide || icon : icon || wide;
     let cy = vy;
-    if (icon) {
-      const size = card.chart ? 236 : 400, ix = vx + (vw - size) / 2;
-      if (!card.chart) cy = vy + (vh - size - 40) / 2;
-      ctx.drawImage(icon, ix, cy, size, size);
-      ctx.strokeStyle = t.fg; ctx.lineWidth = 3; ctx.strokeRect(ix, cy, size, size);
-      ctx.fillStyle = t.fg; ctx.textAlign = 'center'; spacing(ctx, 1);
-      fit(ctx, card.credit || 'IMAGE: ROBLOX', (s) => F.mono(s, 500), 16, 11, vw);
-      ctx.fillText((card.credit || 'Image: Roblox').toUpperCase(), vx + vw / 2, cy + size + 26);
-      ctx.textAlign = 'left';
-      cy += size + 50;
+    if (pic) {
+      const ph = card.chart ? Math.round((vw * 9) / 16) : vh;
+      const pw = card.chart ? vw : Math.min(vw, vh), px0 = vx + (vw - pw) / 2;
+      cover(ctx, pic, px0, cy, pw, ph);
+      ctx.strokeStyle = t.fg; ctx.lineWidth = 3; ctx.strokeRect(px0, cy, pw, ph);
+      credit(px0, cy + ph, pw);
+      cy += ph + 22;
+    } else if (card.art === 'wallet') {
+      const ph = card.chart ? Math.round((vw * 9) / 16) : vh;
+      drawWallet(ctx, t, vx, cy, vw, ph); cy += ph + 22;
     }
     if (card.chart) {
       const ch = vy + vh - cy;
@@ -238,7 +261,7 @@
       const tw = tweets[i], root = document.getElementById('draft-' + i);
       if (!root) continue;
       const canvas = root.querySelector('canvas'), ta = root.querySelector('textarea'), count = root.querySelector('.count');
-      if (tw.card) draw(canvas, tw.card, await loadImage(tw.card.icon));
+      if (tw.card) draw(canvas, tw.card, await loadImage(tw.card.icon), await loadImage(tw.card.wide));
       const upd = () => { count.textContent = ta.value.length + ' / 280'; count.classList.toggle('over', ta.value.length > 280); };
       ta.addEventListener('input', upd); upd();
       root.querySelector('.copy-text').addEventListener('click', async (e) => {

@@ -324,6 +324,7 @@ async function deskPage(ed) {
       if (card.game) {
         const gm = await resolveGame(card.game);
         if (gm && gm.icon && gm.universeId) card.icon = await saveIcon(gm.icon, gm.universeId);
+        if (gm && gm.thumb && gm.universeId) card.wide = await saveIcon(gm.thumb, gm.universeId + '-wide');
         card.credit = `Image: Roblox${gm && gm.creator ? ' / ' + gm.creator : ''}`;
         delete card.game;
       }
