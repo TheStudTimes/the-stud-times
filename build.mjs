@@ -248,7 +248,7 @@ function flexPage(ed) {
     return `<figure class="clip">
       <span class="clip-no">No. ${i + 1}</span>
       ${em ? em.html : (p.image ? image(p.image, 220) : '')}
-      <figcaption>${esc(p.caption || '')}${p.creator ? ` · <b>${esc(p.creator)}</b>` : ''}${p.url ? ` · <a href="${safeUrl(p.url)}" target="_blank" rel="noopener">Original post</a>` : ''}</figcaption>
+      <figcaption>${[p.caption ? esc(p.caption) : '', p.creator ? `<b>${esc(p.creator)}</b>` : '', p.url ? `<a href="${safeUrl(p.url)}" target="_blank" rel="noopener">Original post</a>` : ''].filter(Boolean).join(' · ')}</figcaption>
     </figure>`;
   };
   const list = (f.posts || []).filter((p) => p.url || p.image).slice(0, SLOTS);

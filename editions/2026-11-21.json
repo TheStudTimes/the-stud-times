@@ -260,7 +260,11 @@
             "title": "RoStats, Oct 2026",
             "url": "https://rostats.io/charts/2026-10"
           }
-        ]
+        ],
+        "game": {
+          "universeId": 10563114921,
+          "name": "Steal An Egg"
+        }
       },
       {
         "id": "earnings",
@@ -583,7 +587,11 @@
             "title": "Endgametools charts",
             "url": "https://endgametools.com/en/roblox/charts"
           }
-        ]
+        ],
+        "game": {
+          "universeId": 10563114921,
+          "name": "Steal An Egg"
+        }
       },
       {
         "id": "venom",
@@ -646,7 +654,7 @@
       },
       {
         "url": "https://x.com/ooStarwarsbccoo/status/2121981562866512338",
-        "caption": "Picked by the editor.",
+        "caption": "",
         "creator": "@ooStarwarsbccoo"
       },
       {
