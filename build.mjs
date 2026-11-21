@@ -305,6 +305,7 @@ const archive = `${pageTitle('PAST EDITIONS', 'The Archive', 'Every edition of T
 writeFileSync(join(OUT, 'archive.html'), shell(latest, 'index', archive, { archiveLink: false }).replace('<span class="on">Front Page</span>', '<a href="index.html">Front Page</a>'));
 
 // ---------- tweet drafts desk (/desk, unlinked and noindex): copy-paste drafts with card images ----------
+const TWEET_TAIL = 'thestudtimes.com #Roblox #RobloxNews';
 async function saveIcon(url, id) {
   try {
     const r = await fetch(url, { signal: AbortSignal.timeout(10000) });
@@ -329,7 +330,10 @@ async function deskPage(ed) {
         delete card.game;
       }
     }
-    tweets.push({ text: tw.text || '', card });
+    // every draft ends with the site link and the two hashtags (Kale's standing ask)
+    let text = (tw.text || '').trim();
+    if (!/thestudtimes\.com/i.test(text)) text += `\n\n${TWEET_TAIL}`;
+    tweets.push({ text, card });
   }
   const data = JSON.stringify(tweets).replace(/</g, '\\u003c');
   return `<!doctype html>
