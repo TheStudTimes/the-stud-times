@@ -178,3 +178,5 @@ nav .on { background: var(--ink); color: var(--paper); }
 .clip-empty .slot-h { font-family: var(--head); font-weight: 900; font-size: 22px; }
 .clip-empty span { font-size: 14px; }
 .story-embed { padding: 14px; background: #FBF6E9; border: 1px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); }
+.clip .yt { border-width: 1px; }
+.yt.tall { aspect-ratio: 9 / 16; max-height: 520px; margin: 0 auto; width: 100%; }

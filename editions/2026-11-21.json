@@ -47,7 +47,7 @@
         "link": "rest-in-peace"
       },
       {
-        "big": "🎄",
+        "big": "XMAS",
         "head": "Roblox teases a Christmas event",
         "sub": "Official teaser on X. Date not confirmed.",
         "link": "index#feature"
@@ -627,12 +627,32 @@
   },
   "flex": {
     "title": "Built Different",
-    "dek": "The craziest things people made in Roblox Studio today.",
+    "dek": "The best Roblox builds, showcases and clips worth watching right now.",
     "posts": [
       {
         "url": "https://x.com/ooStarwarsbccoo/status/2121981562866512338",
-        "caption": "Today's Studio Flex, straight from the timeline.",
+        "caption": "Picked by the editor.",
         "creator": "@ooStarwarsbccoo"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=c2N2Fm4wW1E",
+        "caption": "Do Not Stop update: all the new monsters and every map, in one showcase."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=8soV_1hA7E0",
+        "caption": "A Christmas test place was spotted on Roblox. Is the event confirmed?"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=QmsIXJvo2GQ",
+        "caption": "Studio showcase: a next-gen motion-matching movement system for Roblox."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=vw2VJnY1ZZY",
+        "caption": "Studio showcase: a full VFX pack in action."
+      },
+      {
+        "url": "https://www.youtube.com/shorts/eeErdkuM5VM",
+        "caption": "Roblox Japan's account teased a Christmas event first."
       }
     ],
     "larp": null,

@@ -125,7 +125,7 @@ function embed(url) {
   const u = String(url || '');
   let m;
   if (/^https:\/\/(x|twitter)\.com\/[^/]+\/status\/\d+/.test(u)) return { kind: 'x', html: `<blockquote class="twitter-tweet" data-dnt="true" data-theme="light" data-chrome="transparent nofooter"><a href="${esc(u.replace('://x.com', '://twitter.com'))}"></a></blockquote>` };
-  if ((m = u.match(/^https:\/\/(?:www\.)?(?:youtube\.com\/(?:watch\?v=|shorts\/)|youtu\.be\/)([\w-]{6,})/))) return { kind: 'yt', html: `<div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/${esc(m[1])}" title="YouTube video" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>` };
+  if ((m = u.match(/^https:\/\/(?:www\.)?(?:youtube\.com\/(?:watch\?v=|shorts\/)|youtu\.be\/)([\w-]{6,})/))) return { kind: 'yt', html: `<div class="yt${/\/shorts\//.test(u) ? ' tall' : ''}"><iframe src="https://www.youtube-nocookie.com/embed/${esc(m[1])}" title="YouTube video" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>` };
   if ((m = u.match(/^https:\/\/(?:www\.)?tiktok\.com\/@[\w.]+\/video\/(\d+)/))) return { kind: 'tt', html: `<blockquote class="tiktok-embed" cite="${esc(u)}" data-video-id="${esc(m[1])}"><section><a href="${esc(u)}">Watch on TikTok</a></section></blockquote>` };
   return null;
 }
@@ -256,7 +256,7 @@ function flexPage(ed) {
   const cells = list.map(post).concat(Array.from({ length: Math.max(0, SLOTS - list.length) }, (_, k) => empty(list.length + k)));
   const larp = f.larp && (f.larp.url || f.larp.image) ? `<section class="box" id="larp"><span class="box-h">Studio Larp of the Day</span>${post(f.larp, 0).replace('No. 1', 'LARP')}</section>` : '';
   return `${pageTitle('STUDIO FLEX', f.title, f.dek)}
-  <section id="flex">${label('TODAY\'S TOP ' + SLOTS)}<div class="flex-grid">${cells.join('')}</div></section>
+  <section id="flex">${label('THE FLEX REEL')}<div class="flex-grid">${cells.join('')}</div></section>
   ${larp}
   ${f.stories && f.stories.length ? `<section id="new-in-studio">${label('NEW IN STUDIO')}${f.stories.map(story).join('')}</section>` : ''}`;
 }

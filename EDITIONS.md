@@ -3,6 +3,7 @@
 One file per day: `editions/YYYY-MM-DD.json`. Copy the newest one and replace the content. `number` goes up by 1 each day.
 
 ## Rules
+0. No emojis anywhere in edition text (headlines, cards, captions, jokes). Use words or numbers; the ▲▼ arrows in fact boxes are fine.
 1. Every number comes from a source you actually read, and every story lists its `sources` (title + https URL).
 2. Estimates are allowed only when labelled. Write them in bold (`**Our estimate: ...**`) and explain the math. Deals use `"tag": "ESTIMATE"` or `"REPORTED"`.
 3. Family friendly. Funny headlines, accurate facts. Never joke about safety issues, lawsuits involving minors, tragedies or politics; leave those out.
@@ -22,7 +23,7 @@ One file per day: `editions/YYYY-MM-DD.json`. Copy the newest one and replace th
 - `markets.stories` — business news from the last 30 days.
 - `markets.dealStories` / `markets.bigDeals` — game deals; tag every price REPORTED or ESTIMATE.
 - `rising.up` / `rising.down` — 2–4 stories each, with developer, before/after numbers and records.
-- `flex.posts` — up to 3 `[{ "url": "https://x.com/.../status/...", "caption": "what they built", "creator": "@name" }]`, best first; `flex.larp` same shape or `null`; `flex.stories` — new Studio and creation news.
+- `flex.posts` — up to 6 (fills a 3x2 grid; empty slots show a 'tag @TheStudTimes' invite). Mix builds/showcases with cool recent Roblox clips and news videos; Kale's inbox picks go first; `[{ "url": "https://x.com/.../status/...", "caption": "what they built", "creator": "@name" }]`, best first; `flex.larp` same shape or `null`; `flex.stories` — new Studio and creation news.
 - `rip.stones` — games that faded: name, dates, fact with numbers, one joke, sources.
 - `help.listings` — `[{ "kind": "HIRING" | "LOOKING FOR WORK", "text": "...", "contact": "https://..." }]`.
 - `correction` — the funny line at the bottom.
