@@ -363,7 +363,7 @@ button.alt{background:transparent;color:#1A1713}
 <body>
 <main>
 <h1>${SITE}</h1>
-<p class="mono">Tweet drafts · No. ${esc(ed.number)} · ${esc(fmtDate(ed.date))} · drafts only, nothing here is posted for you</p>
+<p class="mono">Tweet drafts · No. ${esc(ed.number)} · ${esc(fmtDate(ed.date))} · drafts only, nothing here is posted for you · <a href="/desk/pinned" style="color:#7A1F12">pinned tweet</a> · <a href="/desk" style="color:#7A1F12">today</a></p>
 ${tweets.map((tw, i) => `<section class="draft" id="draft-${i}">
 <p class="mono">Draft ${i + 1} of ${tweets.length}</p>
 ${tw.card ? '<canvas width="1600" height="900" role="img" aria-label="Card image for draft ' + (i + 1) + '"></canvas>' : '<canvas width="1600" height="900" hidden></canvas>'}
@@ -375,6 +375,12 @@ ${tw.card ? '<canvas width="1600" height="900" role="img" aria-label="Card image
 <script src="/desk/cards.js"></script>
 </body>
 </html>`;
+}
+// the pinned intro tweet (pinned.json) gets its own page at /desk/pinned
+if (existsSync(join(ROOT, 'pinned.json'))) {
+  mkdirSync(join(OUT, 'desk'), { recursive: true });
+  const pinned = JSON.parse(readFileSync(join(ROOT, 'pinned.json'), 'utf8'));
+  writeFileSync(join(OUT, 'desk', 'pinned.html'), await deskPage({ ...latest, tweets: [pinned] }));
 }
 const withTweets = editions.filter((ed) => Array.isArray(ed.tweets) && ed.tweets.length);
 if (withTweets.length) {

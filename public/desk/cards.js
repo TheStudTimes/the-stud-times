@@ -68,6 +68,15 @@
     });
   }
 
+  // the paper's own stud brick, big, on an accent panel
+  function drawBrick(ctx, t, x, y, w, h) {
+    ctx.fillStyle = t.accent; ctx.fillRect(x, y, w, h);
+    const bw = Math.min(w - 150, 520), u = bw / 220, bx = x + (w - bw) / 2, by = y + (h - 124 * u) / 2;
+    ctx.fillStyle = t.bg;
+    ctx.fillRect(bx, by + 32 * u, bw, 92 * u);
+    for (const sx of [22, 87, 152]) ctx.fillRect(bx + sx * u, by, 46 * u, 32 * u);
+  }
+
   // a generic wallet drawing for money stories with no game picture (no logos)
   function drawWallet(ctx, t, x, y, w, h) {
     ctx.fillStyle = t.accent; ctx.fillRect(x, y, w, h);
@@ -234,9 +243,9 @@
       ctx.strokeStyle = t.fg; ctx.lineWidth = 3; ctx.strokeRect(px0, cy, pw, ph);
       credit(px0, cy + ph, pw);
       cy += ph + 22;
-    } else if (card.art === 'wallet') {
+    } else if (card.art) {
       const ph = card.chart ? Math.round((vw * 9) / 16) : vh;
-      drawWallet(ctx, t, vx, cy, vw, ph); cy += ph + 22;
+      (card.art === 'brick' ? drawBrick : drawWallet)(ctx, t, vx, cy, vw, ph); cy += ph + 22;
     }
     if (card.chart) {
       const ch = vy + vh - cy;
