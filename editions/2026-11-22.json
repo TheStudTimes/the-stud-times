@@ -1,0 +1,1013 @@
+{
+  "date": "2026-11-22",
+  "number": 2,
+  "correction": "CORRECTION: Yesterday we said the animals were extremely full. Today a turkey ate the front page. We regret the turkey.",
+  "front": {
+    "lead": {
+      "kicker": "BREAKING · TURKEY TAKEOVER",
+      "big": "6,903,927",
+      "headline": "Players at once in Steal An Egg after its turkey update",
+      "dek": "Friday's peak was about 1 million. Then a giant turkey showed up. Nobody can explain it. Everybody joined.",
+      "image": null,
+      "link": "rising#egg-turkey",
+      "game": {
+        "universeId": 10563114921,
+        "name": "Steal An Egg"
+      }
+    },
+    "quick": [
+      {
+        "big": "1.0",
+        "head": "Dandy's World leaves alpha",
+        "sub": "After more than two years",
+        "link": "index#feature"
+      },
+      {
+        "big": "GTA VI",
+        "head": "The big rival game is out",
+        "sub": "Roblox already priced in a modest hit",
+        "link": "markets#gta"
+      },
+      {
+        "big": "$46.72",
+        "head": "Roblox stock, Friday close",
+        "sub": "Down 6.4% on the week",
+        "link": "markets#stock"
+      },
+      {
+        "big": "173K",
+        "head": "Throw a Seed sprouts",
+        "sub": "Record players, two weeks old",
+        "link": "rising#throw-seed"
+      },
+      {
+        "big": "R.I.P.",
+        "head": "Ride A Pet, 2026 – 2026",
+        "sub": "1.6 million riders. Now 2,336.",
+        "link": "rest-in-peace"
+      },
+      {
+        "big": "MCP",
+        "head": "Studio's AI helpers get the keys",
+        "sub": "Now reaching Open Cloud",
+        "link": "studio-flex#mcp-cloud"
+      }
+    ],
+    "comingUp": [
+      {
+        "when": "NOV 27",
+        "what": "Steal An Egg's Turkey Takeover ends (18:00 UTC)"
+      },
+      {
+        "when": "NOV 28?",
+        "what": "Steal An Egg 'Frozen Awakening' event preview (per a fan site, not confirmed by the game)"
+      },
+      {
+        "when": "NOV 30",
+        "what": "Dandy's World 1.0 Release event ends (3 PM PT); the new Labs stay"
+      },
+      {
+        "when": "DEC",
+        "what": "Roblox Wallet rolls out; Christmas event rumored for Dec 17 (unconfirmed)"
+      }
+    ],
+    "comingUpSources": [
+      {
+        "title": "Steal An Egg updates (fan site)",
+        "url": "https://stealanegg.app/updates/"
+      },
+      {
+        "title": "Aprasi, Dandy's World 1.0",
+        "url": "https://www.aprasi.com/blogs/trending-topics/dandys-world-update"
+      },
+      {
+        "title": "GamesBeat, Roblox Wallet",
+        "url": "https://gamesbeat.com/roblox-dives-into-the-details-on-its-rdc-engine-updates-roblox-wallet-and-offline-play-press-briefing/"
+      },
+      {
+        "title": "Leak claim on X (unconfirmed)",
+        "url": "https://x.com/WhyIron_/status/2117388221726552152"
+      }
+    ],
+    "feature": {
+      "label": "OUT NOW",
+      "id": "dandys-world",
+      "kicker": "BIG UPDATE · NOV 20",
+      "headline": "Dandy's World Finally Leaves Alpha",
+      "dek": "Two years of alpha, one new mode, more than 10 new floors, and a lot of reading.",
+      "embed": "https://www.youtube.com/watch?v=BpPOy-FzC1w",
+      "facts": [
+        [
+          "Version",
+          "1.0"
+        ],
+        [
+          "Went live",
+          "Nov 20, 12 PM PT"
+        ],
+        [
+          "New floors",
+          "10+"
+        ],
+        [
+          "Total visits",
+          "7.9B+"
+        ]
+      ],
+      "paras": [
+        "BlushCrunch Studio's horror hit Dandy's World went 1.0 on Friday, November 20, after more than two years in alpha. The headline feature is the Labs, the game's first new mode, with more than 10 new floors deep inside Gardenview Center, two new Lethal Toons called Desa and D, and a new currency, Ambrosia, spent on cards.",
+        "There are also more than 30 new achievements and nearly 15,000 words of new lore and dialogue. The game has passed 7.9 billion visits, and the 1.0 Release event runs until November 30. The Twisteds have reportedly been taught to think. Good luck."
+      ],
+      "sources": [
+        {
+          "title": "Aprasi, Dandy's World 1.0",
+          "url": "https://www.aprasi.com/blogs/trending-topics/dandys-world-update"
+        },
+        {
+          "title": "Beebom, release time",
+          "url": "https://beebom.com/dandys-world-1-0-release-time-countdown/"
+        }
+      ],
+      "game": {
+        "placeId": 16116270224,
+        "name": "Dandy's World"
+      }
+    }
+  },
+  "markets": {
+    "title": "The Stock Took The Stairs",
+    "dek": "Down 6.4% on the week, up 9% since November 2. The elevator is still out of order.",
+    "stock": {
+      "ticker": "NYSE: RBLX",
+      "price": "$46.72",
+      "moves": [
+        "▼ 6.4% this week",
+        "▲ 9.0% since Nov 2"
+      ],
+      "caption": "Two steps down, one step up, one Friday.",
+      "note": "Daily closing price, Nov 2 – Nov 20, 2026 (Friday). Week change is from the Nov 13 close.",
+      "closes": [
+        [
+          "Nov 2",
+          42.88
+        ],
+        [
+          "Nov 3",
+          45.45
+        ],
+        [
+          "Nov 4",
+          49.31
+        ],
+        [
+          "Nov 5",
+          47.65
+        ],
+        [
+          "Nov 6",
+          49.3
+        ],
+        [
+          "Nov 9",
+          51.6
+        ],
+        [
+          "Nov 10",
+          51.19
+        ],
+        [
+          "Nov 11",
+          52.61
+        ],
+        [
+          "Nov 12",
+          51.42
+        ],
+        [
+          "Nov 13",
+          49.91
+        ],
+        [
+          "Nov 16",
+          46.12
+        ],
+        [
+          "Nov 17",
+          44.0
+        ],
+        [
+          "Nov 18",
+          47.33
+        ],
+        [
+          "Nov 19",
+          46.35
+        ],
+        [
+          "Nov 20",
+          46.72
+        ]
+      ],
+      "sources": [
+        {
+          "title": "TIKR on Yahoo Finance (Nov 20 close)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-sold-8-111941993.html"
+        },
+        {
+          "title": "Trefis, Nov 19",
+          "url": "https://www.trefis.com/stock/rblx/articles/626904/what-is-driving-roblox-stock/2026-11-19"
+        },
+        {
+          "title": "Yahoo Finance history",
+          "url": "https://finance.yahoo.com/quote/RBLX/history/"
+        },
+        {
+          "title": "Quiver Quant (Nov 2–9)",
+          "url": "https://www.quiverquant.com/stock/RBLX/historical-prices/"
+        }
+      ]
+    },
+    "stories": [
+      {
+        "id": "gta",
+        "kicker": "RIVALS · NOV 19",
+        "headline": "GTA VI Is Out. Roblox Saw It Coming.",
+        "dek": "Roblox's forecast already counted on a small hit. Then a turkey pulled 6.9 million players.",
+        "facts": [
+          [
+            "GTA VI release",
+            "Nov 19"
+          ],
+          [
+            "Roblox Q4 bookings guide",
+            "$1.89B–$2.00B"
+          ],
+          [
+            "vs last year",
+            "-10% to -15%"
+          ],
+          [
+            "Nov 18 move",
+            "▲ 7.6%"
+          ]
+        ],
+        "paras": [
+          "Take-Two released Grand Theft Auto VI on November 19. Back in October, Roblox guided for fourth-quarter bookings of $1.89 billion to $2.00 billion, a 10% to 15% drop from a year earlier, and that guide already includes a modest hit from GTA's release, Trefis notes.",
+          "The stock fell 7.6% on November 16 and 4.6% on November 17, then jumped 7.6% on November 18 with no news from Roblox at all. Two days after GTA VI arrived, Steal An Egg pulled 6.9 million players at once. Roblox players appear to be busy."
+        ],
+        "sources": [
+          {
+            "title": "Trefis, Nov 19",
+            "url": "https://www.trefis.com/stock/rblx/articles/626904/what-is-driving-roblox-stock/2026-11-19"
+          },
+          {
+            "title": "TIKR on Yahoo Finance, Nov 21",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-sold-8-111941993.html"
+          },
+          {
+            "title": "RBLXSTAT, Steal An Egg",
+            "url": "https://rblxstat.com/games/10563114921"
+          }
+        ]
+      },
+      {
+        "id": "ark",
+        "kicker": "WALL STREET · NOV 20",
+        "headline": "ARK Sells Another Slice Of Roblox",
+        "dek": "161,616 shares out the door on Friday. That's a lot of studs.",
+        "facts": [
+          [
+            "Shares sold",
+            "161,616"
+          ],
+          [
+            "Value",
+            "~$7.6M"
+          ],
+          [
+            "Fund",
+            "ARKW"
+          ],
+          [
+            "Cut in Q3",
+            "-79%"
+          ]
+        ],
+        "paras": [
+          "Cathie Wood's ARK Invest sold 161,616 Roblox shares from its ARK Next Generation Internet ETF on Friday, November 20, worth about $7.6 million at that day's $46.72 close, per ARK's daily trade email as reported by TIKR.",
+          "ARK had already cut its Roblox stake by 79% in the quarter ending September 30, leaving 1.38 million shares worth $58 million. Analysts' average price target has dropped from $146 a year ago to $50 today."
+        ],
+        "sources": [
+          {
+            "title": "TIKR on Yahoo Finance, Nov 21",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-sold-8-111941993.html"
+          }
+        ]
+      },
+      {
+        "id": "egg-money",
+        "kicker": "GAMES · NOV 18",
+        "headline": "Steal An Egg Makes $40M+ In Three Months",
+        "dek": "Turns out watching ads to hatch eggs faster is a business model.",
+        "facts": [
+          [
+            "3-month revenue",
+            "$40M+"
+          ],
+          [
+            "Peak, Nov 21",
+            "6.9M"
+          ],
+          [
+            "October avg",
+            "1.34M"
+          ]
+        ],
+        "paras": [
+          "Roblox's biggest game of the year has brought in more than $40 million from in-game purchases and advertising over the past three months, Bloomberg reports. Players can watch ads to hatch their eggs faster, and that's exactly the kind of game Roblox wants for its growing ads business.",
+          "It averaged 1,341,295 players in October, down 26% on September, and then its Turkey Takeover update pulled a peak of 6,903,927 on November 21. The turkey is now the most valuable bird in gaming."
+        ],
+        "sources": [
+          {
+            "title": "Bloomberg, Nov 18",
+            "url": "https://www.bloomberg.com/news/articles/2026-11-18/roblox-hit-steal-an-egg-tests-company-s-advertising-strategy"
+          },
+          {
+            "title": "MediaPost, Nov 19",
+            "url": "https://www.mediapost.com/publications/article/419549/roblox-game-steal-an-egg-draws-advertising-purc.html"
+          },
+          {
+            "title": "RoStats, Oct 2026",
+            "url": "https://rostats.io/charts/2026-10"
+          },
+          {
+            "title": "RBLXSTAT, Steal An Egg",
+            "url": "https://rblxstat.com/games/10563114921"
+          }
+        ],
+        "game": {
+          "universeId": 10563114921,
+          "name": "Steal An Egg"
+        }
+      },
+      {
+        "id": "analysts",
+        "kicker": "WALL STREET · NOVEMBER",
+        "headline": "Analysts Lower Their Hopes",
+        "dek": "Targets now run from $33 to $80. The average is $50.",
+        "facts": [
+          [
+            "Jefferies",
+            "$35"
+          ],
+          [
+            "JPMorgan",
+            "$46"
+          ],
+          [
+            "BofA (Nov 19)",
+            "$48"
+          ],
+          [
+            "Citi",
+            "$55"
+          ]
+        ],
+        "paras": [
+          "After earnings, several banks changed their targets for the stock. Jefferies cut its target to $35 (from $38), JPMorgan to $46 (from $53) and Citi to $55 (from $60). Bank of America went the other way on November 19, nudging its target up to $48 from $45 and keeping a Neutral rating.",
+          "Across Wall Street, targets now run from $33 to $80, with an average of $50, about 8% above Friday's close. In plain words: the grown-ups are nervous, the kids are still playing."
+        ],
+        "sources": [
+          {
+            "title": "TipRanks",
+            "url": "https://www.tipranks.com/stocks/rblx"
+          },
+          {
+            "title": "TIKR on Yahoo Finance, Nov 21",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-sold-8-111941993.html"
+          }
+        ]
+      }
+    ],
+    "dealStories": [
+      {
+        "id": "tds",
+        "kicker": "DEALS · OCT 14–15",
+        "headline": "Tower Defense Simulator Teams Up With doBIG",
+        "dek": "A partnership, not a sale. The community still had feelings.",
+        "facts": [
+          [
+            "Deal type",
+            "Partnership"
+          ],
+          [
+            "Price",
+            "Not shared"
+          ],
+          [
+            "Est. game value",
+            "~$60M"
+          ]
+        ],
+        "paras": [
+          "Do Big Studios (doBIG), the company behind Blade Ball and many other hits, announced a partnership with Paradoxum Games, the studio that makes Tower Defense Simulator. TDS creator BelowNatural confirmed it is a partnership, not a full sale of the game. The price wasn't shared.",
+          "How much is TDS worth? **Our estimate: around $60 million.** Here's the math: in a 2026 lawsuit, a former co-developer asked for $25 million for what he says is a 40% share of the game. If 40% is worth $25M, the whole game would be about $60M. That's one side's claim in a lawsuit, so treat it as a rough guess."
+        ],
+        "sources": [
+          {
+            "title": "doBIG on X, Oct 15",
+            "url": "https://x.com/do_bigR/status/2110795983093137906"
+          },
+          {
+            "title": "YouTube recap",
+            "url": "https://www.youtube.com/watch?v=dN534za7JYU"
+          },
+          {
+            "title": "Aftermath (lawsuit)",
+            "url": "https://aftermath.site/tower-defense-simulator-roblox-lawsuit/"
+          },
+          {
+            "title": "Digg (lawsuit)",
+            "url": "https://digg.com/gaming/9h29ghq6"
+          }
+        ]
+      }
+    ],
+    "bigDeals": [
+      {
+        "game": "Brookhaven RP",
+        "who": "bought by Voldex",
+        "when": "Feb 2025",
+        "price": "$100M+",
+        "tag": "ESTIMATE",
+        "bar": 100,
+        "note": "Price never shared. Voldex's CEO called it bigger than the Bloxburg deal, so we put it above $100M.",
+        "sources": [
+          {
+            "title": "GuruFocus",
+            "url": "https://www.gurufocus.com/news/2972560/this-teen-built-a-game-on-roblox-then-sold-it-for-millions"
+          }
+        ]
+      },
+      {
+        "game": "Welcome to Bloxburg",
+        "who": "bought by Embracer",
+        "when": "earlier",
+        "price": "~$100M",
+        "tag": "REPORTED",
+        "bar": 92,
+        "note": "Reported at about $100M; the buyer said it paid less.",
+        "sources": [
+          {
+            "title": "Dallas News / Bloomberg",
+            "url": "https://www.dallasnews.com/business/technology/2025/07/12/roblox-game-buying-frenzy-is-turning-teens-into-millionaires/"
+          }
+        ]
+      },
+      {
+        "game": "Blue Lock: Rivals",
+        "who": "bought by Do Big Studios",
+        "when": "Mar 2025",
+        "price": "$3M+",
+        "tag": "REPORTED",
+        "bar": 4,
+        "note": "Built by a 19-year-old, sold a few months after launch.",
+        "sources": [
+          {
+            "title": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2025-07-11/roblox-game-buying-frenzy-is-turning-teens-into-millionaires"
+          }
+        ]
+      }
+    ]
+  },
+  "rising": {
+    "title": "Who's Hot, Who's Not",
+    "dek": "A turkey, a seed and a Christmas tree walk into the charts.",
+    "up": [
+      {
+        "id": "egg-turkey",
+        "kicker": "SPIKE · NOV 21",
+        "headline": "Steal An Egg Gets Turkey-Stuffed",
+        "dek": "The Turkey Takeover update took the game from about 1 million to 6.9 million at once.",
+        "facts": [
+          [
+            "Peak, Nov 20",
+            "1,007,779"
+          ],
+          [
+            "Peak, Nov 21",
+            "6,903,927"
+          ],
+          [
+            "All-time record",
+            "12,443,225"
+          ],
+          [
+            "Event ends",
+            "Nov 27"
+          ]
+        ],
+        "paras": [
+          "Steal An Egg's Update 14, Turkey Takeover, went live on November 21 at 15:00 UTC. That day the game peaked at 6,903,927 players at once, almost seven times Friday's peak of 1,007,779. Its all-time record is still 12,443,225, set on October 3.",
+          "A giant turkey called King Gobble attacks every 30 minutes, players chase it down for Feathers, and the prizes include a Golden Turkey and a Divine King Gobble. The event runs until November 27. Thanksgiving has never been this competitive."
+        ],
+        "sources": [
+          {
+            "title": "RBLXSTAT, Steal An Egg",
+            "url": "https://rblxstat.com/games/10563114921"
+          },
+          {
+            "title": "RoTerminal, Steal An Egg",
+            "url": "https://roterminal.co/g/10563114921-steal-an-egg"
+          },
+          {
+            "title": "Turkey Takeover details (fan site)",
+            "url": "https://stealanegg.app/updates/"
+          }
+        ],
+        "game": {
+          "universeId": 10563114921,
+          "name": "Steal An Egg"
+        }
+      },
+      {
+        "id": "throw-seed",
+        "kicker": "BREAKOUT · 2 WEEKS OLD",
+        "headline": "Throw a Seed Grows Like A Weed",
+        "dek": "Born November 7. Already #23 on Roblox's all-time record list.",
+        "facts": [
+          [
+            "Record at once",
+            "173K"
+          ],
+          [
+            "Playing Nov 21",
+            "36,188"
+          ],
+          [
+            "Created",
+            "Nov 7, 2026"
+          ]
+        ],
+        "paras": [
+          "Throw a Seed by Fish Time Studios came out on November 7 and has already hit a record of 173,000 players at once, good for #23 on RBLXSTAT's list of the highest player records ever measured. It had 36,188 playing when the list was updated on November 21.",
+          "It's not alone: Shoot Arrows For Animals! (NEW+1 Games Club, made Nov 5) hit 85,300. Roblox has officially entered its throwing-things-at-animals era, and the animals have entered their dodging era."
+        ],
+        "sources": [
+          {
+            "title": "RBLXSTAT, record list",
+            "url": "https://rblxstat.com/lists/record-breaking-roblox-games"
+          }
+        ],
+        "game": {
+          "universeId": 10775182046,
+          "name": "Throw a Seed"
+        }
+      },
+      {
+        "id": "xmas-tree",
+        "kicker": "SEASONAL · NOVEMBER",
+        "headline": "Someone Is Selling Christmas Trees Already",
+        "dek": "It is November. The tree lot is open. 73,400 people showed up.",
+        "facts": [
+          [
+            "Record at once",
+            "73.4K"
+          ],
+          [
+            "Playing Nov 21",
+            "12,785"
+          ],
+          [
+            "Created",
+            "Nov 4, 2026"
+          ]
+        ],
+        "paras": [
+          "Run a Christmas Tree Lot by Mr. Grinchmas, made on November 4, has hit a record of 73,400 players at once and had 12,785 playing on November 21, per RBLXSTAT.",
+          "Yes, the developer is called Mr. Grinchmas. Yes, he is selling Christmas trees. We are choosing not to ask questions."
+        ],
+        "sources": [
+          {
+            "title": "RBLXSTAT, record list",
+            "url": "https://rblxstat.com/lists/record-breaking-roblox-games"
+          }
+        ],
+        "game": {
+          "universeId": 10774646539,
+          "name": "Run a Christmas Tree Lot"
+        }
+      },
+      {
+        "id": "krillion",
+        "kicker": "NEW HIGH · NOV 21",
+        "headline": "Krillion Gives Weird Answers, Gets Players",
+        "dek": "A party game about strange answers hits a new high of 10,954.",
+        "facts": [
+          [
+            "All-time high",
+            "10,954"
+          ],
+          [
+            "Day avg change",
+            "+47%"
+          ],
+          [
+            "Visits",
+            "2.9M"
+          ],
+          [
+            "Likes",
+            "62%"
+          ]
+        ],
+        "paras": [
+          "Krillion by Hypr Games set a new all-time high of 10,954 players at once on November 21, with its daily average up 47% on the day before, per RBLXSTAT. It has 2,910,167 visits.",
+          "Players answer questions in the strangest way they can, in public lobbies or private parties. Only 62% of voters like it, which for a game about bad answers feels on brand."
+        ],
+        "sources": [
+          {
+            "title": "RBLXSTAT, Krillion",
+            "url": "https://rblxstat.com/games/10771159260"
+          }
+        ],
+        "game": {
+          "universeId": 10771159260,
+          "name": "Krillion"
+        }
+      }
+    ],
+    "down": [
+      {
+        "id": "plus-one",
+        "kicker": "SLIDING · NOVEMBER",
+        "headline": "+1 Speed Keyboard Escape Runs Out Of Keys",
+        "dek": "Once 3.3 million players at once. Now about 36,000.",
+        "facts": [
+          [
+            "Record at once",
+            "3.3M"
+          ],
+          [
+            "Playing Nov 21",
+            "36,282"
+          ],
+          [
+            "Oct avg",
+            "93,249"
+          ],
+          [
+            "Oct change",
+            "-45%"
+          ]
+        ],
+        "paras": [
+          "+1 Speed Keyboard Escape by SecretVerse Studio still holds the #2 spot on RBLXSTAT's all-time record list with 3.3 million players at once. On November 21 it had 36,282 playing.",
+          "It averaged 93,249 in October, down 45% in a month, even with a Candy and Chocolate update in its name. Speed, it turns out, was not enough."
+        ],
+        "sources": [
+          {
+            "title": "RBLXSTAT, record list",
+            "url": "https://rblxstat.com/lists/record-breaking-roblox-games"
+          },
+          {
+            "title": "RoStats, Oct 2026",
+            "url": "https://rostats.io/charts/2026-10"
+          }
+        ]
+      },
+      {
+        "id": "break-egg",
+        "kicker": "SLIDING · NOVEMBER",
+        "headline": "Break and Steal an Egg Gets Scrambled",
+        "dek": "The copycat that grew 2,627% in October is now far from its peak.",
+        "facts": [
+          [
+            "Record at once",
+            "1.3M"
+          ],
+          [
+            "Playing Nov 21",
+            "56,473"
+          ],
+          [
+            "Oct avg",
+            "104,490"
+          ]
+        ],
+        "paras": [
+          "Break and Steal an Egg by ILGames x Eggs grew 2,627% in October to a 104,490 average and set a record of 1.3 million players at once. On November 21 it had 56,473 playing, per RBLXSTAT.",
+          "Meanwhile the original Steal An Egg just pulled 6.9 million with one turkey. The copy got cracked."
+        ],
+        "sources": [
+          {
+            "title": "RBLXSTAT, record list",
+            "url": "https://rblxstat.com/lists/record-breaking-roblox-games"
+          },
+          {
+            "title": "RoStats, Oct 2026",
+            "url": "https://rostats.io/charts/2026-10"
+          }
+        ]
+      }
+    ]
+  },
+  "flex": {
+    "title": "Built Different",
+    "dek": "The best Roblox builds, showcases and clips worth watching right now.",
+    "posts": [
+      {
+        "url": "https://www.youtube.com/watch?v=x3gYCR1yY9o",
+        "caption": "Steal An Egg's Turkey Takeover update is officially here."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=BpPOy-FzC1w",
+        "caption": "Dandy's World 1.0, the official cinematic trailer."
+      },
+      {
+        "url": "https://x.com/RobloxCreators/status/2118110205724488083",
+        "caption": "Studio's MCP tools expand to Open Cloud: let your agent set up game passes, settings and analytics.",
+        "creator": "@RobloxCreators"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=jz9Ro_RN7ao",
+        "caption": "10 new floors dropped in Dandy's World."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=y-dpy7fDucs",
+        "caption": "Throw Food For Animals' new Dream update."
+      },
+      {
+        "url": "https://www.youtube.com/shorts/BhEooGoGJ4U",
+        "caption": "The Turkey Takeover is here, in under a minute."
+      }
+    ],
+    "larp": null,
+    "stories": [
+      {
+        "id": "mcp-cloud",
+        "kicker": "STUDIO · NOV 4",
+        "headline": "Studio's AI Helpers Get More Keys",
+        "dek": "Your agent can now set up game passes and read analytics. You decide which doors it opens.",
+        "embed": "https://x.com/RobloxCreators/status/2118110205724488083",
+        "facts": [
+          [
+            "Feature",
+            "MCP on Open Cloud"
+          ],
+          [
+            "New Skills",
+            "3"
+          ],
+          [
+            "Access",
+            "You choose, per game"
+          ]
+        ],
+        "paras": [
+          "Roblox Creators announced that Studio's MCP capabilities are expanding to Open Cloud. You can use your preferred AI agent to set up developer products and game passes, change game settings, read analytics and import assets.",
+          "You choose what the agent can access in each game, and three new Skills teach it how. The robots may now price your game passes. Please check their math."
+        ],
+        "sources": [
+          {
+            "title": "Roblox Creators on X",
+            "url": "https://x.com/RobloxCreators/status/2118110205724488083"
+          }
+        ]
+      },
+      {
+        "id": "ui-particles",
+        "kicker": "STUDIO BETA · THIS WEEK",
+        "headline": "Your UI Can Sparkle Now",
+        "dek": "2D particles land in Studio Beta. Buttons everywhere are about to get very excited.",
+        "embed": "https://x.com/RobloxCreators/status/2123511334101012932",
+        "facts": [
+          [
+            "Feature",
+            "2D UI particles"
+          ],
+          [
+            "Status",
+            "Studio Beta"
+          ],
+          [
+            "Controls",
+            "Speed, drag, spread"
+          ]
+        ],
+        "paras": [
+          "Roblox Creators announced 2D particles for UI, now in Studio Beta. You can control their speed, drag and spread, then animate color, size and transparency over time.",
+          "Roblox pitches it for hit feedback, celebration bursts and ambient sparkle. In other words: every simulator's \"+1\" pop-up is about to get a lot shinier."
+        ],
+        "sources": [
+          {
+            "title": "Roblox Creators on X",
+            "url": "https://x.com/RobloxCreators/status/2123511334101012932"
+          }
+        ]
+      },
+      {
+        "id": "ai-anim",
+        "kicker": "STUDIO BETA · NOV 11",
+        "headline": "Studio Now Animates From A Prompt",
+        "dek": "Type what you want, get an R15 animation. Animators: \"fine, totally fine.\"",
+        "facts": [
+          [
+            "AI animations",
+            "Beta"
+          ],
+          [
+            "Asset Manager",
+            "Live"
+          ],
+          [
+            "Draw distance",
+            "500 studs"
+          ]
+        ],
+        "paras": [
+          "A new Studio beta lets you generate R15 animations from a text prompt, plus an optional R6 motion rebuilder. It's part of a big wave of AI tools Roblox keeps adding to Studio.",
+          "The same week, the Asset Manager got a full release with folders and search, and the minimum draw distance went up to 500 studs, so even low-end phones see more of your map."
+        ],
+        "sources": [
+          {
+            "title": "Roblox DevForum",
+            "url": "https://devforum.roblox.com/tag/featured/674"
+          },
+          {
+            "title": "Weekly recap Nov 2–6",
+            "url": "https://devforum.roblox.com/t/weekly-recap-november-2-6-2026/4979364"
+          }
+        ]
+      }
+    ]
+  },
+  "rip": {
+    "title": "Gone Too Soon",
+    "dek": "Games that blew up, then blew away.",
+    "note": "Some of these games are still online with a few players. We're being dramatic. It's a newspaper.",
+    "stones": [
+      {
+        "name": "Ride A Pet",
+        "dates": "April 2026 – 2026",
+        "fact": "Hit a record of 1.6 million players at once, #6 on RBLXSTAT's all-time list. Had 2,336 playing on November 21.",
+        "joke": "The pet has been returned to the shelter.",
+        "sources": [
+          {
+            "title": "RBLXSTAT, record list",
+            "url": "https://rblxstat.com/lists/record-breaking-roblox-games"
+          }
+        ]
+      },
+      {
+        "name": "+1 Speed Keyboard Escape",
+        "dates": "Critical condition",
+        "fact": "Record of 3.3 million at once. 93,249 average in October (down 45%), 36,282 playing on November 21.",
+        "joke": "Pressed Escape. It worked.",
+        "sources": [
+          {
+            "title": "RBLXSTAT, record list",
+            "url": "https://rblxstat.com/lists/record-breaking-roblox-games"
+          },
+          {
+            "title": "RoStats, Oct",
+            "url": "https://rostats.io/charts/2026-10"
+          }
+        ]
+      },
+      {
+        "name": "Steal a Brainrot",
+        "dates": "2026 – 2026",
+        "fact": "155,204 average players in October, then out of the top 20 by November 20.",
+        "joke": "Survived by 400 clones.",
+        "sources": [
+          {
+            "title": "RoStats, Oct",
+            "url": "https://rostats.io/charts/2026-10"
+          },
+          {
+            "title": "Endgametools",
+            "url": "https://endgametools.com/en/roblox/charts"
+          }
+        ]
+      },
+      {
+        "name": "Fart Together",
+        "dates": "Oct – Nov 2026",
+        "fact": "Peaked at 14,000+ players around Nov 7, then removed as Roblox cracked down on fart games.",
+        "joke": "Gone, but the smell lingers.",
+        "sources": [
+          {
+            "title": "Dexerto, Nov 9",
+            "url": "https://www.dexerto.com/roblox/roblox-cracking-down-on-fart-games-as-viral-hit-disappears-3426071/"
+          }
+        ]
+      }
+    ]
+  },
+  "help": {
+    "title": "Devs For Hire",
+    "dek": "Looking for work? Need a builder? Post it here, free while we launch.",
+    "listings": [],
+    "how": "DM @TheStudTimes on X with what you do (or need) and a link to your work. Free while we launch."
+  },
+  "tweets": [
+    {
+      "text": "Steal An Egg hit 6,903,927 players at once after its Turkey Takeover update.\n\nThe turkey did not consent.",
+      "card": {
+        "theme": "paper",
+        "kicker": "BREAKING · TURKEY TAKEOVER",
+        "big": "6,903,927",
+        "headline": "players at once in Steal An Egg",
+        "dek": "Friday's peak was about 1 million. Then a giant turkey showed up.",
+        "source": "SOURCE: RBLXSTAT, ROTERMINAL",
+        "game": {
+          "universeId": 10563114921,
+          "name": "Steal An Egg"
+        },
+        "chart": {
+          "title": "DAILY PEAK PLAYERS",
+          "bars": [
+            [
+              "NOV 20",
+              1007779,
+              "1.01M"
+            ],
+            [
+              "NOV 21",
+              6903927,
+              "6.9M"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "text": "Dandy's World is 1.0 after more than two years in alpha. 10+ new floors.\n\nThe Twisteds have been taught to think. Good luck.",
+      "card": {
+        "theme": "ink",
+        "kicker": "OUT NOW · NOV 20",
+        "big": "1.0",
+        "headline": "Dandy's World leaves alpha",
+        "dek": "A new mode, the Labs, with 10+ new floors and two new Lethal Toons.",
+        "source": "SOURCE: APRASI, BEEBOM",
+        "game": {
+          "placeId": 16116270224,
+          "name": "Dandy's World"
+        }
+      }
+    },
+    {
+      "text": "R.I.P. Ride A Pet. 1.6 million riders at its peak. 2,336 today.\n\nThe pet has been returned to the shelter.",
+      "card": {
+        "theme": "red",
+        "label": "REST IN PEACE · NOV 22, 2026",
+        "kicker": "OBITUARIES",
+        "big": "1.6M to 2,336",
+        "dek": "#6 on the all-time record list. Now riding alone.",
+        "source": "SOURCE: RBLXSTAT",
+        "tomb": {
+          "name": "Ride A Pet",
+          "dates": "April 2026 – 2026",
+          "line": "Rode off into the sunset. Alone."
+        }
+      }
+    },
+    {
+      "text": "Roblox stock closed Friday at $46.72, down 6.4% on the week.\n\nGTA VI came out. The stock took the stairs.",
+      "card": {
+        "theme": "paper",
+        "label": "BUSINESS & MARKETS · NOV 22, 2026",
+        "kicker": "NYSE: RBLX",
+        "big": "$46.72",
+        "headline": "Roblox stock took the stairs",
+        "dek": "Down 6.4% on the week, up 9% since November 2.",
+        "source": "DAILY CLOSES · NOT FINANCIAL ADVICE",
+        "chart": {
+          "line": "stock",
+          "chips": [
+            "▼ 6.4% THIS WEEK",
+            "▲ 9.0% SINCE NOV 2"
+          ]
+        }
+      }
+    },
+    {
+      "text": "Throw a Seed is two weeks old and already hit 173K players at once.\n\nWe planted a seed once. It did nothing.",
+      "card": {
+        "theme": "paper",
+        "label": "RISING · NOV 22, 2026",
+        "kicker": "BREAKOUT · MADE NOV 7",
+        "big": "173K",
+        "headline": "players at once in Throw a Seed",
+        "dek": "#23 on Roblox's all-time record list after two weeks.",
+        "source": "SOURCE: RBLXSTAT",
+        "game": {
+          "universeId": 10775182046,
+          "name": "Throw a Seed"
+        }
+      }
+    }
+  ]
+}
