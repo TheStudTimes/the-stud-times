@@ -1,0 +1,995 @@
+{
+  "date": "2026-11-23",
+  "number": 3,
+  "correction": "CORRECTION: Yesterday we said a turkey ate the front page. It was a Twisted. The turkey has been released without charges.",
+  "front": {
+    "lead": {
+      "kicker": "RECORD WEEKEND · 1.0 LAUNCH",
+      "big": "788,603",
+      "headline": "Players at once in Dandy's World after it finally left alpha",
+      "dek": "Two years in alpha, one weekend out of it. The all-time record of 866,577 survives, barely.",
+      "image": null,
+      "link": "rising#dandys-peak",
+      "game": {
+        "placeId": 16116270224,
+        "name": "Dandy's World"
+      }
+    },
+    "quick": [
+      {
+        "big": "1 HR",
+        "head": "Game passes get free trials",
+        "sub": "Players can try them from Dec 2",
+        "link": "index#feature"
+      },
+      {
+        "big": "+287%",
+        "head": "Anime Crusaders charges up",
+        "sub": "Up 286.8% in seven days",
+        "link": "rising#anime-crusaders"
+      },
+      {
+        "big": "$46.72",
+        "head": "Roblox stock, Friday close",
+        "sub": "Down 6.4% on the week",
+        "link": "markets#stock"
+      },
+      {
+        "big": "30%",
+        "head": "Avatar Moments go shoppable",
+        "sub": "Item creators get their usual cut",
+        "link": "markets#moments"
+      },
+      {
+        "big": "R.I.P.",
+        "head": "Jump for Animals, 2026 – 2026",
+        "sub": "About 34K to 3K in a month",
+        "link": "rest-in-peace"
+      },
+      {
+        "big": "JSON",
+        "head": "Studio learns copy and paste",
+        "sub": "Plus state machines for animation",
+        "link": "studio-flex#studio-week"
+      }
+    ],
+    "comingUp": [
+      {
+        "when": "NOV 25",
+        "what": "99 Nights in the Forest 'Thanksgiving' update goes live"
+      },
+      {
+        "when": "NOV 27",
+        "what": "Steal An Egg's Turkey Takeover ends (18:00 UTC)"
+      },
+      {
+        "when": "NOV 28",
+        "what": "Steal An Egg 'Frozen Awakening' ice event, until Dec 2 (15:00 UTC start)"
+      },
+      {
+        "when": "DEC 2",
+        "what": "Game pass free trials go live for players; Christmas event on Dec 17 is a rumor (unconfirmed)"
+      }
+    ],
+    "comingUpSources": [
+      {
+        "title": "Pocket Tactics, 99 Nights update",
+        "url": "https://www.pockettactics.com/99-nights-in-the-forest-update"
+      },
+      {
+        "title": "Endgame Tools, Steal An Egg update",
+        "url": "https://endgametools.com/en/roblox/news/roblox-steal-an-egg-update"
+      },
+      {
+        "title": "Endgame Tools, Pass Free Trials",
+        "url": "https://endgametools.com/en/roblox/news/roblox-game-pass-free-trials"
+      },
+      {
+        "title": "Leak claim on X (unconfirmed)",
+        "url": "https://x.com/WhyIron_/status/2117388221726552152"
+      }
+    ],
+    "feature": {
+      "label": "OFFICIAL",
+      "id": "free-trials",
+      "kicker": "MONETIZATION · NOV 18",
+      "headline": "Try Before You Buy: Game Passes Get Free Trials",
+      "dek": "From December 2, some passes can be borrowed for a whole session. Your wallet gets a day off.",
+      "facts": [
+        [
+          "Players get it",
+          "Dec 2, 2026"
+        ],
+        [
+          "Trial length",
+          "1 session, 1 hr+"
+        ],
+        [
+          "Per player",
+          "1 per pass"
+        ],
+        [
+          "Who decides",
+          "The creator"
+        ]
+      ],
+      "paras": [
+        "Roblox announced Pass Free Trials on November 18. Creators can switch them on now in Creator Hub under Monetization, Shop, Free Trials, and players start seeing them on December 2, but only in a game's in-game Shop and only for passes whose creator opted in.",
+        "A trial lasts a full game session and at least an hour. Each player gets one trial per pass, and only one trial at a time. So yes, you can finally find out whether the 2x Speed pass was worth it before it is too late."
+      ],
+      "sources": [
+        {
+          "title": "Roblox DevForum, Introducing Pass Free Trials",
+          "url": "https://devforum.roblox.com/t/introducing-pass-free-trials/4995943"
+        },
+        {
+          "title": "Endgame Tools, Pass Free Trials",
+          "url": "https://endgametools.com/en/roblox/news/roblox-game-pass-free-trials"
+        }
+      ]
+    }
+  },
+  "markets": {
+    "title": "The Market Took The Weekend Off",
+    "dek": "No trading since Friday. Wall Street is still arguing about a turkey and a car game.",
+    "stock": {
+      "ticker": "NYSE: RBLX",
+      "price": "$46.72",
+      "moves": [
+        "▼ 6.4% this week",
+        "▲ 9.0% since Nov 2"
+      ],
+      "caption": "Closed for the weekend. The chart is resting its legs.",
+      "note": "Daily closing price, Nov 2 – Nov 20, 2026 (Friday). Week change is from the Nov 13 close.",
+      "closes": [
+        [
+          "Nov 2",
+          42.88
+        ],
+        [
+          "Nov 3",
+          45.45
+        ],
+        [
+          "Nov 4",
+          49.31
+        ],
+        [
+          "Nov 5",
+          47.65
+        ],
+        [
+          "Nov 6",
+          49.3
+        ],
+        [
+          "Nov 9",
+          51.6
+        ],
+        [
+          "Nov 10",
+          51.19
+        ],
+        [
+          "Nov 11",
+          52.61
+        ],
+        [
+          "Nov 12",
+          51.42
+        ],
+        [
+          "Nov 13",
+          49.91
+        ],
+        [
+          "Nov 16",
+          46.12
+        ],
+        [
+          "Nov 17",
+          44.0
+        ],
+        [
+          "Nov 18",
+          47.33
+        ],
+        [
+          "Nov 19",
+          46.35
+        ],
+        [
+          "Nov 20",
+          46.72
+        ]
+      ],
+      "sources": [
+        {
+          "title": "TIKR on Yahoo Finance (Nov 20 close)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-sold-8-111941993.html"
+        },
+        {
+          "title": "Trefis, Nov 19",
+          "url": "https://www.trefis.com/stock/rblx/articles/626904/what-is-driving-roblox-stock/2026-11-19"
+        },
+        {
+          "title": "Yahoo Finance history",
+          "url": "https://finance.yahoo.com/quote/RBLX/history/"
+        },
+        {
+          "title": "Quiver Quant (Nov 2–9)",
+          "url": "https://www.quiverquant.com/stock/RBLX/historical-prices/"
+        },
+        {
+          "title": "TheStreet on Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-cfo-admits-limited-data-040700389.html"
+        }
+      ]
+    },
+    "stories": [
+      {
+        "id": "bofa",
+        "kicker": "WALL STREET · NOV 19",
+        "headline": "Bank Of America Says Wait For The Dust",
+        "dek": "Target up to $48, rating still Neutral. GTA VI may take about 2% of Roblox playtime.",
+        "facts": [
+          [
+            "New target",
+            "$48"
+          ],
+          [
+            "Old target",
+            "$45"
+          ],
+          [
+            "Rating",
+            "Neutral"
+          ],
+          [
+            "GTA share of hours",
+            "~2%"
+          ]
+        ],
+        "paras": [
+          "Bank of America analysts Omar Dessouky and Arthur Chu raised their Roblox target to $48 from $45 on November 19 and kept a Neutral rating, telling investors to wait for the GTA VI dust to settle. They estimate about 13% of Roblox players are realistic GTA VI buyers and assume 40% of those buy it.",
+          "Their math has GTA VI taking about 2% of Roblox playing hours this quarter, and they trimmed their fourth-quarter bookings estimate to $1.90 billion from $1.95 billion. Roblox's CFO said in October the company has limited data to size the impact. Everyone is guessing, just with spreadsheets."
+        ],
+        "sources": [
+          {
+            "title": "TheStreet on Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-cfo-admits-limited-data-040700389.html"
+          },
+          {
+            "title": "TIKR, Nov 19",
+            "url": "https://www.tikr.com/blog/roblox-rises-4-on-bofa-target-hike-betting-on-2027-reacceleration-as-gta-vi-launches"
+          },
+          {
+            "title": "TradingView, BofA note",
+            "url": "https://www.tradingview.com/news/tradingview:e88dfc452b8f9:0-b-of-a-securities-maintains-roblox-at-neutral-raises-price-target-to-48-from-45/"
+          }
+        ]
+      },
+      {
+        "id": "citi",
+        "kicker": "WALL STREET · NOV 13",
+        "headline": "Citi Stops Cheering, Starts Watching",
+        "dek": "Downgraded to Neutral. Reasons: fading eggs, no new mega-hit, and GTA VI.",
+        "facts": [
+          [
+            "Rating",
+            "Buy to Neutral"
+          ],
+          [
+            "Target",
+            "$55"
+          ],
+          [
+            "Avg target",
+            "$50"
+          ],
+          [
+            "A year ago",
+            "$146"
+          ]
+        ],
+        "paras": [
+          "Citi analyst Jason Bazinet downgraded Roblox to Neutral from Buy on November 13 and kept a $55 price target. He pointed to fading interest in Steal An Egg, no new hit game to replace it, and the arrival of GTA VI.",
+          "The average analyst target has fallen from $146 a year ago to $50 now. Eight days later, Steal An Egg pulled 6.9 million players at once with a turkey. Timing is everything."
+        ],
+        "sources": [
+          {
+            "title": "TIKR, Citi downgrade",
+            "url": "https://www.tikr.com/blog/is-citi-wrong-to-give-up-on-roblox-it-trades-at-4-9x-sales-below-its-5-year-average"
+          },
+          {
+            "title": "RBLXSTAT, Steal An Egg",
+            "url": "https://rblxstat.com/games/10563114921"
+          }
+        ]
+      },
+      {
+        "id": "moments",
+        "kicker": "PLATFORM · NOV 20",
+        "headline": "Your Avatar Can Now Sell Its Outfit",
+        "dek": "Avatar Moments turn a pose into a short video with a Shop button.",
+        "facts": [
+          [
+            "Who can post",
+            "Players 16+"
+          ],
+          [
+            "Creator cut",
+            "Usual 30%"
+          ],
+          [
+            "Rollout",
+            "Gradual"
+          ],
+          [
+            "More planned",
+            "2027"
+          ]
+        ],
+        "paras": [
+          "Roblox announced Avatar Moments on November 20. Players aged 16 and up can turn their avatar into a short video with an emote, a background and optional text and music, then post it to their profile. Viewers can tap Shop to try on the items and buy them.",
+          "Item creators get their usual 30% on those sales. It is rolling out gradually, and Roblox says more shoppable Moments are coming in 2027. The runway is open. The runway is also a shop."
+        ],
+        "sources": [
+          {
+            "title": "Roblox DevForum, Avatar Moments",
+            "url": "https://devforum.roblox.com/t/create-avatar-moments-to-showcase-and-sell-your-items/4997778"
+          },
+          {
+            "title": "Endgame Tools, Avatar Moments",
+            "url": "https://endgametools.com/en/roblox/news/roblox-avatar-moments"
+          }
+        ]
+      },
+      {
+        "id": "egg-money",
+        "kicker": "GAMES · NOV 18",
+        "headline": "Steal An Egg Makes $40M+ In Three Months",
+        "dek": "Turns out watching ads to hatch eggs faster is a business model.",
+        "facts": [
+          [
+            "3-month revenue",
+            "$40M+"
+          ],
+          [
+            "Peak, Nov 21",
+            "6.9M"
+          ],
+          [
+            "October avg",
+            "1.34M"
+          ]
+        ],
+        "paras": [
+          "Roblox's biggest game of the year has brought in more than $40 million from in-game purchases and advertising over the past three months, Bloomberg reports. Players can watch ads to hatch their eggs faster, and that's exactly the kind of game Roblox wants for its growing ads business.",
+          "It averaged 1,341,295 players in October, down 26% on September, and then its Turkey Takeover update pulled a peak of 6,903,927 on November 21. The turkey is now the most valuable bird in gaming."
+        ],
+        "sources": [
+          {
+            "title": "Bloomberg, Nov 18",
+            "url": "https://www.bloomberg.com/news/articles/2026-11-18/roblox-hit-steal-an-egg-tests-company-s-advertising-strategy"
+          },
+          {
+            "title": "MediaPost, Nov 19",
+            "url": "https://www.mediapost.com/publications/article/419549/roblox-game-steal-an-egg-draws-advertising-purc.html"
+          },
+          {
+            "title": "RoStats, Oct 2026",
+            "url": "https://rostats.io/charts/2026-10"
+          },
+          {
+            "title": "RBLXSTAT, Steal An Egg",
+            "url": "https://rblxstat.com/games/10563114921"
+          }
+        ],
+        "game": {
+          "universeId": 10563114921,
+          "name": "Steal An Egg"
+        }
+      }
+    ],
+    "dealStories": [],
+    "bigDeals": [
+      {
+        "game": "Brookhaven RP",
+        "who": "bought by Voldex",
+        "when": "Feb 2025",
+        "price": "$100M+",
+        "tag": "ESTIMATE",
+        "bar": 100,
+        "note": "Price never shared. Voldex's CEO called it bigger than the Bloxburg deal, so we put it above $100M.",
+        "sources": [
+          {
+            "title": "GuruFocus",
+            "url": "https://www.gurufocus.com/news/2972560/this-teen-built-a-game-on-roblox-then-sold-it-for-millions"
+          }
+        ]
+      },
+      {
+        "game": "Welcome to Bloxburg",
+        "who": "bought by Embracer",
+        "when": "earlier",
+        "price": "~$100M",
+        "tag": "REPORTED",
+        "bar": 92,
+        "note": "Reported at about $100M; the buyer said it paid less.",
+        "sources": [
+          {
+            "title": "Dallas News / Bloomberg",
+            "url": "https://www.dallasnews.com/business/technology/2025/07/12/roblox-game-buying-frenzy-is-turning-teens-into-millionaires/"
+          }
+        ]
+      },
+      {
+        "game": "Blue Lock: Rivals",
+        "who": "bought by Do Big Studios",
+        "when": "Mar 2025",
+        "price": "$3M+",
+        "tag": "REPORTED",
+        "bar": 4,
+        "note": "Built by a 19-year-old, sold a few months after launch.",
+        "sources": [
+          {
+            "title": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2025-07-11/roblox-game-buying-frenzy-is-turning-teens-into-millionaires"
+          }
+        ]
+      }
+    ]
+  },
+  "rising": {
+    "title": "Who's Hot, Who's Not",
+    "dek": "Toons, anime and ragdolls up. Splashes and fruit down.",
+    "up": [
+      {
+        "id": "dandys-peak",
+        "kicker": "RECORD WEEKEND · 1.0",
+        "headline": "Dandy's World Fills Every Floor",
+        "dek": "The 1.0 launch pulled 788,603 players at once, close to the game's all-time high.",
+        "facts": [
+          [
+            "7-day peak",
+            "788,603"
+          ],
+          [
+            "All-time peak",
+            "866,577"
+          ],
+          [
+            "Playing Nov 23",
+            "182,515"
+          ],
+          [
+            "Visits",
+            "8.03B"
+          ]
+        ],
+        "paras": [
+          "BlushCrunch Studio's Dandy's World left alpha on November 20 and hit a peak of 788,603 players at once over the weekend, per Rolimons. Its all-time record is still 866,577, set on April 18, 2025. On Monday morning 182,515 were playing.",
+          "Bloxodes has the game up 130.6% in seven days. The 1.0 update added the Labs, a harder new mode with more than 10 new floors, a card system and a lot of new lore, and the release event runs until November 30. The Toons have never been this busy."
+        ],
+        "sources": [
+          {
+            "title": "Rolimons, Dandy's World",
+            "url": "https://www.rolimons.com/game/16116270224"
+          },
+          {
+            "title": "Bloxodes, trending games",
+            "url": "https://bloxodes.com/lists/top-trending-roblox-games"
+          },
+          {
+            "title": "Endgame Tools, Dandy's World 1.0",
+            "url": "https://endgametools.com/en/roblox/news/roblox-dandys-world-1-0"
+          }
+        ],
+        "game": {
+          "placeId": 16116270224,
+          "name": "Dandy's World"
+        }
+      },
+      {
+        "id": "anime-crusaders",
+        "kicker": "SURGE · 7 DAYS",
+        "headline": "Anime Crusaders Powers Up",
+        "dek": "Up 286.8% in a week. Somebody yelled very loudly before attacking.",
+        "facts": [
+          [
+            "Playing",
+            "85.8K"
+          ],
+          [
+            "7-day change",
+            "+286.8%"
+          ],
+          [
+            "24h change",
+            "+22.1%"
+          ],
+          [
+            "Developer",
+            "32x"
+          ]
+        ],
+        "paras": [
+          "Anime Crusaders by 32x had 85,800 players at once on Bloxodes' trending list, up 286.8% in seven days and 22.1% in a day. That made it the ninth-biggest game on the list, just ahead of RIVALS.",
+          "It is the biggest weekly jump in Bloxodes' top 10. Anime games on Roblox take a long time to charge up. This one seems to have finished."
+        ],
+        "sources": [
+          {
+            "title": "Bloxodes, trending games",
+            "url": "https://bloxodes.com/lists/top-trending-roblox-games"
+          }
+        ],
+        "game": {
+          "universeId": 7660436108,
+          "name": "Anime Crusaders"
+        }
+      },
+      {
+        "id": "adopt-me",
+        "kicker": "COMEBACK · 7 DAYS",
+        "headline": "Adopt Me Gets Adopted Again",
+        "dek": "Up 36.5% in a week to 294,200 players, second only to Steal An Egg.",
+        "facts": [
+          [
+            "Playing",
+            "294.2K"
+          ],
+          [
+            "7-day change",
+            "+36.5%"
+          ],
+          [
+            "24h change",
+            "+20.5%"
+          ],
+          [
+            "Oct avg",
+            "227,629"
+          ]
+        ],
+        "paras": [
+          "Uplift Games' Adopt Me had 294,200 players at once on Bloxodes' trending list, up 36.5% in seven days, putting it second behind Steal An Egg and ahead of Brookhaven RP.",
+          "It averaged 227,629 players in October, up about 75,000 on September, per Bloxodes. The pets have been around since 2017. They are not going anywhere, mostly because they cannot open the door."
+        ],
+        "sources": [
+          {
+            "title": "Bloxodes, trending games",
+            "url": "https://bloxodes.com/lists/top-trending-roblox-games"
+          },
+          {
+            "title": "Bloxodes, October 2026 report",
+            "url": "https://bloxodes.com/stats/reports/roblox-october-2026"
+          }
+        ],
+        "game": {
+          "universeId": 383310974,
+          "name": "Adopt Me!"
+        }
+      },
+      {
+        "id": "ragdoll",
+        "kicker": "BREAKOUT · 3 WEEKS OLD",
+        "headline": "Hyper Realistic Ragdoll Falls Upward",
+        "dek": "Made October 29. Top 10 on Roblox three weeks later. Gravity is the main character.",
+        "facts": [
+          [
+            "Players Nov 18",
+            "64,906"
+          ],
+          [
+            "Top Playing rank",
+            "#10"
+          ],
+          [
+            "Created",
+            "Oct 29, 2026"
+          ],
+          [
+            "4 ragdoll games",
+            "173,624"
+          ]
+        ],
+        "paras": [
+          "Hyper Realistic Ragdoll by Emo Playworks was created on October 29 and ranked 10th on Roblox's Top Playing chart on November 18 with 64,906 players, per GGRecon. Each server holds one player, so that is 64,906 people falling over alone.",
+          "GGRecon counted four ragdoll and crash-physics games, all made in October or November, with 173,624 players between them. Roblox players have discovered falling over, and they are not getting back up."
+        ],
+        "sources": [
+          {
+            "title": "GGRecon, new games on the charts (Nov 18)",
+            "url": "https://www.ggrecon.com/articles/roblox-top-games-didnt-exist-before-october/"
+          }
+        ],
+        "game": {
+          "placeId": 101277003916102,
+          "name": "Hyper Realistic Ragdoll"
+        }
+      }
+    ],
+    "down": [
+      {
+        "id": "blox-fruits",
+        "kicker": "SLIDING · OCT TO NOV",
+        "headline": "Blox Fruits Is Getting A Little Bruised",
+        "dek": "Down about 137,000 players a month, then another 24.6% this week.",
+        "facts": [
+          [
+            "Sep avg",
+            "~311K"
+          ],
+          [
+            "Oct avg",
+            "174,003"
+          ],
+          [
+            "Playing now",
+            "221.4K"
+          ],
+          [
+            "7-day change",
+            "-24.6%"
+          ]
+        ],
+        "paras": [
+          "Gamer Robot Inc's Blox Fruits averaged 174,003 players in October, about 137,000 fewer than September, per Bloxodes. It is still a top-five game with 221,400 playing on Bloxodes' trending list, but down 24.6% over seven days.",
+          "Still bigger than almost everything on Roblox. Just a little less fresh than it used to be. Check the fruit bowl."
+        ],
+        "sources": [
+          {
+            "title": "Bloxodes, October 2026 report",
+            "url": "https://bloxodes.com/stats/reports/roblox-october-2026"
+          },
+          {
+            "title": "Bloxodes, trending games",
+            "url": "https://bloxodes.com/lists/top-trending-roblox-games"
+          }
+        ],
+        "game": {
+          "universeId": 994732206,
+          "name": "Blox Fruits"
+        }
+      },
+      {
+        "id": "dont-splash",
+        "kicker": "SLIDING · NOVEMBER",
+        "headline": "DONT SPLASH Splashed Anyway",
+        "dek": "The fastest-growing new game of early November lost about three quarters of its players.",
+        "facts": [
+          [
+            "Players Nov 2",
+            "97,140"
+          ],
+          [
+            "Players Nov 18",
+            "25,529"
+          ],
+          [
+            "Visits by Nov 2",
+            "161.9M"
+          ],
+          [
+            "Developer",
+            "Bacon Theory"
+          ]
+        ],
+        "paras": [
+          "DONT SPLASH by Bacon Theory topped GGRecon's fastest-growing new games list on November 2 with 161.9 million visits, about 9.7 million a day, and 97,140 people playing. On November 18 it had 25,529 on the Top Playing chart.",
+          "That is a drop of about 74% in 16 days. The game asked one thing of its players. They splashed."
+        ],
+        "sources": [
+          {
+            "title": "GGRecon, fastest-growing new games (Nov 2)",
+            "url": "https://www.ggrecon.com/articles/fastest-growing-new-roblox-games-november-2026/"
+          },
+          {
+            "title": "GGRecon, new games on the charts (Nov 18)",
+            "url": "https://www.ggrecon.com/articles/roblox-top-games-didnt-exist-before-october/"
+          }
+        ]
+      }
+    ]
+  },
+  "flex": {
+    "title": "Built Different",
+    "dek": "The best Roblox builds, showcases and clips worth watching right now.",
+    "posts": [
+      {
+        "url": "https://x.com/TeamBlushCrunch/status/2123431118267437140",
+        "caption": "The Dandy's World 1.0 devlog, straight from the studio.",
+        "creator": "@TeamBlushCrunch"
+      },
+      {
+        "url": "https://x.com/PRC_Roblox/status/2124163376448188442",
+        "caption": "Police Roleplay Community rebuilt its map UI from the ground up.",
+        "creator": "@PRC_Roblox"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=DUPdeGdR-_M",
+        "caption": "Steal An Egg's Thanksgiving update and its King Turkey boss."
+      },
+      {
+        "url": "https://x.com/UltrawRBX/status/2121203735040766419",
+        "caption": "Restaurant Tycoon 3 serves up a Thanksgiving update.",
+        "creator": "@UltrawRBX"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MWeR-TfiZgw",
+        "caption": "Everything you need to know about Dandy's World 1.0."
+      },
+      {
+        "url": "https://x.com/TeamBlushCrunch/status/2120611269128458663",
+        "caption": "It's Dandy! The 1.0 teaser.",
+        "creator": "@TeamBlushCrunch"
+      }
+    ],
+    "larp": null,
+    "stories": [
+      {
+        "id": "studio-week",
+        "kicker": "STUDIO · NOV 17–20",
+        "headline": "Studio Learns To Copy, Paste And Think",
+        "dek": "Animation Graph state machines go live, and instances copy as JSON.",
+        "facts": [
+          [
+            "State machines",
+            "Full release"
+          ],
+          [
+            "Copy as JSON",
+            "New"
+          ],
+          [
+            "Server region API",
+            "New"
+          ],
+          [
+            "Web Play",
+            "WebGPU"
+          ]
+        ],
+        "paras": [
+          "Roblox moved State Machines and Luau Expressions in Animation Graphs to full release on November 19, so animations can switch between states by rules instead of a pile of scripts. The same week brought copying and pasting instances as JSON in Studio, and a new API to read which region a game server is in.",
+          "Web Play also switched to WebGPU for sharper graphics in the browser, per Roblox's weekly recap. Your animations now have a brain. Please do not let them unionize."
+        ],
+        "sources": [
+          {
+            "title": "DevForum, Animation Graph state machines",
+            "url": "https://devforum.roblox.com/t/full-release-state-machines-and-luau-expressions-in-animation-graphs/4997058"
+          },
+          {
+            "title": "DevForum, Copy and Paste as JSON",
+            "url": "https://devforum.roblox.com/t/copy-and-paste-instances-as-json-in-studio/4996012"
+          },
+          {
+            "title": "DevForum, Server Region API",
+            "url": "https://devforum.roblox.com/t/read-your-games-server-region-with-new-api/4996710"
+          },
+          {
+            "title": "DevForum, Weekly Recap Nov 16–20",
+            "url": "https://devforum.roblox.com/t/weekly-recap-november-16%E2%80%9320-2026/4998199"
+          }
+        ]
+      },
+      {
+        "id": "ui-particles",
+        "kicker": "STUDIO BETA · NOV 19",
+        "headline": "Your UI Can Sparkle Now",
+        "dek": "ParticleEmitter2D lands in Studio Beta. Buttons everywhere are about to get very excited.",
+        "embed": "https://x.com/RobloxCreators/status/2123511334101012932",
+        "facts": [
+          [
+            "New object",
+            "ParticleEmitter2D"
+          ],
+          [
+            "Status",
+            "Studio Beta"
+          ],
+          [
+            "Works in",
+            "Any GuiObject"
+          ]
+        ],
+        "paras": [
+          "Roblox's UI Particles beta adds ParticleEmitter2D, which you put under any GUI object to get sparkles, bursts and glows. You control texture, color, transparency, size, speed, drag and spin, with flipbook animation and an Emit() call for one-off bursts.",
+          "Turn it on under File, Beta Features, UI Particles. Places that use it can't be published while it's in beta, so sparkle responsibly."
+        ],
+        "sources": [
+          {
+            "title": "DevForum, UI Particles beta",
+            "url": "https://devforum.roblox.com/t/studio-beta-ui-particles/4996850"
+          },
+          {
+            "title": "Creator Hub docs",
+            "url": "https://create.roblox.com/docs/ui/2D-particle-emitters"
+          },
+          {
+            "title": "Roblox Creators on X",
+            "url": "https://x.com/RobloxCreators/status/2123511334101012932"
+          }
+        ]
+      },
+      {
+        "id": "mcp-cloud",
+        "kicker": "STUDIO · NOV 4",
+        "headline": "Studio's AI Helpers Get More Keys",
+        "dek": "Your agent can now set up game passes and read analytics. You decide which doors it opens.",
+        "embed": "https://x.com/RobloxCreators/status/2118110205724488083",
+        "facts": [
+          [
+            "Feature",
+            "MCP on Open Cloud"
+          ],
+          [
+            "New Skills",
+            "3"
+          ],
+          [
+            "Access",
+            "You choose, per game"
+          ]
+        ],
+        "paras": [
+          "Roblox Creators announced that Studio's MCP capabilities are expanding to Open Cloud. You can use your preferred AI agent to set up developer products and game passes, change game settings, read analytics and import assets.",
+          "You choose what the agent can access in each game, and three new Skills teach it how. The robots may now price your game passes. Please check their math."
+        ],
+        "sources": [
+          {
+            "title": "Roblox Creators on X",
+            "url": "https://x.com/RobloxCreators/status/2118110205724488083"
+          }
+        ]
+      }
+    ]
+  },
+  "rip": {
+    "title": "Gone Too Soon",
+    "dek": "Games that blew up, then blew away.",
+    "note": "Some of these games are still online with a few players. We're being dramatic. It's a newspaper.",
+    "stones": [
+      {
+        "name": "Jump for Animals",
+        "dates": "2026 – 2026",
+        "fact": "Averaged about 34,000 players in September and about 3,000 in October, per Bloxodes, a drop of 31,000.",
+        "joke": "Jumped. Did not land.",
+        "sources": [
+          {
+            "title": "Bloxodes, October 2026 report",
+            "url": "https://bloxodes.com/stats/reports/roblox-october-2026"
+          }
+        ]
+      },
+      {
+        "name": "DONT SPLASH",
+        "dates": "Critical condition",
+        "fact": "97,140 playing on November 2, the fastest-growing new game that week. 25,529 on November 18.",
+        "joke": "Splashed.",
+        "sources": [
+          {
+            "title": "GGRecon, fastest-growing new games (Nov 2)",
+            "url": "https://www.ggrecon.com/articles/fastest-growing-new-roblox-games-november-2026/"
+          },
+          {
+            "title": "GGRecon, new games on the charts (Nov 18)",
+            "url": "https://www.ggrecon.com/articles/roblox-top-games-didnt-exist-before-october/"
+          }
+        ]
+      },
+      {
+        "name": "Ride A Pet",
+        "dates": "April 2026 – 2026",
+        "fact": "Hit a record of 1.6 million players at once, #6 on RBLXSTAT's all-time list. Had 2,336 playing on November 21.",
+        "joke": "The pet has been returned to the shelter.",
+        "sources": [
+          {
+            "title": "RBLXSTAT, record list",
+            "url": "https://rblxstat.com/lists/record-breaking-roblox-games"
+          }
+        ]
+      },
+      {
+        "name": "Fart Together",
+        "dates": "Oct – Nov 2026",
+        "fact": "Peaked at 14,000+ players around Nov 7, then removed as Roblox cracked down on fart games.",
+        "joke": "Gone, but the smell lingers.",
+        "sources": [
+          {
+            "title": "Dexerto, Nov 9",
+            "url": "https://www.dexerto.com/roblox/roblox-cracking-down-on-fart-games-as-viral-hit-disappears-3426071/"
+          }
+        ]
+      }
+    ]
+  },
+  "help": {
+    "title": "Devs For Hire",
+    "dek": "Looking for work? Need a builder? Post it here, free while we launch.",
+    "listings": [],
+    "how": "DM @TheStudTimes on X with what you do (or need) and a link to your work. Free while we launch."
+  },
+  "tweets": [
+    {
+      "text": "Dandy's World hit 788,603 players at once after finally leaving alpha.\n\nThe Twisteds are fully booked.",
+      "card": {
+        "theme": "ink",
+        "kicker": "RECORD WEEKEND · 1.0",
+        "big": "788,603",
+        "headline": "players at once in Dandy's World",
+        "dek": "All-time record of 866,577 still stands. Barely.",
+        "source": "SOURCE: ROLIMONS",
+        "game": {
+          "placeId": 16116270224,
+          "name": "Dandy's World"
+        },
+        "chart": {
+          "title": "PLAYERS AT ONCE",
+          "bars": [
+            [
+              "NOV 23 AM",
+              182515,
+              "183K"
+            ],
+            [
+              "ALL-TIME",
+              866577,
+              "867K"
+            ],
+            [
+              "1.0 WEEKEND",
+              788603,
+              "789K"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "text": "Roblox game passes get free trials from Dec 2. At least an hour, one per pass.\n\nFinally, a test drive for 2x Speed.",
+      "card": {
+        "theme": "paper",
+        "kicker": "OFFICIAL · FROM DEC 2",
+        "big": "1 HOUR",
+        "headline": "Game passes get free trials",
+        "dek": "A full session, at least an hour, one per pass. Creators opt in.",
+        "source": "SOURCE: ROBLOX DEVFORUM",
+        "art": "wallet"
+      }
+    },
+    {
+      "text": "Anime Crusaders is up 286.8% in a week.\n\nSomebody finished charging their attack.",
+      "card": {
+        "theme": "red",
+        "label": "RISING · NOV 23, 2026",
+        "kicker": "SURGE · 7 DAYS",
+        "big": "+287%",
+        "headline": "Anime Crusaders powers up",
+        "dek": "85.8K playing at once on Bloxodes' trending list.",
+        "source": "SOURCE: BLOXODES",
+        "game": {
+          "universeId": 7660436108,
+          "name": "Anime Crusaders"
+        }
+      }
+    },
+    {
+      "text": "R.I.P. Jump for Animals. About 34K players in September, about 3K in October.\n\nJumped. Did not land.",
+      "card": {
+        "theme": "paper",
+        "label": "REST IN PEACE · NOV 23, 2026",
+        "kicker": "OBITUARIES",
+        "big": "34K to 3K",
+        "dek": "Monthly average players, September to October.",
+        "source": "SOURCE: BLOXODES",
+        "tomb": {
+          "name": "Jump for Animals",
+          "dates": "2026 – 2026",
+          "line": "Jumped. Did not land."
+        }
+      }
+    }
+  ]
+}
