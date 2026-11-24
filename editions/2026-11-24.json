@@ -1,0 +1,995 @@
+{
+  "date": "2026-11-24",
+  "number": 4,
+  "correction": "CORRECTION: Yesterday we said the stock market took the weekend off. It came back Monday and did not take it easy.",
+  "front": {
+    "lead": {
+      "kicker": "WALL STREET · MONDAY",
+      "big": "+10.5%",
+      "headline": "Roblox stock in one day, as Oppenheimer lifts its target to $55",
+      "dek": "Closed at $51.64 on Monday. Still down 52% on the year, but the chart is smiling.",
+      "image": null,
+      "link": "markets#oppenheimer"
+    },
+    "quick": [
+      {
+        "big": "2.46M",
+        "head": "Throw Food nearly beats itself",
+        "sub": "10,397 short of its record",
+        "link": "rising#throw-food"
+      },
+      {
+        "big": "-61%",
+        "head": "Murder Mystery 2 slides",
+        "sub": "Weekly average now 110,496",
+        "link": "rising#mm2"
+      },
+      {
+        "big": "18+",
+        "head": "The Game Awards in Roblox",
+        "sub": "Live on December 10",
+        "link": "index#feature"
+      },
+      {
+        "big": "$55",
+        "head": "Oppenheimer raises its target",
+        "sub": "Up from $50, still Outperform",
+        "link": "markets#oppenheimer"
+      },
+      {
+        "big": "172,853",
+        "head": "Throw a Seed sets a record",
+        "sub": "Made on November 7",
+        "link": "rising#throw-a-seed"
+      },
+      {
+        "big": "R.I.P.",
+        "head": "Ride A Pet, April – 2026",
+        "sub": "1.6M record, 1,519 now",
+        "link": "rest-in-peace"
+      }
+    ],
+    "comingUp": [
+      {
+        "when": "NOV 25",
+        "what": "99 Nights in the Forest 'Thanksgiving' update goes live"
+      },
+      {
+        "when": "NOV 28",
+        "what": "Steal An Egg 'Frozen Awakening' ice event, until Dec 2 (15:00 UTC start)"
+      },
+      {
+        "when": "DEC 2",
+        "what": "Game pass free trials go live for players"
+      },
+      {
+        "when": "DEC 10",
+        "what": "The Game Awards stream inside Roblox, for verified 18+ players"
+      }
+    ],
+    "comingUpSources": [
+      {
+        "title": "Pocket Tactics, 99 Nights update",
+        "url": "https://www.pockettactics.com/99-nights-in-the-forest-update"
+      },
+      {
+        "title": "Endgame Tools, Steal An Egg update",
+        "url": "https://endgametools.com/en/roblox/news/roblox-steal-an-egg-update"
+      },
+      {
+        "title": "DevForum, Introducing Pass Free Trials",
+        "url": "https://devforum.roblox.com/t/introducing-pass-free-trials/4995943"
+      },
+      {
+        "title": "Shacknews, Nov 13",
+        "url": "https://shacknews.com/article/151353/the-game-awards-2026-roblox-disney-plus"
+      }
+    ],
+    "feature": {
+      "label": "OFFICIAL",
+      "id": "game-awards",
+      "kicker": "LIVE EVENT · DEC 10",
+      "headline": "The Game Awards Will Stream Inside Roblox",
+      "dek": "The whole show, live in Roblox on December 10. The catch: you have to be 18 or older.",
+      "embed": "https://x.com/thegameawards/status/2121271874940530971",
+      "facts": [
+        [
+          "Show date",
+          "Dec 10, 2026"
+        ],
+        [
+          "Who can watch",
+          "18+, age-verified"
+        ],
+        [
+          "Also on",
+          "Disney+"
+        ],
+        [
+          "Announced",
+          "Nov 13"
+        ]
+      ],
+      "paras": [
+        "The Game Awards announced on November 13 that this year's show will stream inside Roblox as well as on Disney+. Players aged 18 and older can watch the whole ceremony in Roblox, and vote and interact while they do, per Shacknews.",
+        "Beebom reports players must verify their age to join, and that pre-show category voting runs through The Block, Roblox's official entertainment venue. Everyone else will have to find out who won the old-fashioned way: on a different screen."
+      ],
+      "sources": [
+        {
+          "title": "Shacknews, Nov 13",
+          "url": "https://shacknews.com/article/151353/the-game-awards-2026-roblox-disney-plus"
+        },
+        {
+          "title": "Beebom, Nov 14",
+          "url": "https://beebom.com/the-game-awards-2026-is-coming-to-roblox-with-a-catch/"
+        },
+        {
+          "title": "The Game Awards on X",
+          "url": "https://x.com/thegameawards/status/2121271874940530971"
+        }
+      ]
+    }
+  },
+  "markets": {
+    "title": "Roblox Stock Hits The Jump Button",
+    "dek": "Up 10.5% on Monday as Oppenheimer lifts its target to $55.",
+    "stock": {
+      "ticker": "NYSE: RBLX",
+      "price": "$51.64",
+      "moves": [
+        "▲ 10.5% on Monday",
+        "▲ 12.0% since Nov 16"
+      ],
+      "caption": "Up 10.5% in one day. The chart has discovered the jump button.",
+      "note": "Daily closing price, Nov 3 – Nov 23, 2026. Monday's change is from the Nov 20 close; week change from the Nov 16 close.",
+      "closes": [
+        [
+          "Nov 3",
+          45.45
+        ],
+        [
+          "Nov 4",
+          49.31
+        ],
+        [
+          "Nov 5",
+          47.65
+        ],
+        [
+          "Nov 6",
+          49.3
+        ],
+        [
+          "Nov 9",
+          51.6
+        ],
+        [
+          "Nov 10",
+          51.19
+        ],
+        [
+          "Nov 11",
+          52.61
+        ],
+        [
+          "Nov 12",
+          51.42
+        ],
+        [
+          "Nov 13",
+          49.91
+        ],
+        [
+          "Nov 16",
+          46.12
+        ],
+        [
+          "Nov 17",
+          44.0
+        ],
+        [
+          "Nov 18",
+          47.33
+        ],
+        [
+          "Nov 19",
+          46.35
+        ],
+        [
+          "Nov 20",
+          46.72
+        ],
+        [
+          "Nov 23",
+          51.64
+        ]
+      ],
+      "sources": [
+        {
+          "title": "JKN, Nov 23",
+          "url": "https://news.jkn.co.kr/editions/english/post/1117418"
+        },
+        {
+          "title": "Rallies, Oppenheimer target",
+          "url": "https://rallies.ai/news/oppenheimer-raises-roblox-target-price-to-55-from-50-4111e80509b7b66b"
+        },
+        {
+          "title": "Trefis, Nov 23",
+          "url": "https://www.trefis.com/stock/rblx/articles/627684/what-is-the-case-for-waiting-on-roblox-stock/2026-11-23"
+        },
+        {
+          "title": "TIKR on Yahoo Finance (Nov 20 close)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-sold-8-111941993.html"
+        },
+        {
+          "title": "Trefis, Nov 19",
+          "url": "https://www.trefis.com/stock/rblx/articles/626904/what-is-driving-roblox-stock/2026-11-19"
+        },
+        {
+          "title": "Yahoo Finance history",
+          "url": "https://finance.yahoo.com/quote/RBLX/history/"
+        },
+        {
+          "title": "TheStreet on Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-cfo-admits-limited-data-040700389.html"
+        }
+      ]
+    },
+    "stories": [
+      {
+        "id": "oppenheimer",
+        "kicker": "WALL STREET · NOV 23",
+        "headline": "Oppenheimer Raises The Bar To $55",
+        "dek": "Target up from $50, rating still Outperform. The stock then jumped 10.52% in a day.",
+        "facts": [
+          [
+            "New target",
+            "$55"
+          ],
+          [
+            "Old target",
+            "$50"
+          ],
+          [
+            "Rating",
+            "Outperform"
+          ],
+          [
+            "Nov 23 close",
+            "$51.64"
+          ]
+        ],
+        "paras": [
+          "Oppenheimer raised its Roblox price target to $55 from $50 on November 23 and kept an Outperform rating. The same day the stock rose 10.52%, or $4.91, to close at $51.64, per JKN.",
+          "Trefis notes the stock is still down 52.0% over the past year but up 20.5% over three months, and that the next earnings report is expected in February 2027. One good Monday does not make a year. It does make a nice chart."
+        ],
+        "sources": [
+          {
+            "title": "JKN, Nov 23",
+            "url": "https://news.jkn.co.kr/editions/english/post/1117418"
+          },
+          {
+            "title": "Rallies, Oppenheimer target",
+            "url": "https://rallies.ai/news/oppenheimer-raises-roblox-target-price-to-55-from-50-4111e80509b7b66b"
+          },
+          {
+            "title": "Trefis, Nov 23",
+            "url": "https://www.trefis.com/stock/rblx/articles/627684/what-is-the-case-for-waiting-on-roblox-stock/2026-11-23"
+          }
+        ]
+      },
+      {
+        "id": "bofa",
+        "kicker": "WALL STREET · NOV 19",
+        "headline": "Bank Of America Says Wait For The Dust",
+        "dek": "Target up to $48, rating still Neutral. GTA VI may take about 2% of Roblox playtime.",
+        "facts": [
+          [
+            "New target",
+            "$48"
+          ],
+          [
+            "Old target",
+            "$45"
+          ],
+          [
+            "Rating",
+            "Neutral"
+          ],
+          [
+            "GTA share of hours",
+            "~2%"
+          ]
+        ],
+        "paras": [
+          "Bank of America analysts Omar Dessouky and Arthur Chu raised their Roblox target to $48 from $45 on November 19 and kept a Neutral rating, telling investors to wait for the GTA VI dust to settle. They estimate about 13% of Roblox players are realistic GTA VI buyers and assume 40% of those buy it.",
+          "Their math has GTA VI taking about 2% of Roblox playing hours this quarter, and they trimmed their fourth-quarter bookings estimate to $1.90 billion from $1.95 billion. Roblox's CFO said in October the company has limited data to size the impact. Everyone is guessing, just with spreadsheets."
+        ],
+        "sources": [
+          {
+            "title": "TheStreet on Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-cfo-admits-limited-data-040700389.html"
+          },
+          {
+            "title": "TIKR, Nov 19",
+            "url": "https://www.tikr.com/blog/roblox-rises-4-on-bofa-target-hike-betting-on-2027-reacceleration-as-gta-vi-launches"
+          },
+          {
+            "title": "TradingView, BofA note",
+            "url": "https://www.tradingview.com/news/tradingview:e88dfc452b8f9:0-b-of-a-securities-maintains-roblox-at-neutral-raises-price-target-to-48-from-45/"
+          }
+        ]
+      },
+      {
+        "id": "citi",
+        "kicker": "WALL STREET · NOV 13",
+        "headline": "Citi Stops Cheering, Starts Watching",
+        "dek": "Downgraded to Neutral. Reasons: fading eggs, no new mega-hit, and GTA VI.",
+        "facts": [
+          [
+            "Rating",
+            "Buy to Neutral"
+          ],
+          [
+            "Target",
+            "$55"
+          ],
+          [
+            "Avg target",
+            "$50"
+          ],
+          [
+            "A year ago",
+            "$146"
+          ]
+        ],
+        "paras": [
+          "Citi analyst Jason Bazinet downgraded Roblox to Neutral from Buy on November 13 and kept a $55 price target. He pointed to fading interest in Steal An Egg, no new hit game to replace it, and the arrival of GTA VI.",
+          "The average analyst target has fallen from $146 a year ago to $50 now. Eight days later, Steal An Egg pulled 6.9 million players at once with a turkey. Timing is everything."
+        ],
+        "sources": [
+          {
+            "title": "TIKR, Citi downgrade",
+            "url": "https://www.tikr.com/blog/is-citi-wrong-to-give-up-on-roblox-it-trades-at-4-9x-sales-below-its-5-year-average"
+          },
+          {
+            "title": "RBLXSTAT, Steal An Egg",
+            "url": "https://rblxstat.com/games/10563114921"
+          }
+        ]
+      },
+      {
+        "id": "moments",
+        "kicker": "PLATFORM · NOV 20",
+        "headline": "Your Avatar Can Now Sell Its Outfit",
+        "dek": "Avatar Moments turn a pose into a short video with a Shop button.",
+        "facts": [
+          [
+            "Who can post",
+            "Players 16+"
+          ],
+          [
+            "Creator cut",
+            "Usual 30%"
+          ],
+          [
+            "Rollout",
+            "Gradual"
+          ],
+          [
+            "More planned",
+            "2027"
+          ]
+        ],
+        "paras": [
+          "Roblox announced Avatar Moments on November 20. Players aged 16 and up can turn their avatar into a short video with an emote, a background and optional text and music, then post it to their profile. Viewers can tap Shop to try on the items and buy them.",
+          "Item creators get their usual 30% on those sales. It is rolling out gradually, and Roblox says more shoppable Moments are coming in 2027. The runway is open. The runway is also a shop."
+        ],
+        "sources": [
+          {
+            "title": "Roblox DevForum, Avatar Moments",
+            "url": "https://devforum.roblox.com/t/create-avatar-moments-to-showcase-and-sell-your-items/4997778"
+          },
+          {
+            "title": "Endgame Tools, Avatar Moments",
+            "url": "https://endgametools.com/en/roblox/news/roblox-avatar-moments"
+          }
+        ]
+      },
+      {
+        "id": "egg-money",
+        "kicker": "GAMES · NOV 18",
+        "headline": "Steal An Egg Makes $40M+ In Three Months",
+        "dek": "Turns out watching ads to hatch eggs faster is a business model.",
+        "facts": [
+          [
+            "3-month revenue",
+            "$40M+"
+          ],
+          [
+            "Peak, Nov 21",
+            "6.9M"
+          ],
+          [
+            "October avg",
+            "1.34M"
+          ]
+        ],
+        "paras": [
+          "Roblox's biggest game of the year has brought in more than $40 million from in-game purchases and advertising over the past three months, Bloomberg reports. Players can watch ads to hatch their eggs faster, and that's exactly the kind of game Roblox wants for its growing ads business.",
+          "It averaged 1,341,295 players in October, down 26% on September, and then its Turkey Takeover update pulled a peak of 6,903,927 on November 21. The turkey is now the most valuable bird in gaming."
+        ],
+        "sources": [
+          {
+            "title": "Bloomberg, Nov 18",
+            "url": "https://www.bloomberg.com/news/articles/2026-11-18/roblox-hit-steal-an-egg-tests-company-s-advertising-strategy"
+          },
+          {
+            "title": "MediaPost, Nov 19",
+            "url": "https://www.mediapost.com/publications/article/419549/roblox-game-steal-an-egg-draws-advertising-purc.html"
+          },
+          {
+            "title": "RoStats, Oct 2026",
+            "url": "https://rostats.io/charts/2026-10"
+          },
+          {
+            "title": "RBLXSTAT, Steal An Egg",
+            "url": "https://rblxstat.com/games/10563114921"
+          }
+        ],
+        "game": {
+          "universeId": 10563114921,
+          "name": "Steal An Egg"
+        }
+      }
+    ],
+    "dealStories": [],
+    "bigDeals": [
+      {
+        "game": "Brookhaven RP",
+        "who": "bought by Voldex",
+        "when": "Feb 2025",
+        "price": "$100M+",
+        "tag": "ESTIMATE",
+        "bar": 100,
+        "note": "Price never shared. Voldex's CEO called it bigger than the Bloxburg deal, so we put it above $100M.",
+        "sources": [
+          {
+            "title": "GuruFocus",
+            "url": "https://www.gurufocus.com/news/2972560/this-teen-built-a-game-on-roblox-then-sold-it-for-millions"
+          }
+        ]
+      },
+      {
+        "game": "Welcome to Bloxburg",
+        "who": "bought by Embracer",
+        "when": "earlier",
+        "price": "~$100M",
+        "tag": "REPORTED",
+        "bar": 92,
+        "note": "Reported at about $100M; the buyer said it paid less.",
+        "sources": [
+          {
+            "title": "Dallas News / Bloomberg",
+            "url": "https://www.dallasnews.com/business/technology/2025/07/12/roblox-game-buying-frenzy-is-turning-teens-into-millionaires/"
+          }
+        ]
+      },
+      {
+        "game": "Blue Lock: Rivals",
+        "who": "bought by Do Big Studios",
+        "when": "Mar 2025",
+        "price": "$3M+",
+        "tag": "REPORTED",
+        "bar": 4,
+        "note": "Built by a 19-year-old, sold a few months after launch.",
+        "sources": [
+          {
+            "title": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2025-07-11/roblox-game-buying-frenzy-is-turning-teens-into-millionaires"
+          }
+        ]
+      }
+    ]
+  },
+  "rising": {
+    "title": "Who's Hot, Who's Not",
+    "dek": "Throwing things is up. Mysteries and eggs are down.",
+    "up": [
+      {
+        "id": "throw-food",
+        "kicker": "ALMOST AGAIN · NOV 21",
+        "headline": "Throw Food For Animals Nearly Beats Itself",
+        "dek": "2,464,205 players on Saturday. Its own record is just 10,397 higher.",
+        "facts": [
+          [
+            "Nov 21 peak",
+            "2,464,205"
+          ],
+          [
+            "Record, Nov 14",
+            "2,474,602"
+          ],
+          [
+            "7-day average",
+            "285,876"
+          ],
+          [
+            "Week change",
+            "+9%"
+          ]
+        ],
+        "paras": [
+          "Goofy Chupacabra's Throw Food For Animals hit 2,464,205 players at once on November 21, per RBLXSTAT, a week after setting its all-time record of 2,474,602 on November 14. Its seven-day average is 285,876, up 9% on the week before.",
+          "The game was created on September 18 and has passed 416 million visits. It is third on RBLXSTAT's all-time record list, behind only Steal An Egg and a keyboard escape game. The animals remain extremely well fed."
+        ],
+        "sources": [
+          {
+            "title": "RBLXSTAT, Throw Food For Animals",
+            "url": "https://rblxstat.com/games/10766972131"
+          },
+          {
+            "title": "RBLXSTAT, record list",
+            "url": "https://rblxstat.com/lists/record-breaking-roblox-games"
+          }
+        ],
+        "game": {
+          "universeId": 10766972131,
+          "name": "Throw Food For Animals"
+        }
+      },
+      {
+        "id": "throw-a-seed",
+        "kicker": "NEW RECORD · WEEK OF NOV 16",
+        "headline": "Throw A Seed Grows Fast",
+        "dek": "Made on November 7. A record of 172,853 players two weeks later.",
+        "facts": [
+          [
+            "New record",
+            "172,853"
+          ],
+          [
+            "Created",
+            "Nov 7, 2026"
+          ],
+          [
+            "Developer",
+            "Fish Time Studios"
+          ]
+        ],
+        "paras": [
+          "Fish Time Studios' Throw a Seed set a new record of 172,853 players at once in the week of November 16 to 22, per RBLXSTAT's weekly report. RBLXSTAT's record list shows it was created on November 7.",
+          "Roblox has now thrown food and seeds and shot arrows this month. The farming is going very well, as long as you do not ask how gently."
+        ],
+        "sources": [
+          {
+            "title": "RBLXSTAT, Weekly Report Nov 16–22",
+            "url": "https://rblxstat.com/blog/roblox-weekly-report-2026-11-22"
+          },
+          {
+            "title": "RBLXSTAT, record list",
+            "url": "https://rblxstat.com/lists/record-breaking-roblox-games"
+          }
+        ],
+        "game": {
+          "universeId": 10775182046,
+          "name": "Throw a Seed"
+        }
+      },
+      {
+        "id": "kit-pvp",
+        "kicker": "SURGE · WEEKLY AVERAGE",
+        "headline": "Kit PVP FFA Grows 5,686%",
+        "dek": "The biggest riser of the week, now with 23,403 players.",
+        "facts": [
+          [
+            "Weekly avg change",
+            "+5,686%"
+          ],
+          [
+            "Playing",
+            "23,403"
+          ],
+          [
+            "Developer",
+            "MC PVP Community"
+          ]
+        ],
+        "paras": [
+          "Kit PVP FFA by MC PVP Community was the top riser in RBLXSTAT's weekly report for November 16 to 22, with its weekly average up 5,686% and 23,403 players at the last check.",
+          "Second place went to Shoot Arrows For Animals! by +1 Games Club, up 5,436% with 25,085 players. Fighting everyone and firing arrows for animals: a busy week for the new games."
+        ],
+        "sources": [
+          {
+            "title": "RBLXSTAT, Weekly Report Nov 16–22",
+            "url": "https://rblxstat.com/blog/roblox-weekly-report-2026-11-22"
+          }
+        ],
+        "game": {
+          "universeId": 10774244015,
+          "name": "Kit PVP FFA"
+        }
+      }
+    ],
+    "down": [
+      {
+        "id": "mm2",
+        "kicker": "SLIDING · WEEK OF NOV 16",
+        "headline": "Murder Mystery 2 Loses The Plot",
+        "dek": "Weekly average down 61% to 110,496. The detective is investigating.",
+        "facts": [
+          [
+            "Weekly avg",
+            "110,496"
+          ],
+          [
+            "Week change",
+            "-61%"
+          ],
+          [
+            "24h peak",
+            "212,320"
+          ],
+          [
+            "Record",
+            "2.2M"
+          ]
+        ],
+        "paras": [
+          "Nikilis' Murder Mystery 2 had the biggest drop in RBLXSTAT's top 10 for November 16 to 22, with its weekly average down 61% to 110,496 players. RBLXDB showed 68,811 playing with a 24-hour peak of 212,320.",
+          "The game has been on Roblox since 2014 and still holds a 2.2 million record, fourth on RBLXSTAT's all-time list. The sources did not give a reason for the drop, so neither will we. Case open."
+        ],
+        "sources": [
+          {
+            "title": "RBLXSTAT, Weekly Report Nov 16–22",
+            "url": "https://rblxstat.com/blog/roblox-weekly-report-2026-11-22"
+          },
+          {
+            "title": "RBLXDB, live player counts",
+            "url": "https://rblxdb.com/roblox-player-count"
+          },
+          {
+            "title": "RBLXSTAT, record list",
+            "url": "https://rblxstat.com/lists/record-breaking-roblox-games"
+          }
+        ],
+        "game": {
+          "universeId": 66654135,
+          "name": "Murder Mystery 2"
+        }
+      },
+      {
+        "id": "break-steal",
+        "kicker": "SLIDING · SINCE OCT 18",
+        "headline": "Break And Steal An Egg Got Cracked",
+        "dek": "1,312,221 players at its peak. 63,260 on Monday.",
+        "facts": [
+          [
+            "Record, Oct 18",
+            "1,312,221"
+          ],
+          [
+            "Playing Nov 23",
+            "63,260"
+          ],
+          [
+            "7-day average",
+            "78,366"
+          ],
+          [
+            "Week change",
+            "-10%"
+          ]
+        ],
+        "paras": [
+          "ILGames x Eggs' Break and Steal an Egg set a record of 1,312,221 players on October 18, per RBLXSTAT. On November 23 it had 63,260, and its seven-day average of 78,366 is down 10% on the week before.",
+          "It still spikes on weekends, with a 475,847 peak on November 22, and it has 484 million visits. The egg is not broken. It is just a little scrambled."
+        ],
+        "sources": [
+          {
+            "title": "RBLXSTAT, Break and Steal an Egg",
+            "url": "https://rblxstat.com/games/10765288803"
+          }
+        ],
+        "game": {
+          "universeId": 10765288803,
+          "name": "Break and Steal an Egg"
+        }
+      },
+      {
+        "id": "survive-ideas",
+        "kicker": "SLIDING · 7 DAYS",
+        "headline": "Survive Your Ideas Runs Low On Ideas",
+        "dek": "A record of 107,884 on November 14, then down 25% in a week.",
+        "facts": [
+          [
+            "Record, Nov 14",
+            "107,884"
+          ],
+          [
+            "7-day average",
+            "42,923"
+          ],
+          [
+            "Week change",
+            "-25%"
+          ],
+          [
+            "Playing Nov 23",
+            "32,398"
+          ]
+        ],
+        "paras": [
+          "Survive Your Ideas set its record of 107,884 players on November 14, per RBLXSTAT. Its seven-day average is now 42,923, down 25%, and 32,398 were playing on November 23.",
+          "It added a BOSS tag to its name on November 21. Surviving your ideas is hard. Surviving the second week is harder."
+        ],
+        "sources": [
+          {
+            "title": "RBLXSTAT, Survive Your Ideas",
+            "url": "https://rblxstat.com/games/10769671316"
+          }
+        ],
+        "game": {
+          "universeId": 10769671316,
+          "name": "Survive Your Ideas"
+        }
+      }
+    ]
+  },
+  "flex": {
+    "title": "Built Different",
+    "dek": "The best Roblox builds, showcases and clips worth watching right now.",
+    "posts": [
+      {
+        "url": "https://x.com/roblox_jp/status/2123004546142122247",
+        "caption": "Roblox Japan's video from Roblox Creator Series Tokyo 2026.",
+        "creator": "@roblox_jp"
+      },
+      {
+        "url": "https://x.com/ROBRUNGame/status/2117656914373034078",
+        "caption": "ROB RUN announces its launch: servers up November 4.",
+        "creator": "@ROBRUNGame"
+      }
+    ],
+    "larp": null,
+    "stories": [
+      {
+        "id": "studio-week",
+        "kicker": "STUDIO · NOV 17–20",
+        "headline": "Studio Learns To Copy, Paste And Think",
+        "dek": "Animation Graph state machines go live, and instances copy as JSON.",
+        "facts": [
+          [
+            "State machines",
+            "Full release"
+          ],
+          [
+            "Copy as JSON",
+            "New"
+          ],
+          [
+            "Server region API",
+            "New"
+          ],
+          [
+            "Web Play",
+            "WebGPU"
+          ]
+        ],
+        "paras": [
+          "Roblox moved State Machines and Luau Expressions in Animation Graphs to full release on November 19, so animations can switch between states by rules instead of a pile of scripts. The same week brought copying and pasting instances as JSON in Studio, and a new API to read which region a game server is in.",
+          "Web Play also switched to WebGPU for sharper graphics in the browser, per Roblox's weekly recap. Your animations now have a brain. Please do not let them unionize."
+        ],
+        "sources": [
+          {
+            "title": "DevForum, Animation Graph state machines",
+            "url": "https://devforum.roblox.com/t/full-release-state-machines-and-luau-expressions-in-animation-graphs/4997058"
+          },
+          {
+            "title": "DevForum, Copy and Paste as JSON",
+            "url": "https://devforum.roblox.com/t/copy-and-paste-instances-as-json-in-studio/4996012"
+          },
+          {
+            "title": "DevForum, Server Region API",
+            "url": "https://devforum.roblox.com/t/read-your-games-server-region-with-new-api/4996710"
+          },
+          {
+            "title": "DevForum, Weekly Recap Nov 16–20",
+            "url": "https://devforum.roblox.com/t/weekly-recap-november-16%E2%80%9320-2026/4998199"
+          }
+        ]
+      },
+      {
+        "id": "ui-particles",
+        "kicker": "STUDIO BETA · NOV 19",
+        "headline": "Your UI Can Sparkle Now",
+        "dek": "ParticleEmitter2D lands in Studio Beta. Buttons everywhere are about to get very excited.",
+        "embed": "https://x.com/RobloxCreators/status/2123511334101012932",
+        "facts": [
+          [
+            "New object",
+            "ParticleEmitter2D"
+          ],
+          [
+            "Status",
+            "Studio Beta"
+          ],
+          [
+            "Works in",
+            "Any GuiObject"
+          ]
+        ],
+        "paras": [
+          "Roblox's UI Particles beta adds ParticleEmitter2D, which you put under any GUI object to get sparkles, bursts and glows. You control texture, color, transparency, size, speed, drag and spin, with flipbook animation and an Emit() call for one-off bursts.",
+          "Turn it on under File, Beta Features, UI Particles. Places that use it can't be published while it's in beta, so sparkle responsibly."
+        ],
+        "sources": [
+          {
+            "title": "DevForum, UI Particles beta",
+            "url": "https://devforum.roblox.com/t/studio-beta-ui-particles/4996850"
+          },
+          {
+            "title": "Creator Hub docs",
+            "url": "https://create.roblox.com/docs/ui/2D-particle-emitters"
+          },
+          {
+            "title": "Roblox Creators on X",
+            "url": "https://x.com/RobloxCreators/status/2123511334101012932"
+          }
+        ]
+      }
+    ]
+  },
+  "rip": {
+    "title": "Gone Too Soon",
+    "dek": "Games that blew up, then blew away.",
+    "note": "Some of these games are still online with a few players. We're being dramatic. It's a newspaper.",
+    "stones": [
+      {
+        "name": "Jump for Animals",
+        "dates": "2026 – 2026",
+        "fact": "Averaged about 34,000 players in September and about 3,000 in October, per Bloxodes, a drop of 31,000.",
+        "joke": "Jumped. Did not land.",
+        "sources": [
+          {
+            "title": "Bloxodes, October 2026 report",
+            "url": "https://bloxodes.com/stats/reports/roblox-october-2026"
+          }
+        ]
+      },
+      {
+        "name": "DONT SPLASH",
+        "dates": "Critical condition",
+        "fact": "97,140 playing on November 2, the fastest-growing new game that week. 25,529 on November 18.",
+        "joke": "Splashed.",
+        "sources": [
+          {
+            "title": "GGRecon, fastest-growing new games (Nov 2)",
+            "url": "https://www.ggrecon.com/articles/fastest-growing-new-roblox-games-november-2026/"
+          },
+          {
+            "title": "GGRecon, new games on the charts (Nov 18)",
+            "url": "https://www.ggrecon.com/articles/roblox-top-games-didnt-exist-before-october/"
+          }
+        ]
+      },
+      {
+        "name": "Ride A Pet",
+        "dates": "April 2026 – 2026",
+        "fact": "Hit a record of 1.6 million players at once, #6 on RBLXSTAT's all-time list. Had 1,519 playing when the list was updated on November 23.",
+        "joke": "The pet has been returned to the shelter.",
+        "sources": [
+          {
+            "title": "RBLXSTAT, record list",
+            "url": "https://rblxstat.com/lists/record-breaking-roblox-games"
+          }
+        ]
+      },
+      {
+        "name": "Fart Together",
+        "dates": "Oct – Nov 2026",
+        "fact": "Peaked at 14,000+ players around Nov 7, then removed as Roblox cracked down on fart games.",
+        "joke": "Gone, but the smell lingers.",
+        "sources": [
+          {
+            "title": "Dexerto, Nov 9",
+            "url": "https://www.dexerto.com/roblox/roblox-cracking-down-on-fart-games-as-viral-hit-disappears-3426071/"
+          }
+        ]
+      }
+    ]
+  },
+  "help": {
+    "title": "Devs For Hire",
+    "dek": "Looking for work? Need a builder? Post it here, free while we launch.",
+    "listings": [],
+    "how": "DM @TheStudTimes on X with what you do (or need) and a link to your work. Free while we launch."
+  },
+  "tweets": [
+    {
+      "text": "Roblox stock jumped 10.5% on Monday to $51.64.\n\nThe chart finally found the jump button.",
+      "card": {
+        "theme": "ink",
+        "kicker": "WALL STREET · NOV 23",
+        "big": "+10.5%",
+        "headline": "Roblox stock in one day",
+        "dek": "Closed at $51.64. Oppenheimer lifted its target to $55.",
+        "source": "SOURCE: JKN, RALLIES",
+        "chart": {
+          "line": "stock",
+          "prefix": "$",
+          "chips": [
+            "▲ 10.5% MONDAY"
+          ]
+        }
+      }
+    },
+    {
+      "text": "Murder Mystery 2's weekly average fell 61% to 110,496.\n\nThe detective has no leads.",
+      "card": {
+        "theme": "paper",
+        "label": "FALLING · NOV 24, 2026",
+        "kicker": "SLIDING · 7 DAYS",
+        "big": "-61%",
+        "headline": "Murder Mystery 2 slides",
+        "dek": "Weekly average now 110,496 players.",
+        "source": "SOURCE: RBLXSTAT",
+        "game": {
+          "universeId": 66654135,
+          "name": "Murder Mystery 2"
+        }
+      }
+    },
+    {
+      "text": "Throw Food For Animals hit 2,464,205 players on Saturday, 10,397 short of its own record.\n\nThe animals are full. The servers are not.",
+      "card": {
+        "theme": "red",
+        "kicker": "ALMOST AGAIN · NOV 21",
+        "big": "2.46M",
+        "headline": "players in Throw Food For Animals",
+        "dek": "Its record is 2,474,602, set a week earlier.",
+        "source": "SOURCE: RBLXSTAT",
+        "game": {
+          "universeId": 10766972131,
+          "name": "Throw Food For Animals"
+        },
+        "chart": {
+          "title": "PLAYERS AT ONCE",
+          "bars": [
+            [
+              "7-DAY AVG",
+              285876,
+              "286K"
+            ],
+            [
+              "NOV 14 RECORD",
+              2474602,
+              "2.47M"
+            ],
+            [
+              "NOV 21",
+              2464205,
+              "2.46M"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "text": "R.I.P. Ride A Pet. A record of 1.6 million players, 1,519 now.\n\nThe pet has been returned.",
+      "card": {
+        "theme": "paper",
+        "label": "REST IN PEACE · NOV 24, 2026",
+        "kicker": "OBITUARIES",
+        "big": "1.6M to 1.5K",
+        "dek": "Record players at once, then players on November 23.",
+        "source": "SOURCE: RBLXSTAT",
+        "tomb": {
+          "name": "Ride A Pet",
+          "dates": "April 2026 – 2026",
+          "line": "The pet has been returned."
+        }
+      }
+    }
+  ]
+}
