@@ -56,7 +56,7 @@
     "comingUp": [
       {
         "when": "NOV 25",
-        "what": "Roblox's The Great Build event starts (details not announced yet)"
+        "what": "Roblox's The Great Build event starts, runs to Nov 30"
       },
       {
         "when": "NOV 28",
@@ -94,28 +94,29 @@
       "id": "great-build",
       "kicker": "OFFICIAL EVENT · NOV 25",
       "headline": "Roblox Is Building Something Very Tall",
-      "dek": "The Great Build starts today. What it is, Roblox has not said yet.",
+      "dek": "The Great Build starts today. Guides say everyone stacks one block an hour onto a giant shared tower.",
       "facts": [
         [
           "Starts",
           "Nov 25"
         ],
         [
-          "Teased",
-          "Nov 23"
+          "Ends",
+          "Nov 30"
         ],
         [
-          "Theme",
-          "Being thankful"
+          "How",
+          "One block an hour"
         ],
         [
           "Rewards",
-          "Not announced"
+          "Free avatar items"
         ]
       ],
       "paras": [
-        "Roblox teased a new event on Monday, November 23, with the words: \"we're building something tall. like, really tall. what are you thankful for? The Great Build starts 11.25.\" That is the whole announcement so far, per Happy Gamer and NWPS Media.",
-        "Rewards, rules and which games take part have not been announced, and no end date has been shared. With Thanksgiving on Thursday, the timing is not subtle. We will report the height when someone measures it."
+        "Roblox teased the event on Monday, November 23, with the words: \"we're building something tall. like, really tall. what are you thankful for? The Great Build starts 11.25.\"",
+        "Roblox itself has not posted the rules yet. According to Pro Game Guides' event guide, it runs from November 25 to November 30, every player gets a free Gratitude Block each hour to add to one global tower, and free avatar items unlock as the tower hits milestones. The start time has not been confirmed. The video above is a creator's preview, not an official Roblox video.",
+        "With Thanksgiving on Thursday, the timing is not subtle. We will report the height when someone measures it."
       ],
       "sources": [
         {
@@ -123,10 +124,19 @@
           "url": "https://happygamer.com/roblox-the-great-build-event-november-25-180924/"
         },
         {
-          "title": "NWPS Media, Nov 23",
-          "url": "https://media.nwps.fi/2026/11/23/were-building-something-tall-like-really-tall-the-great-build-starts-11-25/"
+          "title": "Pro Game Guides, event guide",
+          "url": "https://progameguides.com/roblox/roblox-the-great-build-event-guide/"
+        },
+        {
+          "title": "Roblox Wiki, The Great Build",
+          "url": "https://roblox.fandom.com/wiki/The_Great_Build"
+        },
+        {
+          "title": "Preview video on YouTube",
+          "url": "https://www.youtube.com/watch?v=yU5d3y-QnA0"
         }
-      ]
+      ],
+      "embed": "https://www.youtube.com/watch?v=yU5d3y-QnA0"
     }
   },
   "markets": {
@@ -275,7 +285,8 @@
             "title": "JKN, Nov 23",
             "url": "https://news.jkn.co.kr/editions/english/post/1117418"
           }
-        ]
+        ],
+        "chart": "stock"
       },
       {
         "id": "oppenheimer",
@@ -317,7 +328,12 @@
             "title": "Trefis, Nov 23",
             "url": "https://www.trefis.com/stock/rblx/articles/627684/what-is-the-case-for-waiting-on-roblox-stock/2026-11-23"
           }
-        ]
+        ],
+        "plate": {
+          "kicker": "ANALYSTS",
+          "big": "$55",
+          "small": "Oppenheimer's new price target for Roblox stock"
+        }
       },
       {
         "id": "bofa",
@@ -359,7 +375,12 @@
             "title": "TradingView, BofA note",
             "url": "https://www.tradingview.com/news/tradingview:e88dfc452b8f9:0-b-of-a-securities-maintains-roblox-at-neutral-raises-price-target-to-48-from-45/"
           }
-        ]
+        ],
+        "plate": {
+          "kicker": "ANALYSTS",
+          "big": "$48",
+          "small": "Bank of America's new price target, rating still Neutral"
+        }
       },
       {
         "id": "citi",
@@ -397,7 +418,12 @@
             "title": "RBLXSTAT, Steal An Egg",
             "url": "https://rblxstat.com/games/10563114921"
           }
-        ]
+        ],
+        "plate": {
+          "kicker": "ANALYSTS",
+          "big": "Neutral",
+          "small": "Citi's new rating on Roblox stock, down from Buy"
+        }
       },
       {
         "id": "moments",
@@ -435,7 +461,12 @@
             "title": "Endgame Tools, Avatar Moments",
             "url": "https://endgametools.com/en/roblox/news/roblox-avatar-moments"
           }
-        ]
+        ],
+        "plate": {
+          "kicker": "NEW FEATURE",
+          "big": "Avatar Moments",
+          "small": "A pose becomes a short video with a Shop button"
+        }
       },
       {
         "id": "egg-money",
@@ -921,7 +952,12 @@
             "title": "DevForum, Weekly Recap Nov 16–20",
             "url": "https://devforum.roblox.com/t/weekly-recap-november-16%E2%80%9320-2026/4998199"
           }
-        ]
+        ],
+        "plate": {
+          "kicker": "STUDIO",
+          "big": "State Machines",
+          "small": "Animation Graphs, full release on Nov 19"
+        }
       },
       {
         "id": "ui-particles",
@@ -1121,5 +1157,190 @@
         }
       }
     }
-  ]
+  ],
+  "news": {
+    "title": "Everything Else On Roblox",
+    "dek": "Sales, awards, creators and courtrooms: the news that is not a player chart.",
+    "stories": [
+      {
+        "id": "black-friday",
+        "tag": "SALE",
+        "kicker": "NOV 25",
+        "headline": "The Black Friday Sale Is Still Not Here",
+        "dek": "Roblox has given no date. Guides are guessing November 27.",
+        "embed": "https://www.youtube.com/watch?v=IEiNo5FRxLg",
+        "facts": [
+          [
+            "Official date",
+            "None yet"
+          ],
+          [
+            "Rumored start",
+            "Nov 27 (unconfirmed)"
+          ],
+          [
+            "Last official sale",
+            "Memorial Day 2026"
+          ]
+        ],
+        "paras": [
+          "Roblox's Black Friday sale has not started, and Roblox has not confirmed a date. Pro Game Guides, writing on November 24, says the sale is rumored to run from November 27 to November 30, and calls its own dates estimates.",
+          "Timesaver.gg notes that the start date people expected from earlier years has already passed. The Roblox Wiki's list of official sales still ends at Memorial Day 2026. News account RoUtility spotted one item, the Blaring Blue Electric Guitar, going Limited on November 23 and wondered if that was the start.",
+          "The shopping carts are ready. The shop is not. The video above is a creator's explainer, not an official Roblox video."
+        ],
+        "sources": [
+          {
+            "title": "Pro Game Guides, Nov 24",
+            "url": "https://progameguides.com/roblox/roblox-black-friday-2026-when-does-the-sale-start/"
+          },
+          {
+            "title": "Timesaver.gg",
+            "url": "https://timesaver.gg/blog/roblox-black-friday-sale"
+          },
+          {
+            "title": "Roblox Wiki, Sale",
+            "url": "https://roblox.fandom.com/wiki/Sale"
+          },
+          {
+            "title": "RoUtility on X",
+            "url": "https://x.com/RoUtilityNews"
+          }
+        ]
+      },
+      {
+        "id": "ttk-game-awards",
+        "tag": "EVENT",
+        "kicker": "THE GAME AWARDS · DEC 10",
+        "headline": "A Roblox Game Is Up For A Game Award",
+        "dek": "TTK Testing is nominated for Best User Creation, a brand new category.",
+        "game": {
+          "placeId": 120189115846709,
+          "name": "TTK Testing"
+        },
+        "facts": [
+          [
+            "Category",
+            "Best User Creation"
+          ],
+          [
+            "Show",
+            "Dec 10"
+          ],
+          [
+            "Made by",
+            "Sable Digital"
+          ],
+          [
+            "Rivals",
+            "4"
+          ]
+        ],
+        "paras": [
+          "TTK Testing, by Sable Digital, is one of five nominees for Best User Creation at The Game Awards 2026. The category is new this year. The other four are creations made inside Baldur's Gate 3, Minecraft, Grand Theft Auto Online and Fortnite.",
+          "News account RTC says it is the first Roblox game ever nominated at The Game Awards. Rolimons lists the game as created on April 27, 2026, with more than 77 million visits. The show is on December 10 in Los Angeles.",
+          "Seven months old and already wearing a suit."
+        ],
+        "sources": [
+          {
+            "title": "Game Informer, nominees",
+            "url": "https://gameinformer.com/2026/11/17/here-are-the-nominees-for-the-game-awards-2026"
+          },
+          {
+            "title": "RTC on X",
+            "url": "https://x.com/Roblox_RTC/status/2122785166020198865"
+          },
+          {
+            "title": "Rolimons, TTK Testing",
+            "url": "https://www.rolimons.com/game/120189115846709"
+          }
+        ]
+      },
+      {
+        "id": "kreekcraft",
+        "tag": "DRAMA",
+        "kicker": "CREATORS · NOV 17",
+        "headline": "KreekCraft Deactivates His Roblox Account",
+        "dek": "Deactivated, not deleted. He answered the news himself.",
+        "embed": "https://x.com/KreekCraft/status/2122866571035246797",
+        "facts": [
+          [
+            "When",
+            "Nov 17"
+          ],
+          [
+            "Status",
+            "Deactivated"
+          ],
+          [
+            "Deleted?",
+            "No"
+          ]
+        ],
+        "paras": [
+          "Roblox YouTuber KreekCraft deactivated his Roblox account during a livestream on November 17. News account RTC posted that he had \"FINALLY\" done it, and he replied to ask what they meant by \"FINALLY\" (his reply is above).",
+          "Deactivating is not deleting: the account can come back. Fan wikis disagree about why he did it. One says it is a break to play Grand Theft Auto VI, another says he was unhappy with the state of Roblox. We have not watched the full stream, so we are not putting reasons in his mouth."
+        ],
+        "sources": [
+          {
+            "title": "KreekCraft on X",
+            "url": "https://x.com/KreekCraft/status/2122866571035246797"
+          },
+          {
+            "title": "RTC on X",
+            "url": "https://x.com/Roblox_RTC/status/2122843291116863571"
+          },
+          {
+            "title": "Roblox Wiki, KreekCraft",
+            "url": "https://roblox.fandom.com/wiki/Player:KreekCraft"
+          }
+        ]
+      },
+      {
+        "id": "nh-lawsuit",
+        "tag": "LAWSUIT",
+        "serious": true,
+        "kicker": "NEW HAMPSHIRE · NOV 23",
+        "headline": "New Hampshire Sues Roblox Over Child Safety Claims",
+        "dek": "The state says Roblox called itself safe for kids while knowing about risks. These are allegations, not findings.",
+        "plate": {
+          "kicker": "LAWSUIT",
+          "big": "New Hampshire v. Roblox",
+          "small": "Filed Nov 23, 2026 · Merrimack County Superior Court"
+        },
+        "facts": [
+          [
+            "Filed",
+            "Nov 23"
+          ],
+          [
+            "Court",
+            "Merrimack County Superior Court"
+          ],
+          [
+            "Law",
+            "NH Consumer Protection Act"
+          ],
+          [
+            "Penalty sought",
+            "$10,000 per violation"
+          ]
+        ],
+        "paras": [
+          "New Hampshire Attorney General John M. Formella announced a lawsuit against Roblox Corporation on November 23. It was filed in Merrimack County Superior Court under the state's Consumer Protection Act.",
+          "According to the Attorney General's office, the complaint alleges that Roblox told parents the platform was \"safe for kids aged 5+\" while the company knew about serious safety problems. The state is asking for money back for consumers, civil penalties of $10,000 per violation, and a permanent order against the conduct it describes.",
+          "The reports we read did not include a response from Roblox. We will add it when we see one. A court has not decided any of these claims."
+        ],
+        "sources": [
+          {
+            "title": "New Hampshire Department of Justice, Nov 23",
+            "url": "https://www.doj.nh.gov/news-and-media/attorney-general-formella-sues-roblox-deceptively-marketing-itself-safe-platform"
+          },
+          {
+            "title": "Yahoo News, Nov 24",
+            "url": "https://www.yahoo.com/news/us/articles/popular-kids-gaming-platform-accused-152553177.html"
+          }
+        ]
+      }
+    ]
+  }
 }

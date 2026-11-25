@@ -28,6 +28,15 @@ One file per day: `editions/YYYY-MM-DD.json`. Copy the newest one and replace th
 - `help.listings` — `[{ "kind": "HIRING" | "LOOKING FOR WORK", "text": "...", "contact": "https://..." }]`.
 - `correction` — the funny line at the bottom.
 
+## Every story needs a picture or video (hard rule from Kale)
+No story may go out as text only. For each story, in this order of preference:
+1. `embed`: the official post or a video about it (X, YouTube or TikTok link). Say so in the story when a video is a creator's and not official.
+2. `game`: the official game picture (real `universeId` or `placeId` only).
+3. `item`: `{"assetId": 123, "name": "..."}` for a catalog item.
+4. `"chart": "stock"` on a Business story to show the stock chart.
+5. Last resort, when no official picture exists (analyst notes, lawsuits): `"plate": {"kicker": "...", "big": "...", "small": "..."}`, a drawn title card.
+The build prints a WARNING naming any story that has none of these. Fix every one before pushing.
+
 ## News (`news`)
 Every edition should have a News page: the things happening on Roblox that are not a game going up or down. Aim for 3–8 stories and spread them across kinds.
 

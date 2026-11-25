@@ -37,12 +37,28 @@ function image(img, h = 320) {
   const src = /^https?:\/\//.test(img.src) ? esc(img.src) : esc(img.src.replace(/^\/+/, ''));
   return `<figure class="photo" style="--h:${h}px"><img src="${src}" alt="${esc(img.alt || '')}" loading="lazy"><figcaption>${esc(img.credit || '')}</figcaption></figure>`;
 }
+const NO_VISUAL = [];
+function plate(s) {
+  const p = s.plate || {}, f = (s.facts || [])[0] || [];
+  return `<div class="plate"><span class="mono">${esc(p.kicker || s.tag || s.kicker || '')}</span><b>${esc(p.big || f[1] || s.headline)}</b><span>${esc(p.small || f[0] || '')}</span>${s.serious ? '' : BRICK}</div>`;
+}
+// Kale's rule: no story without a picture or video. Order: video/post embed, game art, item art, image, chart, then a drawn plate.
+function visual(s) {
+  const em = s.embed && embed(s.embed);
+  if (em) return `<div class="story-embed">${em.html}</div>`;
+  if (s._game && (s._game.thumb || s._game.icon)) return gameBlock(s._game, 300);
+  if (s._item) return `<figure class="item-pic"><img src="${esc(s._item)}" alt="${esc((s.item && s.item.name) || 'Roblox item')}" loading="lazy"><figcaption class="credit">Image: Roblox</figcaption></figure>`;
+  if (s.image && s.image.src) return image(s.image, 300);
+  if (s.chart === 'stock' && s._closes) return `<div class="chartbox">${stockChart(s._closes)}</div>`;
+  if (!s.plate && !s.game) NO_VISUAL.push(s);
+  return plate(s) + (s._game ? gameBlock(s._game, 300) : '');
+}
 function story(s) {
   return `<article class="story" id="${esc(s.id)}">
     <span class="tagrow">${s.tag ? `<span class="pill">${esc(s.tag)}</span>` : ''}<span class="kicker">${esc(s.kicker)}</span></span>
     <h3>${esc(s.headline)}</h3>
     <p class="dek">${esc(s.dek)}</p>
-    ${s.embed && embed(s.embed) ? `<div class="story-embed">${embed(s.embed).html}</div>` : (s._game ? gameBlock(s._game, 300) : (s._item ? `<figure class="item-pic"><img src="${esc(s._item)}" alt="${esc((s.item && s.item.name) || 'Roblox item')}" loading="lazy"><figcaption class="credit">Image: Roblox</figcaption></figure>` : image(s.image, 300)))}
+    ${visual(s)}
     ${facts(s.facts)}
     ${(s.paras || []).map((p) => `<p>${rich(p)}</p>`).join('')}
     ${sources(s.sources)}
@@ -63,7 +79,7 @@ function stockChart(closes) {
   const ticks = [0, Math.round((closes.length - 1) / 3), Math.round((2 * (closes.length - 1)) / 3), closes.length - 1];
   const xl = ticks.map((i) => `<text x="${x(i).toFixed(1)}" y="${H - 14}" text-anchor="middle" class="m">${esc(closes[i][0])}</text>`).join('');
   const maxI = vals.indexOf(Math.max(...vals)), minI = vals.indexOf(Math.min(...vals.slice(1)));
-  const ann = `<text x="${x(maxI).toFixed(1)}" y="${(y(vals[maxI]) - 14).toFixed(1)}" text-anchor="middle" class="a">Peak: $${vals[maxI].toFixed(2)}</text>`;
+  const ann = `<text x="${x(maxI).toFixed(1)}" y="${(y(vals[maxI]) - 14).toFixed(1)}" text-anchor="${maxI > closes.length * 0.8 ? 'end' : 'middle'}" class="a">Peak: $${vals[maxI].toFixed(2)}</text>`;
   const dots = closes.map((c, i) => `<circle cx="${x(i).toFixed(1)}" cy="${y(c[1]).toFixed(1)}" r="3.5"><title>${esc(c[0])}: $${c[1].toFixed(2)}</title></circle>`).join('');
   const area = `${L},${H - B} ${pts} ${x(closes.length - 1).toFixed(1)},${H - B}`;
   const first = closes[0], last = closes[closes.length - 1];
@@ -107,6 +123,7 @@ async function resolveGame(g) {
 }
 async function enrich(ed) {
   const all = [ed.front.lead, ...(ed.markets.stories || []), ...(ed.markets.dealStories || []), ...ed.rising.up, ...ed.rising.down, ...((ed.flex && ed.flex.stories) || []), ...((ed.news && ed.news.stories) || [])];
+  for (const s of ed.markets.stories || []) if (s && ed.markets.stock) s._closes = ed.markets.stock.closes;
   for (const s of all) {
     if (s && s.game) s._game = await resolveGame(s.game);
     if (s && s.item && /^\d+$/.test(String(s.item.assetId || ''))) {
@@ -162,7 +179,7 @@ function shell(ed, current, body, { depth = 0, archiveLink = true } = {}) {
     ? `<span class="on" aria-current="page">${esc(short[slug])}</span>`
     : `<a href="${slug}.html">${esc(short[slug])}</a>`).join('');
   const sec = SECTIONS.find((s) => s[0] === current);
-  const title = current === 'index' ? `${SITE}: Roblox news, made of studs` : `${sec ? sec[1] : 'Past Editions'} · ${SITE}`;
+  const title = current === 'index' ? `${SITE}: Roblox news, made of studs` : `${sec ? sec[1] : (current === 'tips' ? 'Send a tip' : 'Past Editions')} · ${SITE}`;
   const st = ed.markets && ed.markets.stock;
   const live = depth === 0 ? liveGames(ed) : [];
   return `<!doctype html>
@@ -189,6 +206,7 @@ function shell(ed, current, body, { depth = 0, archiveLink = true } = {}) {
   <a href="index.html" class="name">${SITE}</a>
   <nav aria-label="Sections">${nav}${archiveLink ? `<a href="${up}archive.html">Archive</a>` : ''}</nav>
   <span class="mono date">No. ${esc(ed.number)} · ${esc(shortDate(ed.date))}</span>
+  <a class="btn tipbtn" href="${up}tips.html">Send a tip</a>
 </div></header>
 <div class="live"><div class="wrap">
   ${live.length ? `<span class="live-h" hidden><i></i>Playing now</span>${live.map((g) => `<a hidden data-live="${esc(g.id)}" href="rising.html">${esc(g.name)} <b></b></a>`).join('')}` : ''}
@@ -200,7 +218,7 @@ ${body.includes('tiktok-embed') && !body.includes('tiktok.com/embed.js') ? '<scr
 <footer class="foot"><div class="wrap">
   <span class="tagline">${esc(TAGLINE)}</span>
   ${ed.correction ? `<span class="corr">${esc(ed.correction)}</span>` : ''}
-  <a class="follow" href="${X_URL}" target="_blank" rel="noopener">Follow @TheStudTimes on X</a>
+  <span><a class="follow" href="${X_URL}" target="_blank" rel="noopener">Follow @TheStudTimes on X</a></span>
   <span>${SITE} is an unofficial fan newspaper and is not affiliated with Roblox Corporation. Game images: Roblox and each game's creator.</span>
 </div></footer>
 ${live.length ? `<script>${LIVE_JS}</script>` : ''}
@@ -234,6 +252,8 @@ function cardArt(ed, q) {
   if (gamePic(gm)) return `<span class="art"><img src="${esc(gamePic(gm))}" alt="" loading="lazy"><span class="credit">${esc(creditOf(gm))}</span></span>`;
   if (s && s._item) return `<span class="art"><img src="${esc(s._item)}" alt="" loading="lazy" style="object-fit: contain"><span class="credit">Image: Roblox</span></span>`;
   if (/^markets/.test(q.link || '') && /\$/.test(q.big || '') && ed.markets.stock) return `<span class="art">${spark(ed.markets.stock.closes)}</span>`;
+  const yt = s && s.embed && String(s.embed).match(/(?:youtu\.be\/|[?&]v=|\/shorts\/)([A-Za-z0-9_-]{11})/);
+  if (yt) return `<span class="art"><img src="https://i.ytimg.com/vi/${yt[1]}/hqdefault.jpg" alt="" loading="lazy"><span class="credit">Video: YouTube</span></span>`;
   return `<span class="art art-type">${BRICK}</span>`;
 }
 const changeOf = (s) => { const f = (s.facts || []).find(([k]) => /change/i.test(k)); return f ? f[1] : (((s.facts || [])[0] || [])[1] || ''); };
@@ -402,6 +422,38 @@ const archive = `${pageTitle('PAST EDITIONS', 'The Archive', 'Every edition of T
   <section class="archive">${editions.slice().reverse().map((ed) => `<a class="arch" href="archive/${esc(ed.date)}/index.html"><span class="mono">No. ${esc(ed.number)} · ${esc(fmtDate(ed.date))}</span><b>${esc(ed.front.lead.big)} ${esc(ed.front.lead.headline)}</b></a>`).join('')}</section>`;
 writeFileSync(join(OUT, 'archive.html'), shell(latest, 'index', archive, { archiveLink: false }).replace('<span class="on" aria-current="page">Front Page</span>', '<a href="index.html">Front Page</a>').replace('class="page-index"', 'class="page-archive"'));
 
+// ---------- tip box: public form at /tips, private list at /desk/tips ----------
+const TIP_SECTIONS = ['News', 'Items & sales', 'Events', 'Games', 'Drama', 'Studio Flex', 'Business', 'Rest In Peace', 'Help Wanted', 'Other'];
+const tipsPage = `${pageTitle('TIP BOX', 'Send us a tip', 'Seen something happening on Roblox? A sale, a new item, an event, a game blowing up, drama? Tell us and it could be in tomorrow\'s paper.')}
+  <form class="panel tipform" id="tipform" novalidate>
+    <label for="tip-section">What is it about?</label>
+    <select id="tip-section" name="section">${TIP_SECTIONS.map((t) => `<option>${esc(t)}</option>`).join('')}</select>
+    <label for="tip-link">Link (a post, video, game or article)</label>
+    <input id="tip-link" name="link" type="url" inputmode="url" placeholder="https://" maxlength="300" autocomplete="off">
+    <label for="tip-note">What happened?</label>
+    <textarea id="tip-note" name="note" rows="4" maxlength="500" required></textarea>
+    <input class="hp" name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <button class="btn solid" type="submit">Send tip</button>
+    <p class="note" id="tip-msg" role="status" aria-live="polite"></p>
+    <p class="note">Please do not put your name, age, email or anything personal in a tip. We read every tip, check it against real sources before printing anything, and cannot reply.</p>
+  </form>
+  <script>(function(){var f=document.getElementById('tipform'),m=document.getElementById('tip-msg');f.addEventListener('submit',function(e){e.preventDefault();var b=f.querySelector('button');var d={section:f.section.value,link:f.link.value.trim(),note:f.note.value.trim(),website:f.website.value};if(d.note.length<10){m.textContent='Tell us a bit more (at least 10 characters).';return}b.disabled=true;m.textContent='Sending...';fetch('/api/tip',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(d)}).then(function(r){return r.json().catch(function(){return{ok:false}})}).then(function(j){if(j&&j.ok){f.reset();m.textContent='Got it. Thank you, the desk will take a look.'}else{m.textContent=(j&&j.error)||'Could not send that. Try again in a minute.'}}).catch(function(){m.textContent='Could not send that. Try again in a minute.'}).then(function(){b.disabled=false})})})();</script>`;
+writeFileSync(join(OUT, 'tips.html'), shell(latest, 'tips', tipsPage));
+mkdirSync(join(OUT, 'desk'), { recursive: true });
+writeFileSync(join(OUT, 'desk', 'tips.html'), `<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>Tips inbox · ${SITE}</title><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css"></head>
+<body><main class="page-archive">
+<div class="ptitle"><span class="kicker">Private</span><h2>Tips inbox</h2><p class="dek">Tips readers sent through the site, newest first. Nothing here is checked yet.</p></div>
+<form class="panel tipform" id="keyform"><label for="k">Password</label><input id="k" type="password" autocomplete="current-password"><button class="btn solid" type="submit">Open inbox</button><p class="note" id="msg" role="status"></p></form>
+<div id="list" class="archive"></div>
+</main>
+<script>(function(){var f=document.getElementById('keyform'),k=document.getElementById('k'),m=document.getElementById('msg'),L=document.getElementById('list');try{k.value=localStorage.getItem('tipskey')||''}catch(e){}
+function el(t,c,x){var n=document.createElement(t);if(c)n.className=c;if(x!=null)n.textContent=x;return n}
+function load(){m.textContent='Loading...';fetch('/api/tips',{headers:{'x-tips-key':k.value}}).then(function(r){return r.json()}).then(function(j){L.textContent='';if(!j.ok){m.textContent=j.error||'Could not open.';return}try{localStorage.setItem('tipskey',k.value)}catch(e){}m.textContent=j.tips.length+' tip(s).';j.tips.forEach(function(t){var d=el('div','arch');d.appendChild(el('span','mono',(t.section||'Other')+' · '+String(t.at||'').slice(0,16).replace('T',' ')));d.appendChild(el('b',null,t.note||''));if(t.link&&/^https?:\\/\\//i.test(t.link)){var a=el('a',null,t.link);a.href=t.link;a.target='_blank';a.rel='noopener noreferrer nofollow';d.appendChild(a)}L.appendChild(d)})}).catch(function(){m.textContent='Could not open.'})}
+f.addEventListener('submit',function(e){e.preventDefault();load()});if(k.value)load()})();</script>
+</body></html>`);
+
 // ---------- tweet drafts desk (/desk, unlinked and noindex): copy-paste drafts with card images ----------
 const TWEET_TAIL = 'thestudtimes.com #Roblox #RobloxNews';
 async function saveIcon(url, id) {
@@ -490,4 +542,9 @@ if (withTweets.length) {
   }
 }
 
+{
+  const ids = new Set([latest.front.feature, ...(latest.markets.stories || []), ...(latest.markets.dealStories || []), ...latest.rising.up, ...latest.rising.down, ...((latest.flex && latest.flex.stories) || []), ...((latest.news && latest.news.stories) || [])].filter(Boolean));
+  const bare = [...new Set(NO_VISUAL)].filter((x) => ids.has(x)).map((x) => x.id || x.headline);
+  if (bare.length) console.warn(`WARNING: ${bare.length} story(ies) in the latest edition have no picture or video: ${bare.join(', ')}. Add an embed, game, item, chart or plate.`);
+}
 console.log(`Built ${editions.length} edition(s). Latest: ${latest.date}`);

@@ -35,7 +35,8 @@ Read this first. It is the full story of The Stud Times so far, written at the e
 7. **Archive**: every past edition at `/archive/<date>/`.
 - Corrections are a daily one-line joke.
 - Kale said no opinion pieces, comics or letters for now; interviews maybe later.
-- Kale wants a public tip box on the site so readers can send tips and news (asked Nov 25; not built yet, needs a place to store submissions).
+- **Tip box (built Nov 25):** readers send tips at `/tips` ("Send a tip" in the header). `api/tip.js` saves a section, optional link and short note into the Redis store connected in Vercel (Upstash; env `KV_REST_API_URL`, `KV_REST_API_TOKEN`). No names, emails or IP addresses are kept. Kale reads them at `/desk/tips` with the password in the Vercel env var `TIPS_KEY`, and moves the good ones to the Desk board himself: reader tips are unchecked, so they never go into an edition automatically. Until Kale connects the store and sets `TIPS_KEY`, the form answers "not open yet".
+- **No story without a picture or video** (Kale, Nov 25: "it's a must"). See `EDITIONS.md`; the build warns about any story that has none.
 
 ## Ads
 
