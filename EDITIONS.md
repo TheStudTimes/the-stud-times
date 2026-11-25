@@ -28,6 +28,17 @@ One file per day: `editions/YYYY-MM-DD.json`. Copy the newest one and replace th
 - `help.listings` — `[{ "kind": "HIRING" | "LOOKING FOR WORK", "text": "...", "contact": "https://..." }]`.
 - `correction` — the funny line at the bottom.
 
+## News (`news`)
+Every edition should have a News page: the things happening on Roblox that are not a game going up or down. Aim for 3–8 stories and spread them across kinds.
+
+`"news": { "title": "...", "dek": "...", "stories": [ story, ... ] }` where each story is a normal story (`id, kicker, headline, dek, facts, paras, sources`) plus:
+- `tag`: one of `ITEMS`, `SALE`, `EVENT`, `PLATFORM`, `DRAMA`, `LAWSUIT`, `SAFETY`.
+- `serious: true` for lawsuits, safety, bans, hacks or anything involving harm. Serious stories get no jokes anywhere, and their tweet draft is one plain sentence.
+- A picture when there is an official one: `game` (as elsewhere), or `"item": {"assetId": 123, "name": "..."}` for a catalog item (the build fetches the official item thumbnail; never guess an id), or `embed` for an official post.
+- Quick cards may link here with `"link": "news#<id>"`.
+- Follow the coverage guardrails in `CLAUDE.md` (sources for allegations, no minors or private people named, no rumor-only drama).
+- Good places to look: the DevForum announcements, about.roblox.com, official Roblox posts, Rolimons and catalog news for limiteds, established outlets for lawsuits and business.
+
 ## Tweet drafts (`tweets`)
 Every edition also carries 3–5 tweet drafts for @TheStudTimes. They are **drafts only**: nothing is ever posted for Kale. The build turns them into a copy-paste page at `/desk` (latest) and `/desk/<date>` (unlinked, noindex) with a 1600x900 card image per draft, drawn by `public/desk/cards.js`.
 

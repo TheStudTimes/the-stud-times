@@ -15,7 +15,8 @@ Read this first. It is the full story of The Stud Times so far, written at the e
 
 - Name: **The Stud Times** (no "s" on stud). Joke: every Roblox game is made of studs and is low effort now.
 - Tagline: **"Made of studs, just like every game on the front page."**
-- Look: old newspaper. Paper `#F3ECDA`, ink `#1A1713`, red `#7A1F12`. Fonts: UnifrakturMaguntia (blackletter masthead), Playfair Display (headlines), Libre Baskerville (body), IBM Plex Mono (labels).
+- Look (redesigned Nov 25): **clean and modern, but still a newspaper**. Near-white paper `#FBF9F4`, white rounded cards, ink `#1A1713`, one red `#7A1F12`. Fonts: UnifrakturMaguntia (blackletter masthead), Playfair Display (headlines and big numbers), Inter (body), IBM Plex Mono (labels). Pictures lead: big full-colour game art, far less text. The old cream paper `#F3ECDA` and Libre Baskerville now live only on the tweet cards.
+- Why the redesign: Kale compared us with RoTerminal (live data site, roterminal.co) and The Robloxian Times (@Robloxian_Times, a blackletter Roblox news account on X with about 2.3K followers). We do not compete on raw live data; our lane is the voice: headlines, jokes, obituaries, and why a number matters.
 - Favicon: transparent blackletter "St" (`public/favicon.svg`, `favicon-32.png`, `icon-512.png`, `apple-touch-icon.png`).
 - X icon and header were designed in a Claude Design canvas (artboards XIcon, XIconInk, XIconBrick, XHeader). Kale has hand-edited the icon artboards: don't overwrite them.
 - **No Roblox logo** anywhere (Kale asked; Claude declined to reproduce it; Kale accepted). No other companies' logos as images either. A stud-brick motif is fine.
@@ -24,8 +25,9 @@ Read this first. It is the full story of The Stud Times so far, written at the e
 
 ## Sections (one page each, front page links to all)
 
-1. **Front Page**: giant-number lead story with the official game thumbnail and Play button, 6 quick cards, an optional `front.feature` (e.g. an embedded official Roblox teaser), **New in Studio** (from `flex.stories`; Kale moved it here from the Studio Flex page), Coming Up (with sources), and the ad slot.
-2. **Business & Markets** (`markets`): RBLX stock chart from daily closes, a funny quote, business stories, deals of the last 30 days. Deal prices only REPORTED, or a labelled ESTIMATE with the math in one sentence (bars: solid = reported, striped = estimate). A partnership is not a purchase.
+1. **Front Page**: a live strip under the masthead (players right now for the day's games, from `/api/live`, which asks Roblox's official API and caches for a minute), a hero with the lead game's picture beside the giant number, 6 picture cards, an "In the news" row, a stock panel beside a Rising & Falling list, an optional `front.feature` (e.g. an embedded official Roblox teaser), **New in Studio** (from `flex.stories`; Kale moved it here from the Studio Flex page), Coming Up (with sources), and the ad slot.
+2. **News** (`news`, added Nov 25): everything else happening on Roblox: items and limiteds, sales, events, platform changes, creator drama, lawsuits. See the coverage rules below.
+2b. **Business & Markets** (`markets`): RBLX stock chart from daily closes, a funny quote, business stories, deals of the last 30 days. Deal prices only REPORTED, or a labelled ESTIMATE with the math in one sentence (bars: solid = reported, striped = estimate). A partnership is not a purchase.
 3. **Rising & Falling** (`rising`): games going up and down with before/after numbers, developer names, game pictures.
 4. **Studio Flex** (`flex`): "The Flex Reel", 6 embedded posts, 3 per row. Optional "Studio Larp of the Day" for over-the-top brags.
 5. **Rest In Peace** (`rip`): games that faded, as tombstones.
@@ -33,6 +35,7 @@ Read this first. It is the full story of The Stud Times so far, written at the e
 7. **Archive**: every past edition at `/archive/<date>/`.
 - Corrections are a daily one-line joke.
 - Kale said no opinion pieces, comics or letters for now; interviews maybe later.
+- Kale wants a public tip box on the site so readers can send tips and news (asked Nov 25; not built yet, needs a place to store submissions).
 
 ## Ads
 
@@ -64,7 +67,12 @@ Read this first. It is the full story of The Stud Times so far, written at the e
 ## Hard rules
 
 - Every story links the sources it was written from. Never invent posts, numbers, quotes or game ids. Label estimates and rumors ("unconfirmed").
-- Family-friendly. Leave out child safety, lawsuits involving minors, politics and tragedies entirely.
+- **Coverage (widened Nov 25 at Kale's request): cover everything going on in Roblox**: items and limiteds, sales, events, games, platform changes, creator drama, lawsuits. With these guardrails, because kids read this and real people are involved:
+  - **Serious stories are written straight.** Lawsuits, safety, bans, hacks or anything involving harm get `"serious": true`: no joke in the headline, dek, body or tweet.
+  - **Lawsuits and allegations:** only from court filings or established news outlets. Say "alleges" or "according to the filing"; never state an allegation as fact; include the other side's response when it is reported.
+  - **Drama:** only when it can be verified from the people's own public posts or reliable reporting. Say what happened, take no side, no insults. Never from anonymous rumor accounts alone.
+  - **People:** never name or identify minors or private individuals. Public creators by their public handle only. No personal details beyond what they publish themselves.
+  - No graphic detail. Politics that is not about Roblox stays out.
 - No emojis. No Roblox logo or other logos. Never mention The Workshop.
 - Always say the paper is unofficial and not affiliated with Roblox (it's in the footer).
 - Never post to X for Kale. Tweets, if he wants them, are drafts only.
