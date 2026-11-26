@@ -1,0 +1,1282 @@
+{
+  "date": "2026-11-26",
+  "number": 6,
+  "correction": "CORRECTION: Yesterday we promised to report the tower's height when someone measured it. Nobody has. Our tape measure is not long enough.",
+  "front": {
+    "lead": {
+      "kicker": "BLACK FRIDAY · RIVALS",
+      "big": "40%",
+      "headline": "RIVALS goes on sale before Roblox does",
+      "dek": "Up to 40% off seven weapon bundles until December 1. Roblox's own sale is still unannounced.",
+      "image": null,
+      "link": "news#rivals-sale",
+      "game": {
+        "placeId": 17625359962,
+        "name": "RIVALS"
+      }
+    },
+    "quick": [
+      {
+        "big": "10",
+        "head": "Free items in The Great Build",
+        "sub": "One block an hour, until Nov 30",
+        "link": "index#feature"
+      },
+      {
+        "big": "$53.58",
+        "head": "Roblox stock, last close we confirmed",
+        "sub": "+14.7% in two days",
+        "link": "markets#two-days"
+      },
+      {
+        "big": "None",
+        "head": "Roblox Black Friday date",
+        "sub": "Last year's started Nov 22",
+        "link": "news#black-friday"
+      },
+      {
+        "big": "5",
+        "head": "Dishes in Kick For Lucky Block",
+        "sub": "The Great Feast is on",
+        "link": "news#lucky-block"
+      },
+      {
+        "big": "+1,737%",
+        "head": "Throw Food wins November",
+        "sub": "Average up to 230,246",
+        "link": "rising#throw-food"
+      },
+      {
+        "big": "Dec 10",
+        "head": "A Roblox game at The Game Awards",
+        "sub": "TTK Testing, Best User Creation",
+        "link": "news#ttk-game-awards"
+      }
+    ],
+    "comingUp": [
+      {
+        "when": "NOV 28",
+        "what": "Steal An Egg 'Frozen Awakening' ice event, until Dec 2 (15:00 UTC start)"
+      },
+      {
+        "when": "NOV 30",
+        "what": "The Great Build ends"
+      },
+      {
+        "when": "DEC 1",
+        "what": "RIVALS Black Friday sale ends, 05:00 UTC"
+      },
+      {
+        "when": "DEC 10",
+        "what": "The Game Awards, with TTK Testing up for Best User Creation"
+      }
+    ],
+    "comingUpSources": [
+      {
+        "title": "Endgame Tools, Steal An Egg update",
+        "url": "https://endgametools.com/en/roblox/news/roblox-steal-an-egg-update"
+      },
+      {
+        "title": "Tubefilter, Nov 24",
+        "url": "https://www.tubefilter.com/2026/11/24/roblox-the-great-build-thanksgiving-event/"
+      },
+      {
+        "title": "Timesaver, RIVALS Black Friday sale (Nov 25)",
+        "url": "https://timesaver.gg/blog/roblox-rivals-black-friday-sale"
+      },
+      {
+        "title": "Game Informer, nominees",
+        "url": "https://gameinformer.com/2026/11/17/here-are-the-nominees-for-the-game-awards-2026"
+      }
+    ],
+    "feature": {
+      "label": "LIVE NOW",
+      "id": "great-build",
+      "kicker": "OFFICIAL EVENT · NOV 25 – 30",
+      "headline": "The Great Build Is Up And Growing",
+      "dek": "One shared tower, one free block an hour, ten free items to unlock.",
+      "embed": "https://x.com/Roblox/status/2124926132382261684",
+      "facts": [
+        [
+          "Ends",
+          "Nov 30"
+        ],
+        [
+          "New block",
+          "Every hour"
+        ],
+        [
+          "Free items",
+          "10"
+        ],
+        [
+          "Max blocks each",
+          "120"
+        ]
+      ],
+      "paras": [
+        "Roblox's Thanksgiving event, The Great Build, is running until November 30. Every hour each player gets a free block, picks a gratitude message from a list of prompts, and adds it to one giant tower that everyone shares, with their username on it. Players can climb the tower as it grows, Tubefilter reports.",
+        "Free avatar items unlock as the whole community hits milestones. Event tracker Gunterverse lists 10 items and 10 badges, from Brickle & Pebble and the Patchbrick Cap up to the Golden Brick Circlet. Roblox has not published the milestone heights. One block an hour for five days is 120 blocks a player. **Our math: 24 hours times 5 days.**",
+        "A tower made of studs, built by everyone, for free. This is the most on-brand thing we have ever covered."
+      ],
+      "sources": [
+        {
+          "title": "Tubefilter, Nov 24",
+          "url": "https://www.tubefilter.com/2026/11/24/roblox-the-great-build-thanksgiving-event/"
+        },
+        {
+          "title": "Gunterverse, The Great Build",
+          "url": "https://gunterverse.com/events/the-great-build"
+        },
+        {
+          "title": "Of Zen and Computing, event guide",
+          "url": "https://www.ofzenandcomputing.com/roblox-the-great-build-event-guide/"
+        },
+        {
+          "title": "Roblox on X (via Tubefilter)",
+          "url": "https://x.com/Roblox/status/2124926132382261684"
+        }
+      ]
+    }
+  },
+  "markets": {
+    "title": "Roblox Stock Holds Its Two-Day Jump",
+    "dek": "Last confirmed close $53.58 on Tuesday, up 14.7% in two days.",
+    "stock": {
+      "ticker": "NYSE: RBLX",
+      "price": "$53.58",
+      "moves": [
+        "▲ 3.74% on Tuesday",
+        "▲ 14.7% in two days"
+      ],
+      "caption": "Two good days, then a holiday. The chart is resting on its laurels and a plate of leftovers.",
+      "note": "Daily closing price, Nov 4 – Nov 24, 2026. We could not confirm Wednesday's close in time for this edition. Two-day change is from the Nov 20 close of $46.72.",
+      "closes": [
+        [
+          "Nov 4",
+          49.31
+        ],
+        [
+          "Nov 5",
+          47.65
+        ],
+        [
+          "Nov 6",
+          49.3
+        ],
+        [
+          "Nov 9",
+          51.6
+        ],
+        [
+          "Nov 10",
+          51.19
+        ],
+        [
+          "Nov 11",
+          52.61
+        ],
+        [
+          "Nov 12",
+          51.42
+        ],
+        [
+          "Nov 13",
+          49.91
+        ],
+        [
+          "Nov 16",
+          46.12
+        ],
+        [
+          "Nov 17",
+          44.0
+        ],
+        [
+          "Nov 18",
+          47.33
+        ],
+        [
+          "Nov 19",
+          46.35
+        ],
+        [
+          "Nov 20",
+          46.72
+        ],
+        [
+          "Nov 23",
+          51.64
+        ],
+        [
+          "Nov 24",
+          53.58
+        ]
+      ],
+      "sources": [
+        {
+          "title": "JKN, Nov 24",
+          "url": "https://news.jkn.co.kr/editions/english/post/1120128"
+        },
+        {
+          "title": "JKN, Nov 23",
+          "url": "https://news.jkn.co.kr/editions/english/post/1117418"
+        },
+        {
+          "title": "Rallies, Oppenheimer target",
+          "url": "https://rallies.ai/news/oppenheimer-raises-roblox-target-price-to-55-from-50-4111e80509b7b66b"
+        },
+        {
+          "title": "Trefis, Nov 23",
+          "url": "https://www.trefis.com/stock/rblx/articles/627684/what-is-the-case-for-waiting-on-roblox-stock/2026-11-23"
+        },
+        {
+          "title": "TIKR on Yahoo Finance (Nov 20 close)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-sold-8-111941993.html"
+        },
+        {
+          "title": "Trefis, Nov 19",
+          "url": "https://www.trefis.com/stock/rblx/articles/626904/what-is-driving-roblox-stock/2026-11-19"
+        },
+        {
+          "title": "Yahoo Finance history",
+          "url": "https://finance.yahoo.com/quote/RBLX/history/"
+        },
+        {
+          "title": "TheStreet on Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-cfo-admits-limited-data-040700389.html"
+        }
+      ]
+    },
+    "stories": [
+      {
+        "id": "two-days",
+        "kicker": "WALL STREET · NOV 24",
+        "headline": "Roblox Stock Jumps For A Second Day",
+        "dek": "Up 3.74% to $53.58 on Tuesday, a day after its 10.5% leap.",
+        "facts": [
+          [
+            "Nov 24 close",
+            "$53.58"
+          ],
+          [
+            "Day change",
+            "+$1.93"
+          ],
+          [
+            "Two days",
+            "▲ 14.7%"
+          ],
+          [
+            "Oppenheimer target",
+            "$55"
+          ]
+        ],
+        "paras": [
+          "Roblox stock closed up 3.74% at $53.58 on Tuesday, November 24, a gain of $1.93, per JKN. That came a day after a 10.52% jump to $51.64.",
+          "JKN ties the rise to Oppenheimer, which had already lifted its target to $55 and found that Roblox engagement was not materially hurt by competition such as GTA VI. From the November 20 close of $46.72, that is 14.7% in two days. **Our math: $53.58 divided by $46.72.**"
+        ],
+        "sources": [
+          {
+            "title": "JKN, Nov 24",
+            "url": "https://news.jkn.co.kr/editions/english/post/1120128"
+          },
+          {
+            "title": "JKN, Nov 23",
+            "url": "https://news.jkn.co.kr/editions/english/post/1117418"
+          }
+        ],
+        "chart": "stock"
+      },
+      {
+        "id": "oppenheimer",
+        "kicker": "WALL STREET · NOV 23",
+        "headline": "Oppenheimer Raises The Bar To $55",
+        "dek": "Target up from $50, rating still Outperform. The stock then jumped 10.52% in a day.",
+        "facts": [
+          [
+            "New target",
+            "$55"
+          ],
+          [
+            "Old target",
+            "$50"
+          ],
+          [
+            "Rating",
+            "Outperform"
+          ],
+          [
+            "Nov 23 close",
+            "$51.64"
+          ]
+        ],
+        "paras": [
+          "Oppenheimer raised its Roblox price target to $55 from $50 on November 23 and kept an Outperform rating. The same day the stock rose 10.52%, or $4.91, to close at $51.64, per JKN.",
+          "Trefis notes the stock is still down 52.0% over the past year but up 20.5% over three months, and that the next earnings report is expected in February 2027. One good Monday does not make a year. It does make a nice chart."
+        ],
+        "sources": [
+          {
+            "title": "JKN, Nov 23",
+            "url": "https://news.jkn.co.kr/editions/english/post/1117418"
+          },
+          {
+            "title": "Rallies, Oppenheimer target",
+            "url": "https://rallies.ai/news/oppenheimer-raises-roblox-target-price-to-55-from-50-4111e80509b7b66b"
+          },
+          {
+            "title": "Trefis, Nov 23",
+            "url": "https://www.trefis.com/stock/rblx/articles/627684/what-is-the-case-for-waiting-on-roblox-stock/2026-11-23"
+          }
+        ],
+        "plate": {
+          "kicker": "ANALYSTS",
+          "big": "$55",
+          "small": "Oppenheimer's new price target for Roblox stock"
+        }
+      },
+      {
+        "id": "bofa",
+        "kicker": "WALL STREET · NOV 19",
+        "headline": "Bank Of America Says Wait For The Dust",
+        "dek": "Target up to $48, rating still Neutral. GTA VI may take about 2% of Roblox playtime.",
+        "facts": [
+          [
+            "New target",
+            "$48"
+          ],
+          [
+            "Old target",
+            "$45"
+          ],
+          [
+            "Rating",
+            "Neutral"
+          ],
+          [
+            "GTA share of hours",
+            "~2%"
+          ]
+        ],
+        "paras": [
+          "Bank of America analysts Omar Dessouky and Arthur Chu raised their Roblox target to $48 from $45 on November 19 and kept a Neutral rating, telling investors to wait for the GTA VI dust to settle. They estimate about 13% of Roblox players are realistic GTA VI buyers and assume 40% of those buy it.",
+          "Their math has GTA VI taking about 2% of Roblox playing hours this quarter, and they trimmed their fourth-quarter bookings estimate to $1.90 billion from $1.95 billion. Roblox's CFO said in October the company has limited data to size the impact. Everyone is guessing, just with spreadsheets."
+        ],
+        "sources": [
+          {
+            "title": "TheStreet on Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-cfo-admits-limited-data-040700389.html"
+          },
+          {
+            "title": "TIKR, Nov 19",
+            "url": "https://www.tikr.com/blog/roblox-rises-4-on-bofa-target-hike-betting-on-2027-reacceleration-as-gta-vi-launches"
+          },
+          {
+            "title": "TradingView, BofA note",
+            "url": "https://www.tradingview.com/news/tradingview:e88dfc452b8f9:0-b-of-a-securities-maintains-roblox-at-neutral-raises-price-target-to-48-from-45/"
+          }
+        ],
+        "plate": {
+          "kicker": "ANALYSTS",
+          "big": "$48",
+          "small": "Bank of America's new price target, rating still Neutral"
+        }
+      },
+      {
+        "id": "citi",
+        "kicker": "WALL STREET · NOV 13",
+        "headline": "Citi Stops Cheering, Starts Watching",
+        "dek": "Downgraded to Neutral. Reasons: fading eggs, no new mega-hit, and GTA VI.",
+        "facts": [
+          [
+            "Rating",
+            "Buy to Neutral"
+          ],
+          [
+            "Target",
+            "$55"
+          ],
+          [
+            "Avg target",
+            "$50"
+          ],
+          [
+            "A year ago",
+            "$146"
+          ]
+        ],
+        "paras": [
+          "Citi analyst Jason Bazinet downgraded Roblox to Neutral from Buy on November 13 and kept a $55 price target. He pointed to fading interest in Steal An Egg, no new hit game to replace it, and the arrival of GTA VI.",
+          "The average analyst target has fallen from $146 a year ago to $50 now. Eight days later, Steal An Egg pulled 6.9 million players at once with a turkey. Timing is everything."
+        ],
+        "sources": [
+          {
+            "title": "TIKR, Citi downgrade",
+            "url": "https://www.tikr.com/blog/is-citi-wrong-to-give-up-on-roblox-it-trades-at-4-9x-sales-below-its-5-year-average"
+          },
+          {
+            "title": "RBLXSTAT, Steal An Egg",
+            "url": "https://rblxstat.com/games/10563114921"
+          }
+        ],
+        "plate": {
+          "kicker": "ANALYSTS",
+          "big": "Neutral",
+          "small": "Citi's new rating on Roblox stock, down from Buy"
+        }
+      },
+      {
+        "id": "moments",
+        "kicker": "PLATFORM · NOV 20",
+        "headline": "Your Avatar Can Now Sell Its Outfit",
+        "dek": "Avatar Moments turn a pose into a short video with a Shop button.",
+        "facts": [
+          [
+            "Who can post",
+            "Players 16+"
+          ],
+          [
+            "Creator cut",
+            "Usual 30%"
+          ],
+          [
+            "Rollout",
+            "Gradual"
+          ],
+          [
+            "More planned",
+            "2027"
+          ]
+        ],
+        "paras": [
+          "Roblox announced Avatar Moments on November 20. Players aged 16 and up can turn their avatar into a short video with an emote, a background and optional text and music, then post it to their profile. Viewers can tap Shop to try on the items and buy them.",
+          "Item creators get their usual 30% on those sales. It is rolling out gradually, and Roblox says more shoppable Moments are coming in 2027. The runway is open. The runway is also a shop."
+        ],
+        "sources": [
+          {
+            "title": "Roblox DevForum, Avatar Moments",
+            "url": "https://devforum.roblox.com/t/create-avatar-moments-to-showcase-and-sell-your-items/4997778"
+          },
+          {
+            "title": "Endgame Tools, Avatar Moments",
+            "url": "https://endgametools.com/en/roblox/news/roblox-avatar-moments"
+          }
+        ],
+        "plate": {
+          "kicker": "NEW FEATURE",
+          "big": "Avatar Moments",
+          "small": "A pose becomes a short video with a Shop button"
+        }
+      },
+      {
+        "id": "egg-money",
+        "kicker": "GAMES · NOV 18",
+        "headline": "Steal An Egg Makes $40M+ In Three Months",
+        "dek": "Turns out watching ads to hatch eggs faster is a business model.",
+        "facts": [
+          [
+            "3-month revenue",
+            "$40M+"
+          ],
+          [
+            "Peak, Nov 21",
+            "6.9M"
+          ],
+          [
+            "October avg",
+            "1.34M"
+          ]
+        ],
+        "paras": [
+          "Roblox's biggest game of the year has brought in more than $40 million from in-game purchases and advertising over the past three months, Bloomberg reports. Players can watch ads to hatch their eggs faster, and that's exactly the kind of game Roblox wants for its growing ads business.",
+          "It averaged 1,341,295 players in October, down 26% on September, and then its Turkey Takeover update pulled a peak of 6,903,927 on November 21. The turkey is now the most valuable bird in gaming."
+        ],
+        "sources": [
+          {
+            "title": "Bloomberg, Nov 18",
+            "url": "https://www.bloomberg.com/news/articles/2026-11-18/roblox-hit-steal-an-egg-tests-company-s-advertising-strategy"
+          },
+          {
+            "title": "MediaPost, Nov 19",
+            "url": "https://www.mediapost.com/publications/article/419549/roblox-game-steal-an-egg-draws-advertising-purc.html"
+          },
+          {
+            "title": "RoStats, Oct 2026",
+            "url": "https://rostats.io/charts/2026-10"
+          },
+          {
+            "title": "RBLXSTAT, Steal An Egg",
+            "url": "https://rblxstat.com/games/10563114921"
+          }
+        ],
+        "game": {
+          "universeId": 10563114921,
+          "name": "Steal An Egg"
+        }
+      }
+    ],
+    "dealStories": [],
+    "bigDeals": [
+      {
+        "game": "Brookhaven RP",
+        "who": "bought by Voldex",
+        "when": "Feb 2025",
+        "price": "$100M+",
+        "tag": "ESTIMATE",
+        "bar": 100,
+        "note": "Price never shared. Voldex's CEO called it bigger than the Bloxburg deal, so we put it above $100M.",
+        "sources": [
+          {
+            "title": "GuruFocus",
+            "url": "https://www.gurufocus.com/news/2972560/this-teen-built-a-game-on-roblox-then-sold-it-for-millions"
+          }
+        ]
+      },
+      {
+        "game": "Welcome to Bloxburg",
+        "who": "bought by Embracer",
+        "when": "earlier",
+        "price": "~$100M",
+        "tag": "REPORTED",
+        "bar": 92,
+        "note": "Reported at about $100M; the buyer said it paid less.",
+        "sources": [
+          {
+            "title": "Dallas News / Bloomberg",
+            "url": "https://www.dallasnews.com/business/technology/2025/07/12/roblox-game-buying-frenzy-is-turning-teens-into-millionaires/"
+          }
+        ]
+      },
+      {
+        "game": "Blue Lock: Rivals",
+        "who": "bought by Do Big Studios",
+        "when": "Mar 2025",
+        "price": "$3M+",
+        "tag": "REPORTED",
+        "bar": 4,
+        "note": "Built by a 19-year-old, sold a few months after launch.",
+        "sources": [
+          {
+            "title": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2025-07-11/roblox-game-buying-frenzy-is-turning-teens-into-millionaires"
+          }
+        ]
+      }
+    ]
+  },
+  "rising": {
+    "title": "Who's Hot, Who's Not",
+    "dek": "Standing out and ragdolling are up. Eggs are down.",
+    "up": [
+      {
+        "id": "stand-out",
+        "kicker": "BIGGEST GAINER · NOVEMBER",
+        "headline": "STAND OUT Finally Stands Out",
+        "dek": "Released in July 2025. This month it went from 704 average players to 17,280.",
+        "facts": [
+          [
+            "Nov average",
+            "17,280"
+          ],
+          [
+            "Oct average",
+            "704"
+          ],
+          [
+            "Change",
+            "+2,355%"
+          ],
+          [
+            "Nov peak",
+            "100,012"
+          ]
+        ],
+        "paras": [
+          "Studio Umbra: Europa's STAND OUT, now listed as [UPD 1] STAND OUT, averaged 17,280 players in November through the 24th, up from 704 in October, per RoStats. That is a jump of 2,355%, from rank 2,042 to rank 70, with a peak of 100,012 players.",
+          "RoWatcher says the game came out in July 2025 and has 32.4 million visits and a 96.6% like ratio. On November 24 it sat third on Roblox's Trending list in every one of Trendoday's 48 checks. Sixteen months to stand out. Worth it."
+        ],
+        "sources": [
+          {
+            "title": "RoStats, November 2026 (data through Nov 24)",
+            "url": "https://rostats.io/charts/2026-11"
+          },
+          {
+            "title": "RoWatcher, STAND OUT",
+            "url": "https://rowatcher.com/games/8172250815/stand-out"
+          },
+          {
+            "title": "Trendoday, Roblox Trending Nov 24",
+            "url": "https://trendoday.com/roblox/trending/2026/11/24"
+          }
+        ],
+        "game": {
+          "universeId": 8172250815,
+          "name": "STAND OUT"
+        }
+      },
+      {
+        "id": "throw-food",
+        "kicker": "MONTH'S BIGGEST RISER · TOP 50",
+        "headline": "Throw Food For Animals Ate November",
+        "dek": "From 12,532 average players in October to 230,246. Now fourth on the chart.",
+        "facts": [
+          [
+            "Nov average",
+            "230,246"
+          ],
+          [
+            "Oct average",
+            "12,532"
+          ],
+          [
+            "Change",
+            "+1,737%"
+          ],
+          [
+            "Peak",
+            "2,474,602"
+          ]
+        ],
+        "paras": [
+          "Goofy Chupacabra's Throw Food For Animals is RoStats' biggest gainer of November among games with 1,000 or more players. Its average went from 12,532 in October, when it ranked 106th, to 230,246, good for fourth place.",
+          "Its peak of 2,474,602 was set on November 14. GeeIQ had it second on Roblox with 313,000 players on November 20, behind only Steal An Egg. The animals have never been fuller."
+        ],
+        "sources": [
+          {
+            "title": "RoStats, November 2026 (data through Nov 24)",
+            "url": "https://rostats.io/charts/2026-11"
+          },
+          {
+            "title": "GeeIQ, top games Nov 20",
+            "url": "https://geeiq.com/top-roblox-games"
+          },
+          {
+            "title": "RBLXSTAT, Throw Food For Animals",
+            "url": "https://rblxstat.com/games/10766972131"
+          }
+        ],
+        "game": {
+          "universeId": 10766972131,
+          "name": "Throw Food For Animals"
+        }
+      },
+      {
+        "id": "anime-adventures",
+        "kicker": "COMEBACK · UPDATE 21.5",
+        "headline": "Anime Adventures Remembers How To Adventure",
+        "dek": "From 13,746 average players in October to 80,456 in November.",
+        "facts": [
+          [
+            "Nov average",
+            "80,456"
+          ],
+          [
+            "Oct average",
+            "13,746"
+          ],
+          [
+            "Change",
+            "+485.3%"
+          ],
+          [
+            "Nov peak",
+            "141,555"
+          ]
+        ],
+        "paras": [
+          "Anime Adventures, now running Update 21.5, averaged 80,456 players in November through the 24th, up 485.3% from 13,746 in October, per RoStats. It jumped from 93rd to 12th and peaked at 141,555.",
+          "GeeIQ counted 66,000 playing on November 20, 13th on Roblox. An update numbered 21.5 means this is not its first rodeo. It is its twenty-first and a half."
+        ],
+        "sources": [
+          {
+            "title": "RoStats, November 2026 (data through Nov 24)",
+            "url": "https://rostats.io/charts/2026-11"
+          },
+          {
+            "title": "GeeIQ, top games Nov 20",
+            "url": "https://geeiq.com/top-roblox-games"
+          }
+        ],
+        "game": {
+          "universeId": 3183403065,
+          "name": "Anime Adventures"
+        }
+      },
+      {
+        "id": "ragdolls",
+        "kicker": "TREND WATCH · NOV 24",
+        "headline": "Roblox Has Gone Fully Floppy",
+        "dek": "Five ragdoll games sat on Roblox's Trending list on Tuesday's charts.",
+        "facts": [
+          [
+            "Ragdoll games trending",
+            "5"
+          ],
+          [
+            "Top one",
+            "#2"
+          ],
+          [
+            "Hyper Realistic Ragdoll, Nov 20",
+            "104,000"
+          ],
+          [
+            "Trending entries",
+            "59"
+          ]
+        ],
+        "paras": [
+          "Trendoday checked Roblox's Trending list 48 times on November 24 and recorded 59 games. Five had ragdoll in the name: Hyper Realistic Ragdoll at number 2, Realistic Ragdoll MMA, Ragdoll Soccer, Technical Ragdoll MMA and Defeat Ragdolls for Powers.",
+          "Hyper Realistic Ragdoll had 104,000 players on November 20, eighth on Roblox, per GeeIQ, and it is one of 16 new games in RoStats' November top 50. Falling over has never been this popular."
+        ],
+        "sources": [
+          {
+            "title": "Trendoday, Roblox Trending Nov 24",
+            "url": "https://trendoday.com/roblox/trending/2026/11/24"
+          },
+          {
+            "title": "GeeIQ, top games Nov 20",
+            "url": "https://geeiq.com/top-roblox-games"
+          },
+          {
+            "title": "RoStats, November 2026 (data through Nov 24)",
+            "url": "https://rostats.io/charts/2026-11"
+          }
+        ],
+        "game": {
+          "universeId": 10773618503,
+          "name": "Hyper Realistic Ragdoll"
+        }
+      }
+    ],
+    "down": [
+      {
+        "id": "egg-cools",
+        "kicker": "COOLING · NOVEMBER",
+        "headline": "Steal An Egg Puts The Turkey Away",
+        "dek": "6.9 million on Saturday. 830,572 at Monday's peak. Still number one.",
+        "facts": [
+          [
+            "Nov average",
+            "804,474"
+          ],
+          [
+            "Oct average",
+            "1,341,295"
+          ],
+          [
+            "Change",
+            "-40.0%"
+          ],
+          [
+            "Nov 24 peak",
+            "830,572"
+          ]
+        ],
+        "paras": [
+          "Steal An Egg averaged 804,474 players in November through the 24th, down 40.0% from 1,341,295 in October, per RoStats. It is still the most played game on Roblox this month.",
+          "RBLXSTAT shows a Saturday peak of 6,903,927 on November 21, then 830,572 on November 24, with the weekly average down 6%. Its all-time record is 12,443,225 from October 3. Weekend eggs are huge. Weekday eggs have school."
+        ],
+        "sources": [
+          {
+            "title": "RoStats, November 2026 (data through Nov 24)",
+            "url": "https://rostats.io/charts/2026-11"
+          },
+          {
+            "title": "RBLXSTAT, Steal An Egg",
+            "url": "https://rblxstat.com/games/10563114921"
+          },
+          {
+            "title": "RoTerminal, Steal An Egg",
+            "url": "https://roterminal.co/g/10563114921-steal-an-egg"
+          }
+        ],
+        "game": {
+          "universeId": 10563114921,
+          "name": "Steal An Egg"
+        }
+      },
+      {
+        "id": "brookhaven",
+        "kicker": "SLIPPING · NOVEMBER",
+        "headline": "Brookhaven Moves Up By Moving Down Less",
+        "dek": "Average down 4.0%, but it climbed to second place.",
+        "facts": [
+          [
+            "Nov average",
+            "352,969"
+          ],
+          [
+            "Oct average",
+            "367,750"
+          ],
+          [
+            "Change",
+            "-4.0%"
+          ],
+          [
+            "Rank",
+            "#3 to #2"
+          ]
+        ],
+        "paras": [
+          "Brookhaven RP by Voldex averaged 352,969 players in November through the 24th, down 4.0% from 367,750 in October, per RoStats. It still moved up from third to second, with a peak of 676,125.",
+          "GeeIQ had it third with 304,000 players on November 20, just behind Throw Food For Animals. The town is a little quieter. The rent is the same."
+        ],
+        "sources": [
+          {
+            "title": "RoStats, November 2026 (data through Nov 24)",
+            "url": "https://rostats.io/charts/2026-11"
+          },
+          {
+            "title": "GeeIQ, top games Nov 20",
+            "url": "https://geeiq.com/top-roblox-games"
+          }
+        ],
+        "game": {
+          "universeId": 1686885941,
+          "name": "Brookhaven RP"
+        }
+      },
+      {
+        "id": "mm2",
+        "kicker": "SLIDING · WEEK OF NOV 16",
+        "headline": "Murder Mystery 2 Loses The Plot",
+        "dek": "Weekly average down 61% to 110,496. The detective is investigating.",
+        "facts": [
+          [
+            "Weekly avg",
+            "110,496"
+          ],
+          [
+            "Week change",
+            "-61%"
+          ],
+          [
+            "24h peak",
+            "212,320"
+          ],
+          [
+            "Record",
+            "2.2M"
+          ]
+        ],
+        "paras": [
+          "Nikilis' Murder Mystery 2 had the biggest drop in RBLXSTAT's top 10 for November 16 to 22, with its weekly average down 61% to 110,496 players. RBLXDB showed 68,811 playing with a 24-hour peak of 212,320.",
+          "The game has been on Roblox since 2014 and still holds a 2.2 million record, fourth on RBLXSTAT's all-time list. The sources did not give a reason for the drop, so neither will we. Case open."
+        ],
+        "sources": [
+          {
+            "title": "RBLXSTAT, Weekly Report Nov 16–22",
+            "url": "https://rblxstat.com/blog/roblox-weekly-report-2026-11-22"
+          },
+          {
+            "title": "RBLXDB, live player counts",
+            "url": "https://rblxdb.com/roblox-player-count"
+          },
+          {
+            "title": "RBLXSTAT, record list",
+            "url": "https://rblxstat.com/lists/record-breaking-roblox-games"
+          }
+        ],
+        "game": {
+          "universeId": 66654135,
+          "name": "Murder Mystery 2"
+        }
+      }
+    ]
+  },
+  "flex": {
+    "title": "Built Different",
+    "dek": "Roblox's tallest build this week is one everybody is working on.",
+    "posts": [
+      {
+        "url": "https://x.com/Roblox/status/2124926132382261684",
+        "caption": "Roblox's official teaser for The Great Build, its shared Thanksgiving tower event.",
+        "creator": "@Roblox"
+      }
+    ],
+    "larp": null,
+    "stories": [
+      {
+        "id": "studio-week",
+        "kicker": "STUDIO · NOV 17–20",
+        "headline": "Studio Learns To Copy, Paste And Think",
+        "dek": "Animation Graph state machines go live, and instances copy as JSON.",
+        "facts": [
+          [
+            "State machines",
+            "Full release"
+          ],
+          [
+            "Copy as JSON",
+            "New"
+          ],
+          [
+            "Server region API",
+            "New"
+          ],
+          [
+            "Web Play",
+            "WebGPU"
+          ]
+        ],
+        "paras": [
+          "Roblox moved State Machines and Luau Expressions in Animation Graphs to full release on November 19, so animations can switch between states by rules instead of a pile of scripts. The same week brought copying and pasting instances as JSON in Studio, and a new API to read which region a game server is in.",
+          "Web Play also switched to WebGPU for sharper graphics in the browser, per Roblox's weekly recap. Your animations now have a brain. Please do not let them unionize."
+        ],
+        "sources": [
+          {
+            "title": "DevForum, Animation Graph state machines",
+            "url": "https://devforum.roblox.com/t/full-release-state-machines-and-luau-expressions-in-animation-graphs/4997058"
+          },
+          {
+            "title": "DevForum, Copy and Paste as JSON",
+            "url": "https://devforum.roblox.com/t/copy-and-paste-instances-as-json-in-studio/4996012"
+          },
+          {
+            "title": "DevForum, Server Region API",
+            "url": "https://devforum.roblox.com/t/read-your-games-server-region-with-new-api/4996710"
+          },
+          {
+            "title": "DevForum, Weekly Recap Nov 16–20",
+            "url": "https://devforum.roblox.com/t/weekly-recap-november-16%E2%80%9320-2026/4998199"
+          }
+        ],
+        "plate": {
+          "kicker": "STUDIO",
+          "big": "State Machines",
+          "small": "Animation Graphs, full release on Nov 19"
+        }
+      },
+      {
+        "id": "ui-particles",
+        "kicker": "STUDIO BETA · NOV 19",
+        "headline": "Your UI Can Sparkle Now",
+        "dek": "ParticleEmitter2D lands in Studio Beta. Buttons everywhere are about to get very excited.",
+        "embed": "https://x.com/RobloxCreators/status/2123511334101012932",
+        "facts": [
+          [
+            "New object",
+            "ParticleEmitter2D"
+          ],
+          [
+            "Status",
+            "Studio Beta"
+          ],
+          [
+            "Works in",
+            "Any GuiObject"
+          ]
+        ],
+        "paras": [
+          "Roblox's UI Particles beta adds ParticleEmitter2D, which you put under any GUI object to get sparkles, bursts and glows. You control texture, color, transparency, size, speed, drag and spin, with flipbook animation and an Emit() call for one-off bursts.",
+          "Turn it on under File, Beta Features, UI Particles. Places that use it can't be published while it's in beta, so sparkle responsibly."
+        ],
+        "sources": [
+          {
+            "title": "DevForum, UI Particles beta",
+            "url": "https://devforum.roblox.com/t/studio-beta-ui-particles/4996850"
+          },
+          {
+            "title": "Creator Hub docs",
+            "url": "https://create.roblox.com/docs/ui/2D-particle-emitters"
+          },
+          {
+            "title": "Roblox Creators on X",
+            "url": "https://x.com/RobloxCreators/status/2123511334101012932"
+          }
+        ]
+      }
+    ]
+  },
+  "rip": {
+    "title": "Gone Too Soon",
+    "dek": "Games that blew up, then blew away.",
+    "note": "Some of these games are still online with a few players. We're being dramatic. It's a newspaper.",
+    "stones": [
+      {
+        "name": "Jump for Animals",
+        "dates": "2026 – 2026",
+        "fact": "Averaged about 34,000 players in September and about 3,000 in October, per Bloxodes, a drop of 31,000.",
+        "joke": "Jumped. Did not land.",
+        "sources": [
+          {
+            "title": "Bloxodes, October 2026 report",
+            "url": "https://bloxodes.com/stats/reports/roblox-october-2026"
+          }
+        ]
+      },
+      {
+        "name": "DONT SPLASH",
+        "dates": "Critical condition",
+        "fact": "97,140 playing on November 2, the fastest-growing new game that week. 25,529 on November 18.",
+        "joke": "Splashed.",
+        "sources": [
+          {
+            "title": "GGRecon, fastest-growing new games (Nov 2)",
+            "url": "https://www.ggrecon.com/articles/fastest-growing-new-roblox-games-november-2026/"
+          },
+          {
+            "title": "GGRecon, new games on the charts (Nov 18)",
+            "url": "https://www.ggrecon.com/articles/roblox-top-games-didnt-exist-before-october/"
+          }
+        ]
+      },
+      {
+        "name": "Ride A Pet",
+        "dates": "April 2026 – 2026",
+        "fact": "Hit a record of 1.6 million players at once, #6 on RBLXSTAT's all-time list. Had 1,519 playing when the list was updated on November 23.",
+        "joke": "The pet has been returned to the shelter.",
+        "sources": [
+          {
+            "title": "RBLXSTAT, record list",
+            "url": "https://rblxstat.com/lists/record-breaking-roblox-games"
+          }
+        ]
+      },
+      {
+        "name": "Fart Together",
+        "dates": "Oct – Nov 2026",
+        "fact": "Peaked at 14,000+ players around Nov 7, then removed as Roblox cracked down on fart games.",
+        "joke": "Gone, but the smell lingers.",
+        "sources": [
+          {
+            "title": "Dexerto, Nov 9",
+            "url": "https://www.dexerto.com/roblox/roblox-cracking-down-on-fart-games-as-viral-hit-disappears-3426071/"
+          }
+        ]
+      }
+    ]
+  },
+  "help": {
+    "title": "Devs For Hire",
+    "dek": "Looking for work? Need a builder? Post it here, free while we launch.",
+    "listings": [],
+    "how": "DM @TheStudTimes on X with what you do (or need) and a link to your work. Free while we launch."
+  },
+  "tweets": [
+    {
+      "text": "RIVALS started its Black Friday sale: up to 40% off seven bundles until December 1.\n\nRoblox's own sale is still missing. RIVALS did not wait.",
+      "card": {
+        "theme": "red",
+        "kicker": "BLACK FRIDAY · RIVALS",
+        "big": "40%",
+        "headline": "RIVALS goes on sale first",
+        "dek": "Seven bundles, until Dec 1.",
+        "source": "SOURCE: TIMESAVER",
+        "game": {
+          "placeId": 17625359962,
+          "name": "RIVALS"
+        }
+      }
+    },
+    {
+      "text": "The Great Build is live until November 30. One free block an hour, one shared tower, 10 free items.\n\nFinally, a Roblox game that is honest about being made of blocks.",
+      "card": {
+        "theme": "paper",
+        "kicker": "OFFICIAL EVENT · NOV 25 – 30",
+        "big": "10",
+        "headline": "Free items in The Great Build",
+        "dek": "One block an hour, one shared tower.",
+        "source": "SOURCE: TUBEFILTER, GUNTERVERSE",
+        "art": "brick"
+      }
+    },
+    {
+      "text": "Roblox's Black Friday catalog sale has no date yet. Last year's started November 22.\n\nThe shopping carts are ready. The shop is not.",
+      "card": {
+        "theme": "ink",
+        "kicker": "BLACK FRIDAY",
+        "big": "None",
+        "headline": "No date for Roblox's sale",
+        "dek": "2025's ran Nov 22 to 29.",
+        "source": "SOURCE: TIMESAVER",
+        "art": "wallet"
+      }
+    }
+  ],
+  "news": {
+    "title": "Everything Else On Roblox",
+    "dek": "Sales, towers and turkey: the news that is not a player chart.",
+    "stories": [
+      {
+        "id": "rivals-sale",
+        "tag": "SALE",
+        "kicker": "BLACK FRIDAY · NOV 25 – DEC 1",
+        "headline": "RIVALS Puts Its Weapons On Sale",
+        "dek": "Up to 40% off seven bundles. The rest of Roblox is still waiting for its own sale.",
+        "game": {
+          "placeId": 17625359962,
+          "name": "RIVALS"
+        },
+        "facts": [
+          [
+            "Biggest discount",
+            "40%"
+          ],
+          [
+            "Bundles on sale",
+            "7"
+          ],
+          [
+            "Ends",
+            "Dec 1, 05:00 UTC"
+          ],
+          [
+            "All 7 at full price",
+            "5,618 R$"
+          ]
+        ],
+        "paras": [
+          "Nosniy Games' RIVALS started a Black Friday sale on November 25 at 05:10 UTC, and it ends on December 1 at 05:00 UTC, according to Timesaver, which read the game's official Roblox event listing. The game's description says \"Up to 40% OFF on select bundles for a limited time!\"",
+          "Per Timesaver, the Balloon and Prop bundles are 40% off, the Medkit, Exogun and Nostalgia bundles 30%, and the Pirate and Standard Weapons bundles 20%. Bought at full price, all seven come to 5,618 Robux. Skin cases and key bundles are not discounted. A separate FREE STUFF event with free prize wheels runs until November 27.",
+          "Black Friday came early for anyone who likes balloons with their weapons."
+        ],
+        "sources": [
+          {
+            "title": "Timesaver, RIVALS Black Friday sale (Nov 25)",
+            "url": "https://timesaver.gg/blog/roblox-rivals-black-friday-sale"
+          },
+          {
+            "title": "RIVALS on Roblox",
+            "url": "https://www.roblox.com/games/17625359962/UPDATE-RIVALS"
+          }
+        ]
+      },
+      {
+        "id": "black-friday",
+        "tag": "SALE",
+        "kicker": "NOV 26",
+        "headline": "Roblox's Own Black Friday Sale: Still Missing",
+        "dek": "No date from Roblox. Last year's started on November 22.",
+        "embed": "https://www.youtube.com/watch?v=IEiNo5FRxLg",
+        "facts": [
+          [
+            "Official date",
+            "None yet"
+          ],
+          [
+            "2025 sale",
+            "Nov 22 – 29"
+          ],
+          [
+            "2024 sale",
+            "Nov 23 – 30"
+          ],
+          [
+            "Rumored start",
+            "Nov 27 (unconfirmed)"
+          ]
+        ],
+        "paras": [
+          "Roblox has not announced its usual Black Friday catalog sale. Timesaver, which last checked on November 23, says Roblox \"has not announced a Black Friday 2026 sale, and it hasn't cancelled one either.\" Pro Game Guides has guessed November 27 to 30, and calls that an estimate.",
+          "The last two sales ran eight days each, November 23 to 30 in 2024 and November 22 to 29 in 2025, with one classic item a day, per Timesaver. This year that window has already started without one. Some games are not waiting: RIVALS started its own sale on Wednesday.",
+          "The shopping carts are ready. The shop is not. The video above is a creator's explainer, not an official Roblox video."
+        ],
+        "sources": [
+          {
+            "title": "Timesaver, Roblox Black Friday sale (updated Nov 23)",
+            "url": "https://timesaver.gg/blog/roblox-black-friday-sale"
+          },
+          {
+            "title": "Pro Game Guides, Nov 24",
+            "url": "https://progameguides.com/roblox/roblox-black-friday-2026-when-does-the-sale-start/"
+          },
+          {
+            "title": "Roblox Wiki, Sale",
+            "url": "https://roblox.fandom.com/wiki/Sale"
+          }
+        ]
+      },
+      {
+        "id": "lucky-block",
+        "tag": "EVENT",
+        "kicker": "THANKSGIVING · KICK FOR LUCKY BLOCK",
+        "headline": "Kick For Lucky Block Kicks Off A Feast",
+        "dek": "A Thanksgiving update with five dishes, Feast Boxes and a 14-day Harvest Pass.",
+        "plate": {
+          "kicker": "THANKSGIVING UPDATE",
+          "big": "The Great Feast",
+          "small": "Kick For Lucky Block, released around Nov 21"
+        },
+        "facts": [
+          [
+            "Released",
+            "Around Nov 21"
+          ],
+          [
+            "Dishes",
+            "5"
+          ],
+          [
+            "Harvest Pass",
+            "About 14 days"
+          ],
+          [
+            "Event cycle",
+            "Every 30 min"
+          ]
+        ],
+        "paras": [
+          "Kick For Lucky Block's Thanksgiving Update (Part 1) arrived around November 21, according to Allthings.how. Its main event, The Great Feast, refreshes every 30 minutes, and cooking each of five dishes for the first time unlocks a Feast Box.",
+          "Each dish gives a boost: cornbread doubles cooking speed, apple pie doubles Lucky Blocks from kicks, and cranberry sauce doubles luck. The Harvest Pass, with a free track and a paid one, lasts about 14 days. We could not confirm the game's id, so no picture of the game today. Imagine a turkey being kicked. Gently."
+        ],
+        "sources": [
+          {
+            "title": "Allthings.how, Thanksgiving Update",
+            "url": "https://allthings.how/roblox-kick-for-lucky-block-thanksgiving-update/"
+          }
+        ]
+      },
+      {
+        "id": "ttk-game-awards",
+        "tag": "EVENT",
+        "kicker": "THE GAME AWARDS · DEC 10",
+        "headline": "A Roblox Game Is Up For A Game Award",
+        "dek": "TTK Testing is nominated for Best User Creation, a brand new category.",
+        "game": {
+          "placeId": 120189115846709,
+          "name": "TTK Testing"
+        },
+        "facts": [
+          [
+            "Category",
+            "Best User Creation"
+          ],
+          [
+            "Show",
+            "Dec 10"
+          ],
+          [
+            "Made by",
+            "Sable Digital"
+          ],
+          [
+            "Rivals",
+            "4"
+          ]
+        ],
+        "paras": [
+          "TTK Testing, by Sable Digital, is one of five nominees for Best User Creation at The Game Awards 2026. The category is new this year. The other four are creations made inside Baldur's Gate 3, Minecraft, Grand Theft Auto Online and Fortnite.",
+          "News account RTC says it is the first Roblox game ever nominated at The Game Awards. Rolimons lists the game as created on April 27, 2026, with more than 77 million visits. The show is on December 10 in Los Angeles.",
+          "Seven months old and already wearing a suit."
+        ],
+        "sources": [
+          {
+            "title": "Game Informer, nominees",
+            "url": "https://gameinformer.com/2026/11/17/here-are-the-nominees-for-the-game-awards-2026"
+          },
+          {
+            "title": "RTC on X",
+            "url": "https://x.com/Roblox_RTC/status/2122785166020198865"
+          },
+          {
+            "title": "Rolimons, TTK Testing",
+            "url": "https://www.rolimons.com/game/120189115846709"
+          }
+        ]
+      }
+    ]
+  }
+}
